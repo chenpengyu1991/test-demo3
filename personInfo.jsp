@@ -4,7 +4,7 @@
 <%@ taglib uri="/WEB-INF/tld/ehr-tag.tld" prefix="ehr"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <fieldset>
-	<legend style="color: black;">&nbsp;基本信息&nbsp; </legend>
+	<legend style="color: black;">&nbsp;基本信息</legend>
 	<input type="hidden" id="ech-perphyexam-list-personid-input" name="personInfo.id" value="${personInfo.id}">
 	<table class="posttable">
 		<colgroup>
