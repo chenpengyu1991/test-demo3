@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+<!--base layout  -->
+	<definition name="rhip.chm.base" template="/WEB-INF/views/oh/">
+		  <put-attribute name="header" value="/" />
+		  <put-attribute name="content" value="/" />
+    </definition>
+    <!--病媒生物监测 begin  -->
+	<definition name="rhip.dmbc.vertor.reportSearch" template="/WEB-INF/views/dmbc/vertor/reportSearch.jsp">
+	</definition>
+    <!--鼠密度监测  -->
+    <definition name="rhip.dmbc.vertor.mouse.monitor.search" template="/WEB-INF/views/dmbc/vertor/mouseMonitorSearch.jsp">
+    </definition>
+	<definition name="rhip.dmbc.vertor.mouse.monitor.list" template="/WEB-INF/views/dmbc/vertor/mouseMonitorList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.mouse.monitor.add" template="/WEB-INF/views/dmbc/vertor/mouseMonitorAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.mouse.add" template="/WEB-INF/views/dmbc/vertor/mouseAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.mouse.list" template="/WEB-INF/views/dmbc/vertor/mouseList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.mouse.report" template="/WEB-INF/views/dmbc/vertor/mouseReport.jsp">
+	</definition>
+	
+	<!-- 成蚊监测 -->
+	<definition name="rhip.dmbc.vertor.mosquitoes.monitor.search" template="/WEB-INF/views/dmbc/vertor/mosquitoesMonitorSearch.jsp">
+    </definition>
+    <definition name="rhip.dmbc.vertor.mosquitoes.monitor.list" template="/WEB-INF/views/dmbc/vertor/mosquitoesMonitorList.jsp">
+    </definition>
+    <definition name="rhip.dmbc.vertor.mosquitoes.monitor.add" template="/WEB-INF/views/dmbc/vertor/mosquitoesMonitorAdd.jsp">
+    </definition>
+	<definition name="rhip.dmbc.vertor.mosquitoes.add" template="/WEB-INF/views/dmbc/vertor/mosquitoesAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.mosquitoes.list" template="/WEB-INF/views/dmbc/vertor/mosquitoesList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.mosquitoes.report" template="/WEB-INF/views/dmbc/vertor/mosquitoesReport.jsp">
+	</definition>
+	<!-- 苍蝇监测 -->
+	<definition name="rhip.dmbc.vertor.fly.monitor.search" template="/WEB-INF/views/dmbc/vertor/flyMonitorSearch.jsp">
+    </definition>
+    <definition name="rhip.dmbc.vertor.fly.monitor.list" template="/WEB-INF/views/dmbc/vertor/flyMonitorList.jsp">
+    </definition>
+    <definition name="rhip.dmbc.vertor.fly.monitor.add" template="/WEB-INF/views/dmbc/vertor/flyMonitorAdd.jsp">
+    </definition>
+	<definition name="rhip.dmbc.vertor.fly.add" template="/WEB-INF/views/dmbc/vertor/flyAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.fly.list" template="/WEB-INF/views/dmbc/vertor/flyList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.fly.report" template="/WEB-INF/views/dmbc/vertor/flyReport.jsp">
+	</definition>
+	<!-- 蟑螂监测 -->
+	<definition name="rhip.dmbc.vertor.roach.monitor.search" template="/WEB-INF/views/dmbc/vertor/roachMonitorSearch.jsp">
+    </definition>
+    <definition name="rhip.dmbc.vertor.roach.monitor.list" template="/WEB-INF/views/dmbc/vertor/roachMonitorList.jsp">
+    </definition>
+    <definition name="rhip.dmbc.vertor.roach.monitor.add" template="/WEB-INF/views/dmbc/vertor/roachMonitorAdd.jsp">
+    </definition>
+	<definition name="rhip.dmbc.vertor.roach.add" template="/WEB-INF/views/dmbc/vertor/roachAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.roach.list" template="/WEB-INF/views/dmbc/vertor/roachList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.vertor.roach.report" template="/WEB-INF/views/dmbc/vertor/roachReport.jsp">
+	</definition>
+	<!--病媒生物监测 end  -->
+	<!--医疗机构管理 begin  -->
+	<!-- 污水处理 -->
+	<definition name="rhip.dmbc.medicalInst.sewage.treatment.search" template="/WEB-INF/views/dmbc/medicalInst/sewageTreatmentSearch.jsp">
+    </definition>
+    <definition name="rhip.dmbc.medicalInst.sewage.treatment.list" template="/WEB-INF/views/dmbc/medicalInst/sewageTreatmentList.jsp">
+    </definition>
+    <definition name="rhip.dmbc.medicalInst.sewage.treatment.add" template="/WEB-INF/views/dmbc/medicalInst/sewageTreatmentAdd.jsp">
+    </definition>
+	<definition name="rhip.dmbc.medicalInst.treatment.add" template="/WEB-INF/views/dmbc/medicalInst/treatmentAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.medicalInst.treatment.list" template="/WEB-INF/views/dmbc/medicalInst/treatmentList.jsp">
+	</definition>
+	<!-- 消毒质量-->
+	<definition name="rhip.dmbc.medicalInst.disinfection.monitor.search" template="/WEB-INF/views/dmbc/medicalInst/disinfectionMonitorSearch.jsp">
+    </definition>
+    <definition name="rhip.dmbc.medicalInst.disinfection.monitor.list" template="/WEB-INF/views/dmbc/medicalInst/disinfectionMonitorList.jsp">
+    </definition>
+    <definition name="rhip.dmbc.medicalInst.disinfection.monitor.add" template="/WEB-INF/views/dmbc/medicalInst/disinfectionMonitorAdd.jsp">
+    </definition>
+	<definition name="rhip.dmbc.medicalInst.disinfection.rs.add" template="/WEB-INF/views/dmbc/medicalInst/disinfectionRsAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.medicalInst.disinfection.rs.list" template="/WEB-INF/views/dmbc/medicalInst/disinfectionRsList.jsp">
+	</definition>
+	<!-- 院内感染-->
+	<definition name="rhip.dmbc.medicalInst.infectMonitor.search" template="/WEB-INF/views/dmbc/medicalInst/infectMonitorSearch.jsp">
+	</definition>
+	<definition name="rhip.dmbc.medicalInst.infectMonitor.list" template="/WEB-INF/views/dmbc/medicalInst/infectMonitorList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.medicalInst.infectMonitor.edit" template="/WEB-INF/views/dmbc/medicalInst/infectMonitorAdd.jsp">
+	</definition>
+	<definition name="rhip.dmbc.medicalInst.infectDetail.list" template="/WEB-INF/views/dmbc/medicalInst/infectDetailList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.medicalInst.infectDetail.edit" template="/WEB-INF/views/dmbc/medicalInst/infectDetailAdd.jsp">
+	</definition>
+	<!--医疗机构管理 end  -->
+	<!--幼托机构管理 begin  -->
+	<definition name="rhip.dmbc.childcareInst.monitor.search" template="/WEB-INF/views/dmbc/childcareInst/monitorSearch.jsp">
+	</definition>
+	<definition name="rhip.dmbc.childcareInst.monitor.list" template="/WEB-INF/views/dmbc/childcareInst/monitorList.jsp">
+	</definition>
+	<definition name="rhip.dmbc.childcareInst.monitor.view" template="/WEB-INF/views/dmbc/childcareInst/monitorInfo.jsp">
+	</definition>
+	<definition name="rhip.dmbc.childcareInst.monitor.infoEdit" template="/WEB-INF/views/dmbc/childcareInst/monitorInfoEdit.jsp">
+	</definition>
+	<!--幼托机构管理 end  -->
+</tiles-definitions>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Application context definition for PetClinic Datasource.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="queryDataSource" class="org.apache.tomcat.jdbc.pool.DataSource"
+          p:driverClassName="oracle.jdbc.driver.OracleDriver" p:url="${jdbc.url.a}"
+          p:username="${jdbc.username.a}" p:password="${jdbc.password.a}"
+          p:maxIdle="50" p:initialSize="10" p:maxActive="50"  p:validationQuery=" select 1 from dual "/>
+
+    <bean id="queryJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
+        <constructor-arg ref="queryDataSource"/>
+    </bean>
+
+	    <bean id="otDataSource" class="org.apache.tomcat.jdbc.pool.DataSource"
+          p:driverClassName="oracle.jdbc.driver.OracleDriver" p:url="${jdbc.url.c}"
+          p:username="${jdbc.username.c}" p:password="${jdbc.password.c}"
+          p:initialSize="10" p:maxActive="20"  p:validationQuery=" select 1 from dual "/>
+
+    <bean id="otJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
+        <constructor-arg ref="otDataSource"/>
+    </bean>
+</beans>

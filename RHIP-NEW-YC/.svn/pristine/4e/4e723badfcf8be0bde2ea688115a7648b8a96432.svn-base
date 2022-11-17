@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--取消预约-->
+<root>
+    <!--医院code-->
+    <hospitalCode>61012219831203751X</hospitalCode>
+    <!--科室编号-->
+    <deptSn>1231232444</deptSn>
+     <!--科室类别-->
+    <clinicType>1231232444</clinicType>
+</root>

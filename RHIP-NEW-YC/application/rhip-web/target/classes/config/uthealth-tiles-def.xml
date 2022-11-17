@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+<!--base layout  -->
+	<definition name="rhip.uthealth.base" template="/WEB-INF/views/uthealth/">
+		  <put-attribute name="header" value="/" />
+		  <put-attribute name="content" value="/" />
+    </definition>
+    <!-- 水分油分数据管理 -->
+    <definition name="rhip.health.home.wo.search" template="/WEB-INF/views/uthealth/waterOil/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.wo.list" template="/WEB-INF/views/uthealth/waterOil/list.jsp">
+    </definition>
+    <!-- 取身体指数数据 -->
+    <definition name="rhip.health.home.ba.search" template="/WEB-INF/views/uthealth/ba/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.ba.list" template="/WEB-INF/views/uthealth/ba/list.jsp">
+    </definition>
+    <!-- 获取血氧/心率/体温数据 -->
+    <definition name="rhip.health.home.fsr.search" template="/WEB-INF/views/uthealth/fsr/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.fsr.list" template="/WEB-INF/views/uthealth/fsr/list.jsp">
+    </definition>
+    <!-- 获取抵抗力/情绪/疲劳值数据 -->
+    <definition name="rhip.health.home.oht.search" template="/WEB-INF/views/uthealth/oht/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.oht.list" template="/WEB-INF/views/uthealth/oht/list.jsp">
+    </definition>
+
+    <!-- 血压数据 -->
+    <definition name="rhip.health.home.bp.search" template="/WEB-INF/views/uthealth/bloodPressure/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.bp.list" template="/WEB-INF/views/uthealth/bloodPressure/list.jsp">
+    </definition>
+
+    <!-- 血糖数据 -->
+    <definition name="rhip.health.home.bg.search" template="/WEB-INF/views/uthealth/bloodSugar/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.bg.list" template="/WEB-INF/views/uthealth/bloodSugar/list.jsp">
+    </definition>
+
+    <!-- 心电数据 -->
+    <definition name="rhip.health.home.ed.search" template="/WEB-INF/views/uthealth/electrocardio/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.ed.list" template="/WEB-INF/views/uthealth/electrocardio/list.jsp">
+    </definition>
+
+    <!-- 呼吸率数据 -->
+    <definition name="rhip.health.home.rr.search" template="/WEB-INF/views/uthealth/respirationRate/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.rr.list" template="/WEB-INF/views/uthealth/respirationRate/list.jsp">
+    </definition>
+
+    <!--用户数据分析-->
+    <definition name="rhip.health.home.user.search" template="/WEB-INF/views/uthealth/user/search.jsp">
+    </definition>
+    <definition name="rhip.health.home.user.list" template="/WEB-INF/views/uthealth/user/list.jsp">
+    </definition>
+    <definition name="rhip.health.home.user.userDetail" template="/WEB-INF/views/uthealth/user/userDetail.jsp">
+    </definition>
+
+</tiles-definitions>

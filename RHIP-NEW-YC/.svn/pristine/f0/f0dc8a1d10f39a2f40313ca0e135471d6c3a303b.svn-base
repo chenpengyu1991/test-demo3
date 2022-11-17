@@ -1,0 +1,812 @@
+.navHotExpLeft {
+	width:1090px;
+	float:left;
+	margin-left:4px;
+}
+.navHotExpRight {
+	width:250px;
+	float:right;
+	border: 1px solid #DEDEDE;
+	min-height:150px;
+	height:auto;
+	margin-right:4px;
+	margin-top:15px;
+}
+.navHotExpRight .hotExpRightTitle {
+	background-color:#F3F3F3;
+	color:#2f2f2f;
+	text-align:left;
+	height:30px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.navHotExpRight .hotExpRightContent {
+	color:#2f2f2f;
+	text-align:left;
+	height:30px;
+	font-size:15px;
+}
+.reserve_search {
+	width: auto;
+  	margin-right: 40px;
+}
+/*閹兼粎鍌�/
+.reserve_search {
+	margin-top:10px;
+	width:820px; 
+	height:30px
+}
+.s_search {
+    border: 2px solid #2996d0;
+    border-radius: 4px;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-align: right;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.g_icon {
+    background: rgba(0, 0, 0, 0) url("../../../images/reserve/global_icon_v4.png") no-repeat scroll 0 -116px;
+    display: inline-block;
+}
+.g_sicon {
+    background-position: 0 -116px;
+    height: 20px;
+    width: 20px;
+    float:left;
+    margin: 7px 5px 3px 8px;
+    /* position: absolute; */
+}
+input.search_input {
+    border: 1px solid #fff;
+    color: #999;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 5px 0px 5px;
+    width: 230px;
+    float:left;
+}
+input.search_input:focus {
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: 0 none;
+}
+.btn_search {
+    background: #0090db none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 65px;
+    vertical-align:middle;
+    text-align:center;
+}
+.hospitalInfo_slideBox table {
+	width:830px;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+.hospitalInfo_slideBox table td{
+	border: 1px solid #ddd;
+    color: #666;
+    padding: 3px 5px;
+}
+.hospitalInfo_slideBox .slider_title {
+	margin-top:10px;
+	overflow: hidden;
+	height: 35px;
+	border-bottom: 2px solid #1688ff;
+}
+
+.hospitalInfo_slideBox #titles ul {
+	margin-left:15px;
+}
+
+.hospitalInfo_slideBox #titles ul li { 
+	float: left;
+	list-style: none;
+	height: 34px;
+}
+.hospitalInfo_slideBox #titles ul li a{
+	width: 80px;
+	height: 34px;
+	padding-top: 10px;
+	display: block; 
+	color: #666; 
+	float: left; 
+	text-decoration: none;
+	font-size:14px;
+}
+.hospitalInfo_slideBox #titles ul li .select {
+	background: #1688ff none repeat scroll 0 0;
+    color: #fff;
+}
+
+/* doctors */
+.hospitalInfo_detail .select-condition {
+    border-top: 1px solid #eaeaea;
+    /* border-bottom: 1px solid #eaeaea; */
+    margin-top: 20px;
+}
+
+.hotExpertReserveDetail .select-detail {
+    overflow: hidden;
+}
+.hotExpertReserveDetail .select-detail label {
+    color: #999;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    width: 80px;
+}
+
+.hotExpertReserveDetail .select-detail .dropmenus {
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 730px;
+}
+.hotExpertReserveDetail .select-detail .dropmenus li {
+    cursor: pointer;
+    float: left;
+    line-height: 21px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hospitalInfo_detail .select-condition .select-detail .dropmenus{
+	margin-bottom: 0px;
+  	width: auto;
+}
+.hospitalInfo_detail .select-condition .select-detail .dropmenus li:hover {
+    background-color: #1688ff;
+    color: #fff;
+}
+.hotExpertReserveDetail .drop-menus {
+  color: #666;
+  font-size: 12px;
+  overflow: hidden;
+  width: 570px;
+}
+.hotExpertReserveDetail .drop-menus li {
+  cursor: pointer;
+  float: left;
+  line-height: 21px;
+  margin-bottom: 2px;
+  padding-right: 10px;
+}
+.hospitalInfo_detail .select-condition .select-detail .dropmenus .select-cur {
+    background-color: #1688ff;
+    color: #fff;
+}
+.hospitalInfo_detail .select-clinic{
+    width:155px;
+}
+.hospitalInfo_detail .select-clinic-list{
+	margin-bottom: 0px; 
+	float: left;
+  	text-align: left;
+}
+.hospitalInfo_detail .select-all-clinics{
+    float: none;
+    width: 25px;
+}
+.select-cur {
+    background-color: #1688ff;
+    color: #fff;
+}
+.hotExpertReserveDetail .mains-doctor {
+    padding: 0 0 8px;
+}
+
+.hospitalInfo_detail .doctor-info-box h4 {
+    color: #666;
+    display: table;
+    font-weight: normal;
+    padding: 10px 0 7px;
+    margin: 0;
+    text-align: right;
+    float:left;
+}
+.hospitalInfo_detail .doctor-info-box h4 .curdotor {
+    color: #ff7400;
+    font-size: 12px;
+    font-style: normal;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time {
+    float: right;
+    position: relative;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time .doctor-order-time {
+    border-bottom: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 106px;
+    padding: 10px 0 7px 9px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time .doctor-order-time span {
+    color: #666;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time .doctor-order-time img {
+    height: 16px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    vertical-align: middle;
+    width: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list {
+	padding-top:35px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #eaeaea;
+    /* min-height:120px !important; */
+    height: auto;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:last-child {
+    border-bottom: 1px solid #eaeaea;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card {
+    height: 120px;
+    /* min-height:120px !important;
+    height: auto; */
+    padding: 10px 0 10px 10px;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-pic {
+    float: left;
+    height: 120px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-pic img {
+    border: 1px solid #b7b7b7;
+    height: 118px;
+    width: 118px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos {
+    float: left;
+    text-aligin:left;
+    margin: 0 0 10px 10px;
+    width: 360px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos a {
+    color: #666;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title {
+    padding-bottom: 5px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title div{
+    float:left;text-align:left;width:360px;padding-right: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title div .rate {
+    color: #666;
+    display: inline;
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title p {
+    margin: 0px;
+    padding: 0px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title a i {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title a i img {
+    height: 16px;
+    width: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .doctor-medtitle {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title span {
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title a span {
+    color: #0c81f8;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate {
+    margin-right: 13px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate span {
+    color: #999;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate span:last-child {
+    margin: 0;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate .num {
+    color: #ff7400;
+    margin-left: 4px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table {
+    width: 350px;
+    font-size:12px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .doctor-good {
+    height: auto;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table tr td {
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table tr td.first-td {
+    color: #999;
+    width: 62px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table tr td.last-td {
+    color: #666;
+    line-height: 18px;
+}
+/* .hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .info-pos {
+    color: #333;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .info-pos i {
+    padding-right: 6px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .info-pos .marker {
+    color: #0c81fb;
+    cursor: pointer;
+    margin-left: 12px;
+} */
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time {
+    color: #666;
+    display: table;
+    float: right;
+    font-size: 12px;
+    height: 116px;
+    margin-left: -3px;
+    margin-right: 17px;
+    padding: 8px 0;
+    width: 210px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul span {
+    color: #666;
+    margin-left: 6px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul .more-time {
+    color: #0c81f8;
+    float: right;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul .more-time:hover {
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul .more-time:active {
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li {
+    margin-bottom: 8px;
+    margin-right: 11px;
+    overflow: hidden;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li a span {
+    color: #60a4ff;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-day {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    width: 38px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click {
+    color: #60a4ff;
+    margin-left: 8px;
+    padding: 2px 6px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click:hover {
+    background-color: #0c81f8;
+    color: #fff;
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click a:active {
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .more-time-chose {
+    color: #0c81f8;
+    cursor: pointer;
+    float: right;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-hospittal {
+    color: #666;
+    font-size: 12px;
+    line-height: 21px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-hospittal span {
+    margin-right: 14px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:hover {
+    border: 1px solid #60afff !important;
+    min-height:120px !important;
+    height:auto;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:hover + .doctor-info-single {
+    border-top: medium none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:hover .appointment-click {
+    background-color: #60afff;
+    color: #fff !important;
+    font-size: 11px;
+}
+
+/* hospitalInfo */
+.hospitalInfo_lists li.hospital-info-li {
+	border-bottom: 1px solid #eaeaea;
+	min-height:90px !important;
+	/* min-height:150px !important; */
+    height: auto;
+    padding: 10px 5px 10px 5px;
+    width: 1100px;
+}
+.hospitalInfo_lists .hospital-pic {
+    float: left;
+    height: 72px;
+    width: 72px;
+    margin-left: 20px;
+}
+.hospitalInfo_lists .hospital-pic img {
+    border: 1px solid #eaeaea;
+    height: 72px;
+    width: 72px;
+}
+.hospitalInfo_lists .hospital-introduces {
+    overflow: hidden;
+    padding: 0 10px 0 17px;
+    text-align:left;
+    position: relative;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title {
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 0 8px;
+    width:728px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-subTitle {
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    padding: 8px 0 8px;
+}
+.hospitalInfo_lists .hospital-introduces .no-padding-top{
+    padding-top: 0;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-subTitle span {
+    padding-left:10px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-subTitle .reserve {
+    line-height: 28px;
+    width:100px;
+    height:28px;
+    background-color:#FF9044;
+    border-radius: 4px;
+    color: #fff;
+    /* display: inline-block; */
+    padding: 2px 4px;
+    font-size:15px;
+    text-align: center;
+    float:right;
+    display: block;
+    margin-top:-5px;
+    margin-right: 25px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-subTitle .reserve a {
+	color: #fff;
+	display: block;
+    text-decoration: none;
+}
+.hospitalInfo_lists .hospital-introduces table a{
+    color: #666;
+}
+.hospitalInfo_lists .hospital-introduces table {
+	font-size:12px;
+	width:740px
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title label a {
+	text-decoration: none;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title .hospital-sign, .hospitalInfo_lists .hospital-introduces .introduces-title .hospital-health {
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    width: auto;
+    padding:2px 4px 2px 4px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title .hospital-sign {
+    background-color: #ff9044;
+    margin-left: 10px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title .hospital-health {
+    background-color: #a5d2ff;
+    margin-left: 5px;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server {
+    padding-bottom: 2px;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.icon-order {
+    background-image: url("../../../images/icon-doc.png");
+    background-size: 100% auto;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 3px;
+    width: 16px;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.fixed {
+    margin-right: 1em;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.icon-tip {
+    background-image: url("../../../images/icon-remind.png");
+    background-size: 100% auto;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 3px;
+    width: 16px;
+}
+.hospitalInfo_lists .hospital-introduces tr td:first-child {
+    color: #999;
+    line-height: 23px;
+    padding-bottom: 5px;
+}
+.hospitalInfo_lists .hospital-introduces tr td:last-child {
+    color: #666;
+    line-height: 23px;
+    padding-bottom: 5px;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature {
+    position: relative;
+    width:483px;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-detail {
+    float:left;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right {
+    float:right;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right label {
+    bottom: 5px;
+    position: absolute;
+    right: 0;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right a {
+    color: #0c81fb;
+    text-decoration: none;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos {
+    color: #333;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos i {
+    padding-right: 4px;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos a {
+    text-decoration: none;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos .marker {
+    color: #0c81fb;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.box {
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    color:#666;
+}
+.box .pd10 {
+    font-size: 14px;
+    padding: 10px;
+}
+.box .count {
+    color: #e5004f;
+}
+/*鐑棬鍖荤敓鑱屼笟缁忓巻*/
+.hospitalInfo_lists .workExperience {
+	width:1060px;
+	display:none
+}
+
+.hospitalInfo_lists .workExperienceTitle {
+	color:#666;
+    float: left;
+    height: 27px;
+    width: 62px;
+    padding-right:12px;
+    font-size:14px;
+    background:url("../../../images/doctor/career_experience.png") repeat-x;
+}
+
+.hospitalInfo_lists .workExperience .workExperienceDetail {
+	overflow: hidden;
+    text-align:left;
+    padding: 3px 5px;
+    position: relative;
+    width: 960px;
+    font-size:12px;
+    color:#666;
+    background-color:#EFEFEF;
+    line-height: 25px;
+}
+.hospitalInfo_lists .workExperience .workExperienceDetail a {
+	overflow: hidden;
+    text-align:right;
+    position: relative;
+    float:right;
+}
+.hospitalInfo_lists .workExperience .workExperienceDetail .label{
+	float: left;
+    text-align: left;
+    position: relative;
+    width: 728px;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+/*鐑棬鍖荤敓棰勭害*/
+.hospitalInfo_lists .hotExpertReserve {
+	padding-top:5px;
+	width:1060px;
+	display:none
+}
+
+.hospitalInfo_lists .hotExpertReserveTitle {
+	color:#666;
+    float: left;
+    height: 27px;
+    width: 62px;
+    padding-right:12px;
+    font-size:14px;
+    background:url("../../../images/doctor/appointment_doctor.png");
+}
+
+.hospitalInfo_lists .hotExpertReserve .hotExpertReserveDetail {
+	float: left;
+    text-align:left;
+    position: relative;
+    font-size:12px;
+    color:#666;
+    line-height: 22px;
+    margin-left:15px;
+}
+.hospitalInfo_lists .hotExpertReserve .hotExpertReserveDetail .label {
+    float: left;
+    text-align:left;
+    position: relative;
+    font-size:14px;
+    color:#666;
+    line-height: 22px;
+}
+.hospitalInfo_lists .hotExpertReserve .hotExpertReserveDetail table{
+    width:650px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.hospitalInfo_lists .hotExpertReserve .hotExpertReserveDetail table td{
+	border: 1px solid #ddd;
+}
+.hospitalInfo_lists .hotExpertReserve .hotExpertReserveDetail a {
+	overflow: hidden;
+    text-align:center;
+    position: relative;
+}
+
+.hotExpertReserve .showReserveTimeDiv {
+   /*  background: #f7fbfe none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    width: 225px; */
+}
+.hotExpertReserve .divReserveTimeTableContent {
+    display: block;
+}
+.reserveTimeTitle {
+    color: #1699df;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 8px;
+    padding-left: 10px;
+    width: 200px;
+    background: white;
+}
+.hotExpertReserve .divReserveTimeTableContent .reserveTableInfo {
+    border: 1px solid #ccc;
+    width: 280px;
+}
+.hotExpertReserve .divReserveTimeTableContent .reserveTableInfo th:first-child {
+    border-left: 0 none;
+}
+.hotExpertReserve .divReserveTimeTableContent .reserveTableInfo th {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    font-weight: normal;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.hotExpertReserve .divReserveTimeTableContent .reserveTableInfo td:first-child {
+    border-left: 0 none;
+}
+/* .hotExpertReserve .divReserveTimeTableContent .reserveTableInfo tr:hover {
+    background-color: #eaf7fd;
+    cursor: pointer;
+} */
+.hotExpertReserve .divReserveTimeTableContent .reserveTableInfo tr:last-child td {
+    border-bottom: 0 none;
+}
+.hotExpertReserve .divReserveTimeTableContent .reserveTableInfo td {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.hotExpertReserve .showReserveTimeDiv s {
+    border-color: transparent transparent #ccc;
+    border-style: dashed dashed solid;
+    border-width: 10px;
+    display: block;
+    font-size: 0;
+    height: 0;
+    left: 150px;
+    line-height: 0;
+    position: absolute;
+    top: -20px;
+    width: 0;
+}
+.hotExpertReserve .showReserveTimeDiv i {
+    border-color: transparent transparent #f7fbfe;
+    border-style: dashed dashed solid;
+    border-width: 10px;
+    display: block;
+    font-size: 0;
+    height: 0;
+    left: -10px;
+    line-height: 0;
+    position: absolute;
+    top: -9px;
+    width: 0;
+}
+.reserve-time{
+	float: left;
+	margin-left: 20px;
+	height:100px;
+}

@@ -1,0 +1,142 @@
+#ehrbrowser_main .contentDiv {
+	text-align: left;
+}
+/*医疗服务首页大小*/
+#medical_index_content{
+	/* height: 490px; */
+	overflow: auto;
+}
+
+#side fieldset {
+	padding: 4px;
+    margin-top: 5px;
+	/* border: 1px solid #b6c0cd; */
+}
+
+#side .Contentbox {
+	height: 300px;
+	overflow: auto;
+	overflow-x:hidden;
+	width: 178px;
+}
+
+.dialog .contentdiv {
+	text-align: left;
+}
+.dialog .sm_bg {
+	text-align: left;
+    margin-top: 1px;
+}
+.setcontent {
+	padding: 4px;
+	margin: 4px;
+	border: 1px solid #B3D7FF;
+}
+
+.setcontent legend {
+	padding-left: 6px;
+	font-weight: normal;
+}
+/*医疗服务首页 更多*/
+#ehrbrowser_main .btn_more{
+	display:block;
+	width:40px;
+	height:16px;
+	background:url(../../../../images/icon_more.gif) no-repeat left 0px;
+}
+.line_with_border{
+	border-bottom: 1px solid #000;
+}
+
+.layout_table{
+	text-align:left;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.layout_table th {
+	vertical-align: middle;
+	height: 30px;
+	line-height:30px;
+	font-weight: normal;
+}
+.layout_table td {
+	vertical-align: middle;
+	height: 26px;
+	line-height: 26px;
+}
+
+.repeattable  th {
+	background: #F2F2F2;
+}
+/*处方 药品填写内容框*/
+.drug_report_box{
+	margin-top:10px;
+	border: 1px solid #444;
+	padding:8px;
+	height: 240px;	
+	overflow: auto
+}
+.report_box{
+	padding:4px;
+	text-align: left;
+}
+/*临床图表内容大小*/
+#chichat-data-content{
+	height: 420px; 
+	overflow: auto;
+}
+
+.code_box{
+	display: inline-block;
+	width: 12px;
+	line-height: 12px;
+	height: 12px;
+	text-align:center;
+	border: 1px solid #999;
+}
+
+.dia-contenter{
+	margin:0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: left;
+	background: #ffffff;
+}
+
+/*=========*/
+.f-collapse{
+ margin: 2px;
+ padding: 2px;
+ border: 1px solid #ccc;	
+ background-color: #F2F2F2;
+ position: relative;
+}
+.f-collapse-title{
+    height:25px;
+    line-height: 25px;
+}
+.f-collapse-target{
+	display: none;
+}
+.f-collapse-in{
+	display: block;
+}
+
+.f-collspse-btn{
+}
+
+.f-collspse-more-btn{
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.table-01 th{
+	text-align: center;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="BASE.xsd"/>
+  <xs:element name="RD_MEDICAL_QUALITY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ORGAN_CODE"/>
+        <xs:element ref="ORGAN_NAME"/>
+        <xs:element ref="GENRE_CODE"/>
+        <xs:element ref="YEAR_MONTH"/>
+        <xs:element ref="YEAR"/>
+        <xs:element ref="HALF_YEAR"/>
+        <xs:element ref="QUARTER"/>
+        <xs:element ref="MONTH"/>
+        <xs:element ref="REPORT_TYPE"/>
+        <xs:element ref="EMERGENCY_DEATH_NUM" minOccurs="0"/>
+        <xs:element ref="EMERGENCY_MORTALITY" minOccurs="0"/>
+        <xs:element ref="OBSERVATION_DEATH_NUM" minOccurs="0"/>
+        <xs:element ref="OBSERVATION_MORTALITY" minOccurs="0"/>
+        <xs:element ref="INHOSPITAL_MORTALITY"/>
+        <xs:element ref="DIA_ACCORDANCE_NUM" minOccurs="0"/>
+        <xs:element ref="DIA_NO_ACCORDANCE_NUM" minOccurs="0"/>
+        <xs:element ref="DIA_ACCORDANCE_RATE" minOccurs="0"/>
+        <xs:element ref="CLI_PATH_DIA_NUM" minOccurs="0"/>
+        <xs:element ref="PATH_EXAM_NUM" minOccurs="0"/>
+        <xs:element ref="CLI_PATH_DIA_RATE" minOccurs="0"/>
+        <xs:element ref="GRADE_HEALING_FIR_NUM" minOccurs="0"/>
+        <xs:element ref="GRADE_HEALING_NUM" minOccurs="0"/>
+        <xs:element ref="GRADE_HEALING_RATE" minOccurs="0"/>
+        <xs:element ref="GRADE_HEALING_THR_NUM" minOccurs="0"/>
+        <xs:element ref="INFECTION_RATE" minOccurs="0"/>
+        <xs:element ref="ANTIBIOTIC_PRE_SCALE"/>
+        <xs:element ref="CHN_MED_PRE_SCALE"/>
+        <xs:element ref="DRUG_REACTION_NUM"/>
+        <xs:element ref="MEDICAL_DISPUTES_NUM"/>
+        <xs:element ref="MEDICAL_ACCIDENTS_NUM"/>
+        <xs:element ref="FOUR_TYPES_SCALE" minOccurs="0"/>
+        <xs:element ref="CLINICAL_USE_BLOOD" minOccurs="0"/>
+        <xs:element ref="BLOOD_NUM" minOccurs="0"/>
+        <xs:element ref="RED_CELL" minOccurs="0"/>
+        <xs:element ref="PLASMA" minOccurs="0"/>
+        <xs:element ref="PLATELET" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EMERGENCY_DEATH_NUM" type="integer-or-empty"/>
+  <xs:element name="EMERGENCY_MORTALITY" type="decimal-or-empty"/>
+  <xs:element name="OBSERVATION_DEATH_NUM" type="integer-or-empty"/>
+  <xs:element name="OBSERVATION_MORTALITY" type="decimal-or-empty"/>
+  <xs:element name="INHOSPITAL_MORTALITY" type="xs:decimal"/>
+  <xs:element name="DIA_ACCORDANCE_NUM" type="integer-or-empty"/>
+  <xs:element name="DIA_NO_ACCORDANCE_NUM" type="integer-or-empty"/>
+  <xs:element name="DIA_ACCORDANCE_RATE" type="decimal-or-empty"/>
+  <xs:element name="CLI_PATH_DIA_NUM" type="integer-or-empty"/>
+  <xs:element name="PATH_EXAM_NUM" type="integer-or-empty"/>
+  <xs:element name="CLI_PATH_DIA_RATE" type="decimal-or-empty"/>
+  <xs:element name="GRADE_HEALING_FIR_NUM" type="integer-or-empty"/>
+  <xs:element name="GRADE_HEALING_NUM" type="integer-or-empty"/>
+  <xs:element name="GRADE_HEALING_RATE" type="decimal-or-empty"/>
+  <xs:element name="GRADE_HEALING_THR_NUM" type="integer-or-empty"/>
+  <xs:element name="INFECTION_RATE" type="decimal-or-empty"/>
+  <xs:element name="ANTIBIOTIC_PRE_SCALE" type="xs:decimal"/>
+  <xs:element name="CHN_MED_PRE_SCALE" type="xs:decimal"/>
+  <xs:element name="DRUG_REACTION_NUM" type="xs:integer"/>
+  <xs:element name="MEDICAL_DISPUTES_NUM" type="integer-or-empty"/>
+  <xs:element name="MEDICAL_ACCIDENTS_NUM" type="integer-or-empty"/>
+  <xs:element name="FOUR_TYPES_SCALE" type="decimal-or-empty"/>
+  <xs:element name="CLINICAL_USE_BLOOD" type="decimal-or-empty"/>
+  <xs:element name="BLOOD_NUM" type="decimal-or-empty"/>
+  <xs:element name="RED_CELL" type="decimal-or-empty"/>
+  <xs:element name="PLASMA" type="decimal-or-empty"/>
+  <xs:element name="PLATELET" type="decimal-or-empty"/>
+</xs:schema>

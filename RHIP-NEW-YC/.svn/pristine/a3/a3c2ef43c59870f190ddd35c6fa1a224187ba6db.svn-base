@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<!-- Definitions for Tiles documentation -->
+
+<tiles-definitions>
+
+	<!-- 任务 -->
+	<definition name="rhip.scheduling.task.add" template="/WEB-INF/views/scheduling/task/add.jsp">
+	</definition>
+
+	<definition name="rhip.scheduling.task.list" template="/WEB-INF/views/scheduling/task/list.jsp"></definition>
+	<definition name="rhip.scheduling.task.listResult"
+		template="/WEB-INF/views/scheduling/task/listResult.jsp"></definition>
+
+	<definition name="rhip.scheduling.task.view" template="/WEB-INF/views/scheduling/task/view.jsp"></definition>
+	<definition name="rhip.scheduling.task.taskTriggersResult"
+		template="/WEB-INF/views/scheduling/task/taskTriggersResult.jsp"></definition>
+
+	<definition name="rhip.scheduling.task.edit" template="/WEB-INF/views/scheduling/task/edit.jsp"></definition>
+
+	<definition name="rhip.scheduling.trigger.edit" template="/WEB-INF/views/scheduling/trigger/add.jsp"></definition>
+	
+		<definition name="rhip.scheduling.task.import" template="/WEB-INF/views/scheduling/task/import.jsp"></definition>
+	
+
+	<!-- 历史 -->
+	<definition name="rhip.scheduling.task.history.list"
+		template="/WEB-INF/views/scheduling/history/list.jsp"></definition>
+	<definition name="rhip.scheduling.task.history.listResult"
+		template="/WEB-INF/views/scheduling/history/listResult.jsp"></definition>
+		
+	<!-- 控制中心 -->
+
+	<definition name="rhip.scheduling.task.scheduler.index"
+		template="/WEB-INF/views/scheduling/scheduler/index.jsp"></definition>
+	
+
+</tiles-definitions>

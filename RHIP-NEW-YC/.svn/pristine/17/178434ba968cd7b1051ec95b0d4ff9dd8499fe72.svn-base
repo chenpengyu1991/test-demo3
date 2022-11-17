@@ -1,0 +1,1333 @@
+.navLeft {
+	width:190px;
+	float:left;
+	margin-left:4px;
+}
+.navRight {
+	width:890px;
+	float:right;
+	margin-right:4px;
+	border: 1px solid #DEDEDE;
+}
+.leftTitleBg {
+	width:189px;
+	height:40px;
+	font-weight: bold;
+	background-color:#267CAF;
+	border: 1px solid #e6e6e6;
+	font-family:'微软雅黑';
+	color:#FFFFFF;
+}
+.leftTitleBg label {
+	line-height:40px;   
+	vertical-align: middle;
+}
+.leftSubTitleBg {
+	width: 188px;
+	line-height:35px;   
+	text-align: center;
+	vertical-align: middle;
+}
+.leftSubTitleBg ul li.sidemenu {
+	    width: 187px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #6ACBFF;
+  border: 3px solid #F7F7F7;
+  border-top: none;
+/*   border-radius: 8px; */
+}
+
+/* .leftSubTitleBg ul li.sidemenu :hover{
+  border-radius: 8px;
+}
+ */
+.leftSubTitleBg ul li a {
+	  color: #FFFFFF;
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: '寰蒋闆呴粦';
+}
+.leftSubTitleBg ul li a:hover {
+	background:#0090DB ;
+}
+.leftSubTitleBg ul li.cur{
+	    width: 187px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #0090DB;
+  border: 3px solid #F7F7F7;
+  border-top: none;
+  /* border-radius: 8px; */
+}
+/* reserve nav flow chart */
+.flow-chart{
+	margin-top: 50px;
+	width:122px;
+	height:352px;
+}
+.select-hospital-node{
+	background:url(../../../images/reserve/nav-flow-chart01.jpg) no-repeat;	
+}
+.select-department-node{
+	background:url(../../../images/reserve/nav-flow-chart02.jpg) no-repeat;	
+}
+.order-success-node{
+	background:url(../../../images/reserve/nav-flow-chart03.jpg) no-repeat;	
+}
+.select-clinic-node{
+	background:url(../../../images/reserve/nav-flow-chart04.jpg) no-repeat;	
+}
+.select-hospital-num-node{
+	background:url(../../../images/reserve/nav-flow-chart05.jpg) no-repeat;	
+}
+/*ServiceInfo*/
+.location {
+    height: 46px;
+    background: #F2F2F2;
+    background-position: 1px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #DEDEDE;
+    padding-left: 30px;
+    vertical-align: middle;
+    line-height: 46px;
+    color: #666666;
+}
+.location a {
+	color: #666666;
+	text-decoration:none;
+}
+.location a:hover {
+	color: #000;
+	text-decoration:underline;
+}
+.location .space {
+	margin-left:5px;
+}
+.contents {
+	vertical-align: middle;
+	text-align: left;
+}
+.contents ul li {
+	border-bottom:1px solid #DEDEDE;
+	background:url(../../../images/icon1.jpg) no-repeat;
+    font-size: 13px;
+    height: 34px;
+    line-height: 32px;
+    padding-left: 25px;
+    text-align: left;
+    vertical-align: middle;
+}
+.contents ul li a{
+	float: left;
+	height: 35px;
+	color: #2F2F2F;
+}
+.contents ul li a:hover {
+	float: left;
+	height: 30px;
+	color: #006699;
+}
+.contents ul li span {
+	float: right;
+	margin-right:10px;
+	height: 28px;
+	color: #2F2F2F;
+}
+
+.detailTitle {
+	margin-top:25px;
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size:18px;
+	font-weight:normal;
+}
+.publishTime {
+	margin-top:10px;
+	text-align: center;
+ 	font-size: 12px;
+	font-weight:normal;
+	color:#696767;
+}
+.publishTime span {
+	padding-right:10px;
+}
+.purpose {
+	padding: 0px 10px 5px 10px !important;
+	margin-top:10px;
+	text-align: left;
+ 	font-size: 12px;
+ 	font-weight:normal;
+	font-family:'微软雅黑';
+}
+.purpose .lab, .directions .lab {
+	font-weight:bold;
+}
+.purpose .con, .directions .con {
+	padding-top:5px;
+}
+.directions {
+	padding: 0px 10px 0px 10px !important;
+	margin:10px 0px 10px 0px;
+	text-align: left;
+ 	font-size: 12px;
+	font-weight:normal;
+	font-family:'微软雅黑';
+}
+.detailContent {
+	text-align:left;
+	/* width:100%; */
+	margin: 0px 10px 0px 10px;
+}
+.detailContent p span {
+	padding: 0px;
+}
+.detailContent table {
+	width:720px;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+.detailContent table td{
+	border: 1px solid #ddd;
+    color: #666;
+    font-size: 13px;
+    padding: 3px 5px;
+}
+.downloadContent {
+	margin-top: 5px;
+	text-align:left;
+	border-top: 1px dashed #bbbbbb;
+	padding:5px 0px 5px 0px;
+}
+.downloadContent span {
+	font-size: 12px;
+	font-weight:normal;
+}
+.downloadContent ul li {
+	padding:5px 0px 0px 10px;
+	font-size: 14px;
+	font-weight:normal;
+	color:#696767;
+}
+.downloadContent ul li a {
+	font-size: 14px;
+	font-weight:normal;
+	color:#696767;
+}
+.detailContent1 {
+	padding: 10px 5px 5px 5px !important;
+	text-align: left;
+}
+.detailContent1 strong {
+	font-size: 13px;
+	font-family:'微软雅黑';
+}
+.detailContent1 label {
+	font-size: 12px !important;
+	font-weight:normal !important;
+	font-family:'微软雅黑' !important;
+}
+
+/* hospitalInfo */
+.hospitalInfo_lists li.hospital-info-li {
+	border-bottom: 1px solid #eaeaea;
+	min-height:158px !important;
+    height: auto;
+    padding: 10px 5px 10px 5px;
+}
+.hospitalInfo_lists .hospital-pic {
+    float: left;
+    height: 160px;
+    width: 160px;
+}
+.hospitalInfo_lists .hospital-pic img {
+    border: 1px solid #eaeaea;
+    height: 158px;
+    width: 158px;
+}
+.hospitalInfo_lists .hospital-introduces {
+    overflow: hidden;
+    padding: 0 10px 0 17px;
+    text-align:left;
+    position: relative;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title {
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    padding: 8px 0 8px;
+}
+.hospitalInfo_lists .hospital-introduces table a{
+    color: #666;
+}
+.hospitalInfo_lists .hospital-introduces table {
+	font-size:12px;
+	width:700px
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title .hospital-sign, .hospitalInfo_lists .hospital-introduces .introduces-title .hospital-health {
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    width: auto;
+    padding:2px 4px 2px 4px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title .hospital-sign {
+    background-color: #ff9044;
+    margin-left: 10px;
+}
+.hospitalInfo_lists .hospital-introduces .introduces-title .hospital-health {
+    background-color: #a5d2ff;
+    margin-left: 5px;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server {
+    padding-bottom: 2px;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.icon-order {
+    background-image: url("../../../images/icon-doc.png");
+    background-size: 100% auto;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 3px;
+    width: 16px;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.fixed {
+    margin-right: 1em;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.icon-tip {
+    background-image: url("../../../images/icon-remind.png");
+    background-size: 100% auto;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 3px;
+    width: 16px;
+}
+.hospitalInfo_lists .hospital-introduces tr td:first-child {
+    color: #999;
+    width: 5em;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.hospitalInfo_lists .hospital-introduces tr td:last-child {
+    color: #666;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+/* .hospitalInfo_lists .hospital-introduces .newTab tr td:first-child {
+    color: #999;
+    width: 3.8em;
+    line-height: 18px;
+    padding-bottom: 5px;
+} */
+.hospitalInfo_lists .hospital-introduces .newTab tr td:last-child {
+    color: #666;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature {
+    position: relative;
+    /* width:483px; */
+    width:600px;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-detail {
+    float:left;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right {
+    float:right;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right label {
+    bottom: 5px;
+    position: absolute;
+    right: 0;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right a {
+    color: #0c81fb;
+    text-decoration: none;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos {
+    color: #333;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos i {
+    padding-right: 4px;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos a {
+    text-decoration: none;
+}
+.hospitalInfo_lists .hospital-introduces .info-pos .marker {
+    color: #0c81fb;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.hospitalInfo_slideBox table {
+	width:880px;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+.hospitalInfo_slideBox table td{
+	border: 1px solid #ddd;
+    color: #666;
+    padding: 3px 5px;
+}
+.hospitalInfo_slideBox .slider_title {
+	margin-top:10px;
+	overflow: hidden;
+	height: 35px;
+	border-bottom: 2px solid #1688ff;
+}
+
+.hospitalInfo_slideBox #titles ul {
+	margin-left:15px;
+}
+
+.hospitalInfo_slideBox #titles ul li { 
+	float: left;
+	list-style: none;
+	height: 34px;
+}
+.hospitalInfo_slideBox #titles ul li a{
+	width: 80px;
+	height: 34px;
+	padding-top: 10px;
+	display: block; 
+	color: #666; 
+	float: left; 
+	text-decoration: none;
+	font-size:14px;
+}
+.hospitalInfo_slideBox #titles ul li .select {
+	background: #1688ff none repeat scroll 0 0;
+    color: #fff;
+}
+.hospitalInfo_detail .info_title {
+	color: #666;
+    font-size: 14px;
+    padding-left:15px;
+    text-align:left;
+}
+.hospitalInfo_detail .info_content {
+	color: #666;
+    font-size: 12px;
+    padding:0 15px 10px 15px;
+    text-align:left;
+}
+
+/*鎼滅储*/
+.reserve_search {
+	margin-top:10px;
+	width:880px; 
+	height:30px
+}
+.s_search {
+    border: 2px solid #2996d0;
+    border-radius: 4px;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-align: right;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.g_icon {
+    background: rgba(0, 0, 0, 0) url("../../../images/reserve/global_icon_v4.png") no-repeat scroll 0 -116px;
+    display: inline-block;
+}
+.g_sicon {
+    background-position: 0 -116px;
+    height: 20px;
+    width: 20px;
+    float:left;
+    margin: 7px 5px 3px 8px;
+    /* position: absolute; */
+}
+input.search_input {
+    border: 1px solid #fff;
+    color: #999;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 5px 0px 5px;
+    width: 230px;
+    float:left;
+}
+input.search_input:focus {
+    border: 1px solid #fff;
+    box-shadow: none;
+    outline: 0 none;
+}
+.btn_search {
+    background: #0090db none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 65px;
+    vertical-align:middle;
+    text-align:center;
+}
+.reserveSearch {
+	width:880px;
+	min-height:50px !important;
+	height:auto;
+}
+.reserveSearch .box {
+    border: 1px solid #d1d1d1;
+    margin-bottom: 10px;
+}
+.box {
+    overflow-x: hidden;
+}
+.reserveSearch .pd10 {
+    font-size: 14px;
+    padding: 10px;
+    padding-bottom:0;
+}
+.reserveSearch .count {
+    color: #e5004f;
+}
+
+.reserveSearch .item h3 {
+    background-color: #f5f6f5;
+    color: #00f;
+    float: left;
+    text-align:left;
+    font-size: 15px;
+    font-weight: normal;
+    width: 850px;
+    margin: 10px 0 0;
+    padding: 4px;
+}
+.star, .add, .ren {
+    background: rgba(0, 0, 0, 0) url("../../../images/reserve/login_icons.gif") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.reserveSearch .item h3 .star {
+    background-position: 0 -72px;
+    float:left;
+}
+.reserveSearch .item h3 .add {
+    background-position: -20px -72px;
+    float:left;
+}
+.reserveSearch .item h3 .ren {
+    background-position: -40px -72px;
+    float:left;
+}
+.reserveSearch .item h3 a {
+    color: #0174ad;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align:left;
+    float: left;
+}
+.reserveSearch .item .tro {
+    color: #666;
+    float: left;
+    text-align:left;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 820px;
+}
+
+/* doctors */
+.hospitalInfo_detail .select-condition {
+    border-top: 1px solid #eaeaea;
+    /* border-bottom: 1px solid #eaeaea; */
+    margin-top: 20px;
+}
+
+.hospitalInfo_detail .select-condition .select-detail {
+    overflow: hidden;
+    padding-top: 10px;
+}
+.hospitalInfo_detail .select-condition .select-detail label {
+	margin-top: 3px;
+    color: #999;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    width: 80px;
+}
+
+.hospitalInfo_detail .select-condition .select-detail .dropmenus {
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 760px;
+}
+.hospitalInfo_detail .select-condition .select-detail .dropmenus li {
+    cursor: pointer;
+    float: left;
+    line-height: 21px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hospitalInfo_detail .select-condition .select-detail .dropmenus li:hover {
+    background-color: #1688ff;
+    color: #fff;
+}
+.hospitalInfo_detail .select-condition .select-detail .drop-menus {
+  color: #666;
+  font-size: 12px;
+  overflow: hidden;
+  padding: 0 10px;
+  width: 790px;
+}
+.hospitalInfo_detail .select-condition .select-detail .drop-menus li {
+  cursor: pointer;
+  float: left;
+  line-height: 21px;
+  margin-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.hospitalInfo_detail .select-condition .select-detail .dropmenus .select-cur {
+    background-color: #1688ff;
+    color: #fff;
+}
+.hospitalInfo_detail .select-clinic{
+    width:120px;
+}
+.hospitalInfo_detail .select-clinic-list{
+	margin-bottom: 0px; 
+	float: left;
+  	text-align: left;
+}
+.hospitalInfo_detail .select-all-clinics{
+    float: none;
+    width: 25px;
+}
+.select-cur {
+    background-color: #1688ff;
+    color: #fff;
+}
+.hospitalInfo_detail .select-condition .mains-doctor {
+    padding: 9px 0 8px;
+}
+
+.hospitalInfo_detail .doctor-info-box h4 {
+    color: #666;
+    display: table;
+    font-weight: normal;
+    padding: 10px 0 7px;
+    margin: 0;
+    text-align: right;
+    float:left;
+}
+.hospitalInfo_detail .doctor-info-box h4 .curdotor {
+    color: #ff7400;
+    font-size: 12px;
+    font-style: normal;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time {
+    float: right;
+    position: relative;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time .doctor-order-time {
+    border-bottom: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 106px;
+    padding: 10px 0 7px 9px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time .doctor-order-time span {
+    color: #666;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-visit-time .doctor-order-time img {
+    height: 16px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    vertical-align: middle;
+    width: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list {
+	padding-top:35px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #eaeaea;
+    /* min-height:120px !important; */
+    height: auto;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:last-child {
+    border-bottom: 1px solid #eaeaea;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card {
+    height: 120px;
+    /* min-height:120px !important;
+    height: auto; */
+    padding: 10px 0 10px 10px;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-pic {
+    float: left;
+    height: 120px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-pic img {
+    border: 1px solid #b7b7b7;
+    height: 118px;
+    width: 118px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos {
+    float: left;
+    text-aligin:left;
+    margin: 0 0 10px 10px;
+    width: 360px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos a {
+    color: #666;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title {
+    padding-bottom: 5px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title div{
+    float:left;text-align:left;width:360px;padding-right: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title div .rate {
+    color: #666;
+    display: inline;
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title p {
+    margin: 0px;
+    padding: 0px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title a i {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title a i img {
+    height: 16px;
+    width: 16px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .doctor-medtitle {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title span {
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title a span {
+    color: #0c81f8;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate {
+    margin-right: 13px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate span {
+    color: #999;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate span:last-child {
+    margin: 0;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title .rate .num {
+    color: #ff7400;
+    margin-left: 4px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table {
+    width: 350px;
+    font-size:12px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .doctor-good {
+    height: auto;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table tr td {
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table tr td.first-td {
+    color: #999;
+    width: 62px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table tr td.last-td {
+    color: #666;
+    line-height: 18px;
+}
+/* .hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .info-pos {
+    color: #333;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .info-pos i {
+    padding-right: 6px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .infos .info-title table .info-pos .marker {
+    color: #0c81fb;
+    cursor: pointer;
+    margin-left: 12px;
+} */
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time {
+    color: #666;
+    display: table;
+    float: right;
+    font-size: 12px;
+    height: 116px;
+    margin-left: -3px;
+    margin-right: 17px;
+    padding: 8px 0;
+    width: 210px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul span {
+    color: #666;
+    margin-left: 6px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul .more-time {
+    color: #0c81f8;
+    float: right;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul .more-time:hover {
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul .more-time:active {
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li {
+    margin-bottom: 8px;
+    margin-right: 11px;
+    overflow: hidden;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li a span {
+    color: #60a4ff;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-day {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    width: 38px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click {
+    color: #60a4ff;
+    margin-left: 8px;
+    padding: 2px 6px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click:hover {
+    background-color: #0c81f8;
+    color: #fff;
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click a:active {
+    text-decoration: none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .more-time-chose {
+    color: #0c81f8;
+    cursor: pointer;
+    float: right;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-hospittal {
+    color: #666;
+    font-size: 12px;
+    line-height: 21px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-hospittal span {
+    margin-right: 14px;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:hover {
+    border: 1px solid #60afff !important;
+    min-height:120px !important;
+    height:auto;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:hover + .doctor-info-single {
+    border-top: medium none;
+}
+.hospitalInfo_detail .doctor-info-box .doctor-info-list .doctor-info-single:hover .appointment-click {
+    background-color: #60afff;
+    color: #fff !important;
+    font-size: 11px;
+}
+
+
+
+.hide {
+	display:none;
+}
+
+.jinggaoInfo {
+	border: 1px solid #a9c3d0;
+	vertical-align: bottom;
+	color: #FC5907;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 100px;
+	text-align:left;
+	font-weight: bold;
+	background:#F8F8F8 url("../../../images/jinggao.png") no-repeat 30px;
+	margin-top:10px;
+}
+
+.sucessInfo {
+	border: 1px solid #a9c3d0;
+	vertical-align: bottom;
+	width: 730px;
+	margin-left: 10px;
+	height: 62px;
+	line-height: 20px;
+	padding-left: 100px;
+	padding-top:5px;
+	background:#F8F8F8 url("../../../images/reserve/SymbolCheck.gif") no-repeat 30px;
+}
+
+.fontInfo{
+	font-weight: bold;
+	color: #FC5907;
+	font-size: 13px;
+}
+
+.infoListTable .lefttd{
+	font-weight: bold;
+	color: #2B73AD;
+	width: 100px;
+	vertical-align: top;
+	padding-left: 12px;
+	padding-top: 10px;
+	font-size:13px;
+	font-weight: normal;
+}
+
+.reserveTable{
+	border-collapse:collapse;  
+	border-spacing:0; 
+	font-size:13px;
+	font-weight: normal;
+}
+
+.reserveTable th{
+	background :left center url("../../../images/reserve/iconarrow.png") no-repeat;
+	border-bottom: 1px solid #C5C5C5;
+	padding: 0;
+	width: 85px;
+	text-align: left;
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.reserveTable td{
+	border-bottom: 1px solid #C5C5C5;
+	padding: 0;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/* .repeattable table{table-layout:fixed;width: 98%;margin-top: 4px;}
+.repeattable table th{background:url(../../../images/searchlist_th_bg.jpg) repeat-x bottom #E9F3FF;height:22px;line-height:22px;font-weight:normal;border: 1px solid #A9C3D0;text-align: center;font-weight: bold;}
+.repeattable table td{border: 1px solid #A9C3D0;height:22px;line-height:22px;padding-left:10px;table-layout:fixed;}
+.repeattable table input[type="checkbox"]{margin-top:6px;}
+.repeattable table td.checkboxtd{text-align:center;padding:0;}
+.repeattable {table-layout:fixed;border-collapse:collapse;}
+.repeattable tbody td {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.repeattable td input[type="text"], .repeattable td input[type="password"], .repeattable td select {border:1px solid #AECAF0;height:20px;line-height:20px;height:18px\9;line-height:18px\9;}
+.repeattable td.checkbox{vertical-align:middle;} */
+
+
+
+/*********reserve***********/
+#showReserveTimeDiv {
+	width:300px;background:#F7FBFE;
+	border: 1px solid #ccc;
+	display:none;
+	border-radius: 5px;
+}
+.divReserveTimeTableContent {
+	display: block
+}
+.reserveTimeTitle {
+	font-size:14px; color:#1699DF; width:250px;padding-top:10px;
+    height: 20px;
+	background: url("../../../images/reserve/reservetimetitle.jpg") no-repeat;
+}
+.divReserveTimeTableContent .reserveTableInfo {
+	 border: 1px solid #ccc;
+	 width: 280px;
+}
+.divReserveTimeTableContent .reserveTableInfo th:first-child {
+    border-left: 0;
+}
+.divReserveTimeTableContent .reserveTableInfo th {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+    height: 25px;
+    font-weight:normal;
+    padding: 3px;
+    text-align: center;
+    padding:0;margin:0
+}
+.divReserveTimeTableContent .reserveTableInfo td:first-child {
+    border-left: 0;
+}
+.divReserveTimeTableContent .reserveTableInfo tr:hover {
+    background-color:#EAF7FD;
+    cursor: pointer;
+}
+.divReserveTimeTableContent .reserveTableInfo tr:last-child td {
+    border-bottom: 0;
+}
+.divReserveTimeTableContent .reserveTableInfo td {
+    height: 25px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+    padding:0;margin:0
+}
+#showReserveTimeDiv s{
+	position:absolute;
+	top:-20px;
+	*top:-22px;
+	left:255px;
+	display:block;
+	height:0;
+	width:0;
+	font-size: 0; 
+	line-height: 0;
+	border-color:transparent transparent #ccc transparent;
+	border-style:dashed dashed solid dashed;
+	border-width:10px;
+}
+#showReserveTimeDiv i{
+	position:absolute;
+	top:-9px;
+	*top:-9px;
+	left:-10px;
+	display:block;
+	height:0;
+	width:0;
+	font-size: 0;
+	line-height: 0;
+	border-color:transparent transparent #F7FBFE transparent;
+	border-style:dashed dashed solid dashed;
+	border-width:10px;
+}
+
+/******/
+.divReserveTableContent {
+	font-size:14px;
+    width:550px;
+}
+
+.btnOrder {
+    background-color: #2896f3;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+    line-height: 30px;
+    margin-left: 50px;
+    text-align: center;
+    min-width: 28px;
+    width:auto;
+}
+.btnOrder span {
+    display: block;
+}
+.btnOrder:hover {
+    background-color: #0c81f8;
+}
+
+
+/**************view reserve****************************/
+#listDiv .doctor-info-box h4 {
+    color: #666;
+    display: table;
+    font-weight: normal;
+    padding: 10px 0 7px;
+    margin: 0;
+    text-align: right;
+    float:left;
+}
+#listDiv .doctor-info-box h4 .curdotor {
+    color: #ff7400;
+    font-size: 12px;
+    font-style: normal;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-hospital-info{
+	width: 113px;
+    text-align:center;
+    float:left;
+    padding: 10px 0 7px 9px;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-clinic-info{
+	width: 103px;
+    text-align:center;
+    float:left;
+    padding: 10px 0 7px 0px;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-doctor-info{
+	/* width: 113px; */
+	width: 83px;
+    text-align:center;
+    float:left;
+    padding: 10px 0 7px 0px;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-reservation-info{
+	/* width: 113px; */
+	width: 83px;
+    text-align:center;
+    float:left;
+    padding: 10px 0 7px 0px;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-order-time {
+	width: 160px;
+	float:left;
+    border-bottom: 0 none;
+    /* cursor: pointer; */
+    display: inline-block;
+    padding: 10px 0 7px 0px;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-order-operation {
+	width: 160px;
+    text-align:center;
+    float:left;
+    padding: 10px 0 7px 0px;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-order-time span,
+#listDiv .doctor-info-box .doctor-visit-time .doctor-hospital-info span,
+#listDiv .doctor-info-box .doctor-visit-time .doctor-clinic-info span,
+#listDiv .doctor-info-box .doctor-visit-time .doctor-doctor-info span,
+#listDiv .doctor-info-box .doctor-visit-time .doctor-reservation-info span,
+#listDiv .doctor-info-box .doctor-visit-time .doctor-order-operation span {
+    color: #666;
+}
+#listDiv .doctor-info-box .doctor-visit-time .doctor-order-time img {
+    height: 16px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    vertical-align: middle;
+    width: 16px;
+}
+#listDiv .doctor-info-box .doctor-info-list {
+	padding-top:35px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single:hover {
+    border: 1px solid #666 !important;
+    min-height:50px !important;
+    height:auto;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single:hover + .doctor-info-single {
+    border-top: medium none;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #eaeaea;
+    /* min-height:120px !important; */
+    height: auto;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single:last-child {
+    border-bottom: 1px solid #eaeaea;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card {
+    min-height: 50px;
+    /* min-height:120px !important;
+    height: auto; */
+    padding: 10px 0 0px 10px;
+    height:auto;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .clinic-infos {
+    float: left;
+    width:103px;
+    color: #666;
+    padding-top:10px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .doctor-infos {
+    float: left;
+    width:83px;
+    color: #666;
+    padding-top:10px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .reservation-infos {
+    float: left;
+    width:83px;
+    color: #666;
+    padding-top:10px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .hosp-infos {
+    float: left;
+    width:113px;
+    color: #666;
+    padding-top:10px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time {
+    color: #666;
+    display: table;
+    float: left;
+    text-align:center;
+    font-size: 12px;
+    height: 36px;
+    padding: 0;
+    font-size: 14px;
+    /* margin-left: -3px;
+    margin-right: 17px;
+    padding: 8px 0; */
+    width: 160px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul span {
+    color: #666;
+    margin-left: 6px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li {
+    margin-bottom: 8px;
+    margin-right: 11px;
+    overflow: hidden;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li a {
+    cursor: pointer;
+    text-decoration: none;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li a span {
+    color: #60a4ff;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-day {
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    width: 40px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click {
+    color: #60a4ff;
+    margin-left: 8px;
+    padding: 2px 6px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click:hover {
+    background-color: #0c81f8;
+    color: #fff;
+    text-decoration: none;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .appointment-click a:active {
+    text-decoration: none;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .appointment-time ul li .more-time-chose {
+    color: #0c81f8;
+    cursor: pointer;
+    float: right;
+}
+
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .operate {
+    color: #666;
+    display: table;
+    float: left;
+    text-align:center;
+    font-size: 12px;
+    height: 18px;
+    padding:0;
+    font-size: 14px;
+    width: 170px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .operate ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .operate ul span {
+    color: #666;
+    margin-left: 6px;
+}
+
+
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-hospittal {
+    color: #666;
+    font-size: 12px;
+    line-height: 21px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single .doctor-card .info-hospittal span {
+    margin-right: 14px;
+}
+#listDiv .doctor-info-box .doctor-info-list .doctor-info-single:hover .appointment-click {
+    background-color: #60afff;
+    color: #fff !important;
+    font-size: 11px;
+}
+/********reserveConfirmView**********/
+.tableD td.sign {
+     background: #DDF1FB none repeat scroll 0 0;
+ 	 text-align: right;
+ 	 color: #1170A5;
+ 	 font-weight: bold;
+}
+ .tableD {
+    /* border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc; */
+}
+.tableD td {
+    padding: 3px;
+    text-align: left;
+}
+.tableD td {
+     border-bottom: 1px solid #A0D7F3;
+ 	 border-right: 1px solid #A0D7F3;
+ 	 padding-left: 10px;
+     text-align: left;
+}
+.btnArea1 {
+    padding: 10px 0;
+    text-align: center;
+}
+.btnArea1 .btnNormal {
+	background: url("../../../images/reserve/btn_bga.png") no-repeat;
+    border: 0 none;
+    cursor: pointer;
+    height: 25px;
+    margin-right: 10px;
+    width: 60px;
+}

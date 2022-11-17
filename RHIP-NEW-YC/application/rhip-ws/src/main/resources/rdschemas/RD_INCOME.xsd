@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="BASE.xsd"/>
+  <xs:element name="RD_INCOME">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ORGAN_CODE"/>
+        <xs:element ref="ORGAN_NAME"/>
+        <xs:element ref="GENRE_CODE"/>
+        <xs:element ref="YEAR_MONTH"/>
+        <xs:element ref="YEAR"/>
+        <xs:element ref="HALF_YEAR"/>
+        <xs:element ref="QUARTER"/>
+        <xs:element ref="MONTH"/>
+        <xs:element ref="REPORT_TYPE"/>
+        <xs:element ref="MEDICAL_INCOME"/>
+        <xs:element ref="DRUG_INCOME"/>
+        <xs:element ref="INSPECTION_INCOME"/>
+        <xs:element ref="CONSUMABLES_INCOME"/>
+        <xs:element ref="OTHER_INCOME"/>
+        <xs:element ref="TOTAL_INCOME"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MEDICAL_INCOME" type="xs:decimal"/>
+  <xs:element name="DRUG_INCOME" type="xs:decimal"/>
+  <xs:element name="INSPECTION_INCOME" type="xs:decimal"/>
+  <xs:element name="CONSUMABLES_INCOME" type="xs:decimal"/>
+  <xs:element name="OTHER_INCOME" type="xs:decimal"/>
+  <xs:element name="TOTAL_INCOME" type="xs:decimal"/>
+</xs:schema>

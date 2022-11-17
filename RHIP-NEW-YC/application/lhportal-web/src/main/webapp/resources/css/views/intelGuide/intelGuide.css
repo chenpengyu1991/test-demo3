@@ -1,0 +1,172 @@
+.wrap_fore {
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.zndz0203{
+    width: 115px;
+    height: 195px;
+    float: right;
+}
+.zndz0203 a{
+    height: 40px;
+    width: 95px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    background-color: #44a2de;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.zndz0203 a:hover {
+    color: white;
+    background-color: #487BBB;
+}
+.zndz0301{
+    height: 40px;
+    background-color: #f2f2f2;
+    color: #44a2de;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wormanDisplay {
+    display: none;
+}
+.symptomList a{
+    height: 50px;
+    line-height: 50px;
+    width:33%;
+    float: left;
+    text-align: center;
+    color: #666666;
+    border-top: #F1F1F1 solid 1px;
+    text-decoration: none;
+}
+.symptomList a:HOVER{
+    color: #1A7DBD;
+    background-color: #D7EFFF;
+}
+.bwList{
+    overflow: hidden;
+    background-color: #fff9ec;
+    padding: 10px 10px 5px 25px;
+    border-bottom: #e6e6e6 solid 1px;
+}
+.symptomList{
+    border-bottom: #e0e0e0 solid 1px;
+    overflow: hidden;
+}
+
+.zndzzz{
+    color: #666666;
+    height: 25px;
+    line-height:25px;
+    width: 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-right:5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.zndzzz:HOVER {
+    background-color: #ffa800;
+    color: white;
+}
+.changezndzzz {
+    background-color: #ffa800;
+    color: white;
+}
+.facultyinfo {
+    background: #fffaeb;
+    margin: 30px 100px;
+    border: 1px solid #fff1c9;
+    border-radius: 10px;
+}
+.igsdrtop{
+    height: 40px;
+    line-height:40px;
+    font-size:16px;
+    color: #333;
+    text-align: center;
+    background: #fbf3dc;
+    border-bottom: 1px solid #fff1c9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.igresultone{
+    overflow: hidden;
+}
+.igresultnum{
+    height: 30px;
+    line-height:30px;
+    font-size:14px;
+    color: #ff6c00;
+    padding-left: 15px;
+    background: url(../../../images/reserve/intelGuide/guiderbg.png)no-repeat;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.igresultli{
+    padding:10px 40px;
+    background: url(../../../images/reserve/intelGuide/inapoint.png) no-repeat 25px 18px;
+}
+.igresultli span{
+    display: block;
+    line-height:25px;
+    font-size:14px;
+    color: #666;
+}
+.igresultbut{
+    overflow: hidden;
+    padding-left: 40px;
+}
+.igresultbutone{
+    float: left;
+    height: 26px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #666;
+    line-height: 26px;
+    text-align: center;
+    cursor:default;
+}
+.igresultbut a .igresultbutone{
+    border: 1px solid #3692e2;
+    color: #3692e2;
+    cursor:pointer;
+}
+.questionList {
+    text-align: left;
+    margin: 30px 100px;
+}
+.questionList h4 {
+    color: rgb(165, 147, 16)
+}
+.questionList .questionItem {
+    padding: 10px;
+}
+.questionList .options {
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    line-height: 22px;
+}
+.questionList .options .option {
+    padding: 5px 10px;
+}
+.questionList .options label {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.options li:nth-child(even)  {
+    background-color: #EFF6FB;
+}

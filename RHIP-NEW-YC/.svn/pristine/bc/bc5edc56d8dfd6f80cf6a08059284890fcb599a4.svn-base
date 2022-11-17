@@ -1,0 +1,2 @@
+No,organCode,parentCode,organName,genreCode,gradeCode,manageCode,economyCode,registCapital,startDate@yyyy/MM/dd,endDate@yyyy/MM/dd,artificialPerson,artificialIdcard,artificialTel,tel,postCode,address,gbCode,bedCount,dentalChairCount,mail,mnumber,fnumber
+序号,机构编码,上级机构编码,机构名称,机构类别代码,机构级别代码,经营性质代码,经济类型代码,注册资金,成立日期,撤销日期,法人代表,法人证件号,法人电话,机构电话,邮政编码,机构地址,所在乡镇,床位数,牙椅数,电子邮箱,男职工数,女职工数

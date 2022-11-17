@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+		"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+		"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation -->
+<tiles-definitions>
+	<!--base layout -->
+	<definition name="rhip.cdm.base" template="/WEB-INF/views/cdm/">
+		<put-attribute name="header" value="/" />
+		<put-attribute name="content" value="/" />
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.add" template="/WEB-INF/views/cdm/reportCard/add.jsp">
+	</definition>
+
+	<definition name="rhip.ehr.reportCard.tumorList" template="/WEB-INF/views/cdm/reportCard/tumorList.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.hospitaladd"
+				extends="rhip.ehr.layout.report">
+		<put-attribute name="content"
+					   value="/WEB-INF/views/cdm/reportCard/hospitaladd.jsp" />
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.hosRecordAdd"
+				extends="rhip.ehr.layout.report">
+		<put-attribute name="content"
+					   value="/WEB-INF/views/cdm/reportCard/hosRecordAdd.jsp" />
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.hospitaladderror"
+				extends="rhip.ehr.layout.report">
+		<put-attribute name="content"
+					   value="/WEB-INF/views/cdm/reportCard/hospitaladderror.jsp" />
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.hospitaltest"
+				extends="rhip.ehr.layout.report">
+		<put-attribute name="content"
+					   value="/WEB-INF/views/cdm/reportCard/hospitaltest.jsp" />
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.input"
+				template="/WEB-INF/views/cdm/reportCard/add_input.jsp">
+	</definition>
+	<definition name="rhip.cdm.base.reportCard.viewReport"
+				template="/WEB-INF/views/cdm/reportCard/view/main.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.appReport"
+				template="/WEB-INF/views/cdm/reportCard/app/main.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.view"
+				template="/WEB-INF/views/cdm/reportCard/view_list.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.viewList"
+				template="/WEB-INF/views/cdm/reportCard/list_datagrid.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.verify"
+				template="/WEB-INF/views/cdm/reportCard/verify_list.jsp">
+		<put-attribute name="list"
+					   value="/WEB-INF/views/cdm/reportCard/list_datagrid.jsp" />
+	</definition>
+
+	<definition name="rhip.cdm.base.reportCard.manage"
+				template="/WEB-INF/views/cdm/reportCard/manage_list.jsp">
+		<put-attribute name="list"
+					   value="/WEB-INF/views/cdm/reportCard/list_datagrid.jsp" />
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.healthPlan"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/list.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.healthCard"
+				template="/WEB-INF/views/cdm/standardization/healthCard/list.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.followup"
+				template="/WEB-INF/views/cdm/standardization/followup/list/list.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.followupList"
+				template="/WEB-INF/views/cdm/standardization/followup/list/followupResult.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.cancel"
+				template="/WEB-INF/views/cdm/standardization/cancel/list.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.diseaseResult"
+				template="/WEB-INF/views/cdm/standardization/healthCard/diseaseResult.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.planResult"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planResult.jsp">
+	</definition>
+
+	<definition name="rhip.cdm.base.standardization.cancelResult"
+				template="/WEB-INF/views/cdm/standardization/cancel/cancelResult.jsp">
+	</definition>
+
+	<!-- 高危人群 -->
+	<definition name="rhip.cdm.highRisk.highRiskPersonInfo"
+				template="/WEB-INF/views/cdm/highRisk/highRiskPersonInfo_search.jsp" />
+
+	<definition name="csws.cdm.highRisk.assessment"
+				template="/WEB-INF/views/cdm/highRisk/assessmentForm.jsp" />
+
+	<definition name="csws.cdm.highRisk.factorsinfo"
+				template="/WEB-INF/views/cdm/highRisk/riskFactorsCard.jsp" />
+
+	<definition name="rhip.cdm.highRisk.highRiskManagePlanInfo"
+				template="/WEB-INF/views/cdm/highRisk/highRiskManagePlan_search.jsp" />
+
+	<definition name="rhip.cdm.highRisk.addManagePlan"
+				template="/WEB-INF/views/cdm/highRisk/highriskManagePlan.jsp" />
+
+	<definition name="csws.cdm.highRisk.followUpHome"
+				template="/WEB-INF/views/cdm/highRisk/followUpPlan_search.jsp" />
+
+	<definition name="csws.cdm.highRisk.addFollowUp"
+				template="/WEB-INF/views/cdm/highRisk/highriskFollowUp.jsp" />
+
+	<definition name="rhip.cdm.highRisk.highRiskPersonInfoList"
+				template="/WEB-INF/views/cdm/highRisk/highRiskPersonInfo_list.jsp" />
+
+	<definition name="rhip.cdm.highRisk.highRiskManagePlanList"
+				template="/WEB-INF/views/cdm/highRisk/highRiskManagePlan_list.jsp" />
+
+	<definition name="rhip.cdm.highRisk.managePlanSearch"
+				template="/WEB-INF/views/cdm/highRisk/managePlanSearch.jsp" />
+
+	<definition name="rhip.cdm.highRisk.managePlanResult"
+				template="/WEB-INF/views/cdm/highRisk/managePlanResult.jsp" />
+
+	<definition name="rhip.cdm.highRisk.followUpPersonList"
+				template="/WEB-INF/views/cdm/highRisk/followUpPlan_list.jsp" />
+
+	<definition name="rhip.cdm.highRisk.loadFollowUpPlan"
+				template="/WEB-INF/views/cdm/highRisk/followUpPlanSearch.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.loadFollowUpPlanResult"
+				template="/WEB-INF/views/cdm/highRisk/followUpPlanResult.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.loadFollowConclusion"
+				template="/WEB-INF/views/cdm/highRisk/followUpConclusionSearch.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.loadFollowUpConclusionResult"
+				template="/WEB-INF/views/cdm/highRisk/followUpConclusionResult.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.preventiveManage"
+				template="/WEB-INF/views/cdm/highRisk/preventiveManage_search.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.preventiveManageList"
+				template="/WEB-INF/views/cdm/highRisk/preventiveManage_list.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.assessmentModel"
+				template="/WEB-INF/views/cdm/riskModel/assessmentModel.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk.preventionOfManageInfo"
+				template="/WEB-INF/views/cdm/highRisk/preventivePersonInfo.jsp"></definition>
+
+	<definition name="csws.cdm.highRisk.canceledFactorsInfo"
+				template="/WEB-INF/views/cdm/highRisk/canceledFactorsCard.jsp"></definition>
+	<!--人口数设置 -->
+	<definition name="rhip.cdm.populationSetup.search"
+				template="/WEB-INF/views/cdm/populationSet/populationSet_search.jsp"></definition>
+	<definition name="rhip.cdm.populationSetup.result"
+				template="/WEB-INF/views/cdm/populationSet/populationSet_result.jsp"></definition>
+	<!-- 管理卡 start -->
+	<definition name="rhip.cdm.base.standardization.add"
+				template="/WEB-INF/views/cdm/standardization/add/main.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.input"
+				template="/WEB-INF/views/cdm/standardization/input/main.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.view"
+				template="/WEB-INF/views/cdm/standardization/view/main.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.edit"
+				template="/WEB-INF/views/cdm/standardization/edit/main.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.rollback.selected.type"
+				template="/WEB-INF/views/cdm/standardization/healthCard/rollback.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.renew.selected.type"
+				template="/WEB-INF/views/cdm/standardization/cancel/renew.jsp"></definition>
+
+	<!-- 管理卡 end -->
+
+	<!-- 随访 start -->
+	<definition name="rhip.cdm.base.standardization.followup.view"
+				template="/WEB-INF/views/cdm/standardization/followup/main.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewHypertensionDetail"
+			template="/WEB-INF/views/cdm/standardization/followup/hbp/hbpFollowupInput.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.followup.viewDiabeticDetail"
+				template="/WEB-INF/views/cdm/standardization/followup/di/diabeticFollowupInput.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.followup.hypertensionList"
+				template="/WEB-INF/views/cdm/standardization/followup/hbp/hbpFollowup.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.followup.diabeticList"
+				template="/WEB-INF/views/cdm/standardization/followup/di/diabeticFollowup.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.followup.tumorMain"
+				template="/WEB-INF/views/cdm/standardization/followup/tumor/tumorMain.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewTumorPersonInfo"
+			template="/WEB-INF/views/cdm/standardization/followup/tumor/tumorPersonInfo.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewTumorFirstFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/tumor/tumorFirstFollowupInput.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewTumorLastFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/tumor/tumorLastFollowupInput.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.followup.tumorFollowupList"
+				template="/WEB-INF/views/cdm/standardization/followup/tumor/tumorFollowup.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.followup.viewTumorFollowup"
+				template="/WEB-INF/views/cdm/standardization/followup/tumor/tumorFollowupInput.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewStrokeNormalFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/stroke/normal.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewStrokeStandardFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/stroke/standard.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewStrokeStandardOtherFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/stroke/standardOther.jsp"></definition>
+
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewCoronaryNormalFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/coronary/normal.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewCoronaryStandardFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/coronary/standard.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.followup.viewCoronaryStandardOtherFollowup"
+			template="/WEB-INF/views/cdm/standardization/followup/coronary/standardOther.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.yshareSearch" template="/WEB-INF/views/cdm/standardization/followup/yshareSearch.jsp"/>
+	<definition name="rhip.cdm.base.standardization.ysharelist" template="/WEB-INF/views/cdm/standardization/followup/ysharelist.jsp"/>
+
+	<!-- 保健计划 start -->
+	<definition name="rhip.cdm.base.standardization.inputHbpPlanInfoList"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/hbpPlanInfoList.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputDiPlanInfoList"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/diPlanInfoList.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputMainPlan"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/mainPlan.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputHbpPlanForm"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/hbpPlanInfo.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputDiPlanForm"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/diPlanInfo.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputPlanInfoList"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planInfoList.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputPlanFollowupList"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planFollowupList.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputPlanList"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planYearList.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputPlanInfoTab"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planInfoTab.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.planSingleInfoList"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planSingleInfoList.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.planInfoTab"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/planInfoTab.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputHbpPlanViewForm"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/hbpPlanInfoView.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.inputDiPlanViewForm"
+				template="/WEB-INF/views/cdm/standardization/healthPlan/diPlanInfoView.jsp"></definition>
+
+	<!-- 保健计划 end -->
+	<definition name="rhip.cdm.base.standardization.followupCsList"
+				template="/WEB-INF/views/cdm/standardization/followup/standardizedFollowUp.jsp"></definition>
+
+	<!-- 统计报表start -->
+	<definition name="rhip.cdm.base.manageAnalysis.index"
+				template="/WEB-INF/views/cdm/report/cdmManageAnalysis/index.jsp"></definition>
+	<definition name="rhip.cdm.base.manageAnalysis.search"
+				template="/WEB-INF/views/cdm/report/cdmManageAnalysis/search.jsp"></definition>
+	<definition name="rhip.cdm.base.manageAnalysis.hbpList"
+				template="/WEB-INF/views/cdm/report/cdmManageAnalysis/hbpList.jsp"></definition>
+	<definition name="rhip.cdm.base.manageAnalysis.diList"
+				template="/WEB-INF/views/cdm/report/cdmManageAnalysis/diList.jsp"></definition>
+	<definition name="rhip.cdm.base.reportCard.repeat"
+				template="/WEB-INF/views/cdm/reportCard/delRepeatCard/repeat_list.jsp"></definition>
+	<definition name="rhip.cdm.base.reportCard.repeatResult"
+				template="/WEB-INF/views/cdm/reportCard/delRepeatCard/list_datagrid.jsp"></definition>
+
+
+	<!-- 慢病年报 -->
+	<definition name="rhip.cdm.base.report.cdYearReport"
+				template="/WEB-INF/views/cdm/report/yearReport/main.jsp"></definition>
+
+	<definition name="rhip.cdm.base.report.cdYearReportByGenderResult"
+				template="/WEB-INF/views/cdm/report/yearReport/cdGenderResult.jsp"></definition>
+	<definition name="rhip.cdm.base.report.cdYearReportByAgeResult"
+				template="/WEB-INF/views/cdm/report/yearReport/cdAgeResult.jsp"></definition>
+
+	<!-- 慢病年报 end -->
+
+	<!-- 肿瘤年报 -->
+	<definition name="rhip.cdm.base.report.tumorYearReport"
+				template="/WEB-INF/views/cdm/report/tumorYearReport/main.jsp"></definition>
+
+	<definition name="rhip.cdm.base.report.tumorYearReportByGenderResult"
+				template="/WEB-INF/views/cdm/report/tumorYearReport/tumorGenderResult.jsp"></definition>
+	<definition name="rhip.cdm.base.report.tumorYearReportByAgeResult"
+				template="/WEB-INF/views/cdm/report/tumorYearReport/tumorAgeResult.jsp"></definition>
+
+	<definition name="rhip.cdm.base.report.tumorDeathYearReportByGenderResult"
+				template="/WEB-INF/views/cdm/report/tumorYearReport/tumorDeathGenderResult.jsp"></definition>
+	<definition name="rhip.cdm.base.report.tumorDeathYearReportByAgeResult"
+				template="/WEB-INF/views/cdm/report/tumorYearReport/tumorDeathAgeResult.jsp"></definition>
+
+	<!-- 肿瘤年报 end -->
+
+	<!-- 慢病月报 -->
+	<definition name="rhip.cdm.base.report.cdMonthReportResult"
+				template="/WEB-INF/views/cdm/report/workStatistics/cdMonthSeason/cdMonthResult.jsp"></definition>
+	<!-- 慢病月报 end -->
+
+	<!-- 肿瘤月报 -->
+	<definition name="rhip.cdm.base.report.tumorMonthReportResult"
+				template="/WEB-INF/views/cdm/report/workStatistics/tumorMonth/result.jsp"></definition>
+	<!-- 肿瘤月报 end -->
+
+	<!-- 慢病季报 -->
+	<definition name="rhip.cdm.base.report.cdSesonReportResult"
+				template="/WEB-INF/views/cdm/report/workStatistics/cdSeason/cdSeasonResult.jsp"></definition>
+	<!-- 慢病季报 end -->
+
+	<!-- 慢病季报 -->
+	<definition name="rhip.cdm.base.report.tumorSesonReportResult"
+				template="/WEB-INF/views/cdm/report/workStatistics/tumorSeason/result.jsp"></definition>
+	<!-- 慢病季报 end -->
+
+
+
+	<definition name="rhip.cdm.base.report.cdControl"
+				template="/WEB-INF/views/cdm/report/cdControl/main.jsp"></definition>
+
+	<definition name="rhip.cdm.base.report.workStatistics"
+				template="/WEB-INF/views/cdm/report/workStatistics/main.jsp"></definition>
+	<!--病理统计 -->
+	<definition name="rhip.cdm.base.report.tumorPathology"
+				template="/WEB-INF/views/cdm/report/workStatistics/tumorPathologyResult.jsp"></definition>
+	<!--随访与纳入统计 -->
+	<definition name="rhip.cdm.base.report.manageAndFollowup"
+				template="/WEB-INF/views/cdm/report/workStatistics/manageAndFollowupResult.jsp"></definition>
+	<!--高血压管理月报表 -->
+	<definition name="rhip.cdm.base.report.hbpManageMonthReport"
+				template="/WEB-INF/views/cdm/report/cdControl/hbpManageMonthReport/result.jsp"></definition>
+	<!-- 统计报表end -->
+
+	<!-- 慢病体检 start -->
+	<definition name="rhip.cdm.base.standardization.phyExamination.listresult"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/datagrid.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.list"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/list.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.view"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/view.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.externalView"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/externalView.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.edit"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/edit.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.loadPrePhy"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/loadPrePhy.jsp"></definition>			
+	<definition name="rhip.cdm.base.standardization.phyExamination.add"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/add.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.addPhy"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/addPhy.jsp"></definition>
+	<definition name="rhip.cdm.base.standardization.phyExamination.perphylist"
+				template="/WEB-INF/views/cdm/standardization/phyExamination/personPhyExamList.jsp"></definition>
+	<definition
+			name="rhip.cdm.base.standardization.phyExamination.perphylistresult"
+			template="/WEB-INF/views/cdm/standardization/phyExamination/personPhyDataGrid.jsp"></definition>
+	<!-- 慢病体检 end -->
+
+	<definition name="rhip.cdm.base.standardization.followup.add" extends="rhip.ehr.layout.report">
+		<put-attribute name="content" value="/WEB-INF/views/cdm/standardization/followup/main_requrie.jsp" />
+	</definition>
+
+	<!--慢病135随访（高危专项管理-随访）-->
+	<definition name="rhip.cdm.base.standardization.135followup.add" extends="rhip.ehr.layout.report">
+		<put-attribute name="content" value="/WEB-INF/views/cdm/highRisk135/followup/main.jsp" />
+	</definition>
+
+	<!--高危人群管理 start-->
+
+	<!--高危人群筛查标准-->
+	<definition name="rhip.cdm.highRisk135.standard" template="/WEB-INF/views/cdm/highRisk135/filter/standard.jsp"></definition>
+
+	<!--高危人群筛查结果-->
+	<definition name="rhip.cdm.highRisk135.filterResult.search" template="/WEB-INF/views/cdm/highRisk135/filter/search.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.filterResult.list" template="/WEB-INF/views/cdm/highRisk135/filter/list.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk135.question.search" template="/WEB-INF/views/cdm/highRisk135/question/search.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.question.questionList" template="/WEB-INF/views/cdm/highRisk135/question/questionList.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.question.editQuestion" template="/WEB-INF/views/cdm/highRisk135/question/editQuestion.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.question.lastQuestionList" template="/WEB-INF/views/cdm/highRisk135/question/lastQuestionList.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.question.editLastQuestion" template="/WEB-INF/views/cdm/highRisk135/question/editLastQuestion.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.question.otherQuestion" template="/WEB-INF/views/cdm/highRisk135/question/otherQuestionsList.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.mgmt.search" template="/WEB-INF/views/cdm/highRisk135/mgmt/search.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.mgmt.list" template="/WEB-INF/views/cdm/highRisk135/mgmt/list.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.visit.search" template="/WEB-INF/views/cdm/highRisk135/visit/search.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.visit.list" template="/WEB-INF/views/cdm/highRisk135/visit/list.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.evaluate.search" template="/WEB-INF/views/cdm/highRisk135/evaluate/search.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.evaluate.list" template="/WEB-INF/views/cdm/highRisk135/evaluate/list.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.evaluate.editEvaluateList" template="/WEB-INF/views/cdm/highRisk135/evaluate/evaluateList.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.evaluate.editEvaluate" template="/WEB-INF/views/cdm/highRisk135/evaluate/editEvaluate.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.evaluate.oldEditEvaluate" template="/WEB-INF/views/cdm/highRisk135/evaluate/oldEditEvaluate.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.mgmt.editCover" template="/WEB-INF/views/cdm/highRisk135/mgmt/editCover.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.followup.main" template="/WEB-INF/views/cdm/highRisk135/followup/main.jsp"></definition>
+	<definition name="rhip.cdm.highRisk135.followup.editFollowup" template="/WEB-INF/views/cdm/highRisk135/followup/editFollowup.jsp"></definition>
+
+	<definition name="rhip.cdm.highRisk135.print.edit" template="/WEB-INF/views/cdm/highRisk135/mgmt/print_edit.jsp"></definition>
+
+	<!--高危人群管理 end-->
+	<!--问卷调查-->
+	<definition name="rhip.cdm.questionnaire.answer" template="/WEB-INF/views/cdm/questionnaire/answer.jsp"></definition>
+	<!--问卷统计-->
+	<definition name="rhip.cdm.questionnaire.result" template="/WEB-INF/views/cdm/questionnaire/result.jsp"></definition>
+
+	<!-- 外部管理卡 -->
+	<definition name="rhip.cdm.base.standardization.hmCard.add" extends="rhip.ehr.layout.report">
+		<put-attribute name="content" value="/WEB-INF/views/cdm/standardization/his/main.jsp" />
+	</definition>
+
+	<!-- 外部保健计划 -->
+	<definition name="rhip.cdm.base.standardization.planInfoTab.add" extends="rhip.ehr.layout.report">
+		<put-attribute name="content" value="/WEB-INF/views/cdm/standardization/healthPlan/planInfoTab.jsp"/>
+	</definition>
+
+	<!--慢病随访统计-->
+	<definition name="rhip.cdm.statistics.followup.search" template="/WEB-INF/views/cdm/standardization/followup/statistics/search.jsp"></definition>
+	<definition name="rhip.cdm.statistics.followup.list" template="/WEB-INF/views/cdm/standardization/followup/statistics/list.jsp"></definition>
+
+	<!--慢病納入统计-->
+	<definition name="rhip.cdm.statistics.manager.search" template="/WEB-INF/views/cdm/standardization/healthCard/statistics/search.jsp"></definition>
+	<definition name="rhip.cdm.statistics.manager.list" template="/WEB-INF/views/cdm/standardization/healthCard/statistics/list.jsp"></definition>
+
+	<!--慢病体检统计-->
+	<definition name="rhip.cdm.statistics.phy.search" template="/WEB-INF/views/cdm/standardization/phyExamination/statistics/search.jsp"></definition>
+	<definition name="rhip.cdm.statistics.phy.list" template="/WEB-INF/views/cdm/standardization/phyExamination/statistics/list.jsp"></definition>
+
+	<definition name="rhip.cdm.phy.census.search" template="/WEB-INF/views/cdm/standardization/census/search.jsp"></definition>
+	<definition name="rhip.cdm.phy.census.list" template="/WEB-INF/views/cdm/standardization/census/list.jsp"></definition>
+</tiles-definitions>

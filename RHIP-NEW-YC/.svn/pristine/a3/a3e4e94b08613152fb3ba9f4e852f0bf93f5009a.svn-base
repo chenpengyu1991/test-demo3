@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+			<!-- 医院编号 --身份证编码，姓名，查询码不能同时为空-->
+			<hospitalCode>123123</hospitalCode>
+			<!-- 身份证号 -->
+			<idcard>320583198402241016</idcard>
+			<!-- 姓名-->
+			<name>张桑拿</name>
+			<!--查询码 -->
+			<searchCode>121232</searchCode>
+			<!--开始日期 -->
+			<startRequestDate>2014/01/01</startRequestDate>
+			<!--结束日期 -->
+			<endRequestDate>2014/02/02</endRequestDate>
+			<!--预约状态(01(尚未到诊)、02(已到诊)、03(逾期未到诊)、04(取消)、05(停诊)) -->
+			<reserverStauts></reserverStauts>
+</root>

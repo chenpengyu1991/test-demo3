@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+		<groupId>com.founder.mdm</groupId>
+		<artifactId>mdm</artifactId>
+		<version>1.0.1</version>
+      <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>mdm-surface</artifactId>
+  <packaging>jar</packaging>
+  <name>mdm surface</name>
+  <url>http://www.founder.com</url>
+
+	
+
+	<dependencies>
+		<dependency>
+			<groupId>com.founder.mdm</groupId>
+			<artifactId>mdm-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>2.2.2</version>
+		</dependency>
+	</dependencies>
+</project>

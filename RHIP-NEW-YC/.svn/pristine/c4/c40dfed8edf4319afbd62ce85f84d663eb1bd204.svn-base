@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- 查询指定科室指定医生信息 -->
+			<!-- 医院编号 -->
+			<hospitalCode>123123</hospitalCode>
+			<!-- 科室类型 -->
+			<clinicType>1</clinicType>
+			<!-- 部门编号 -->
+			<deptSn>1233</deptSn>
+			<!-- 开始时间 -->
+			<startDate>2014/11/01</startDate>
+			<!-- 结束时间 -->
+			<endDate>2014/11/07</endDate>
+</root>

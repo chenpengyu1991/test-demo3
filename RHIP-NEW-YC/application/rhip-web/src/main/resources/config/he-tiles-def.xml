@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+    <!--base layout  -->
+    <definition name="rhip.he.base" template="/WEB-INF/views/he/">
+        <put-attribute name="header" value="/" />
+        <put-attribute name="content" value="/" />
+    </definition>
+
+
+    <!-- 健康教育资源 -->
+    <definition name="rhip.he.health.education.resource.detail" template="/WEB-INF/views/he/healtheducationresource/detail.jsp">
+    </definition>
+    <definition name="rhip.he.health.education.resource.list" template="/WEB-INF/views/he/healtheducationresource/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.resource.edit" template="/WEB-INF/views/he/healtheducationresource/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.resource.search" template="/WEB-INF/views/he/healtheducationresource/search.jsp">
+    </definition>
+
+    <!-- add by Kevin Ro 2018-07-16 start -->
+    <definition name="rhip.he.health.education.resource.media.search" template="/WEB-INF/views/he/healtheducationresource/mediaSearch.jsp"></definition>
+    <definition name="rhip.he.health.education.resource.media.list" template="/WEB-INF/views/he/healtheducationresource/mediaList.jsp"></definition>
+    <definition name="rhip.he.health.education.resource.media.edit" template="/WEB-INF/views/he/healtheducationresource/mediaEdit.jsp"></definition>
+    <definition name="rhip.he.health.education.resource.media.view" template="/WEB-INF/views/he/healtheducationresource/mediaView.jsp"></definition>
+    <!-- add by Kevin Ro 2018-07-16 end -->
+
+    <definition name="rhip.he.health.quality.eval" template="/WEB-INF/views/he/healtheducationresource/eval.jsp">
+    </definition>
+
+    <!-- 健康教育活动 -->
+    <definition name="rhip.he.health.education.active.search" template="/WEB-INF/views/he/active/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.active.list" template="/WEB-INF/views/he/active/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.active.edit" template="/WEB-INF/views/he/active/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.active.detail" template="/WEB-INF/views/he/active/detail.jsp">
+    </definition>
+
+    <!-- 宣传阵地使用、健康资料发放 -->
+    <definition name="rhip.he.health.education.record.search" template="/WEB-INF/views/he/record/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.record.list" template="/WEB-INF/views/he/record/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.record.edit" template="/WEB-INF/views/he/record/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.record.detail" template="/WEB-INF/views/he/record/detail.jsp">
+    </definition>
+
+    <!-- 健康督查 -->
+    <definition name="rhip.he.health.education.supervisor.search" template="/WEB-INF/views/he/supervisor/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.supervisor.list" template="/WEB-INF/views/he/supervisor/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.supervisor.edit" template="/WEB-INF/views/he/supervisor/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.supervisor.detail" template="/WEB-INF/views/he/supervisor/detail.jsp">
+    </definition>
+
+    <!-- 健康教育处方 -->
+    <definition name="rhip.he.health.education.prescription.search" template="/WEB-INF/views/he/prescription/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.prescription.list" template="/WEB-INF/views/he/prescription/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.prescription.edit" template="/WEB-INF/views/he/prescription/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.prescription.detail" template="/WEB-INF/views/he/prescription/detail.jsp">
+    </definition>
+    <!-- 门户健康宣传 -->
+    <definition name="rhip.he.promorion.search" template="/WEB-INF/views/he/promorion/search.jsp">
+    </definition>
+    <definition name="rhip.he.promorion.list" template="/WEB-INF/views/he/promorion/list.jsp">
+    </definition>
+    <definition name="rhip.he.promorion.edit" template="/WEB-INF/views/he/promorion/edit.jsp">
+    </definition>
+    <definition name="rhip.he.promorion.detail" template="/WEB-INF/views/he/promorion/hpdetail.jsp">
+    </definition>
+    <!-- 健康促进单位 -->
+    <definition name="rhip.he.health.education.promoteunit.search" template="/WEB-INF/views/he/promoteunit/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.promoteunit.list" template="/WEB-INF/views/he/promoteunit/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.promoteunit.edit" template="/WEB-INF/views/he/promoteunit/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.promoteunit.detail" template="/WEB-INF/views/he/promoteunit/detail.jsp">
+    </definition>
+    <!-- 个体化健康教育 -->
+    <definition name="rhip.he.health.education.individual.search" template="/WEB-INF/views/he/individual/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.health.education.individual.list" template="/WEB-INF/views/he/individual/list.jsp">
+    </definition>
+    
+    <definition name="rhip.he.health.education.individual.edit" template="/WEB-INF/views/he/individual/edit.jsp">
+    </definition>
+    
+    <definition name="rhip.he.health.education.individual.detail" template="/WEB-INF/views/he/individual/view.jsp">
+    </definition>
+
+    <!-- 年度工作计划 -->
+    <definition name="rhip.he.work.plan.search" template="/WEB-INF/views/he/plan/search.jsp">
+    </definition>
+
+    <definition name="rhip.he.work.plan.list" template="/WEB-INF/views/he/plan/list.jsp">
+    </definition>
+
+    <definition name="rhip.he.work.plan.edit" template="/WEB-INF/views/he/plan/edit.jsp">
+    </definition>
+
+    <definition name="rhip.he.work.plan.detail" template="/WEB-INF/views/he/plan/detail.jsp">
+    </definition>
+    
+    <!--稿件提供-->
+    <definition name="rhip.he.copy.search" template="/WEB-INF/views/he/copy/search.jsp">
+    </definition>
+    <definition name="rhip.he.copy.list" template="/WEB-INF/views/he/copy/list.jsp">
+    </definition>
+    <definition name="rhip.he.copy.edit" template="/WEB-INF/views/he/copy/edit.jsp">
+    </definition>
+    <definition name="rhip.he.copy.detail" template="/WEB-INF/views/he/copy/detail.jsp">
+    </definition>
+    
+</tiles-definitions>

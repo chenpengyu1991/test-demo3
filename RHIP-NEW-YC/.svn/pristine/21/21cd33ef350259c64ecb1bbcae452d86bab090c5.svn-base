@@ -1,0 +1,14 @@
+.scroll-div{
+	 overflow: scroll;
+}
+.birthDay{
+	width: 725px;
+	background-image: url("../../../../images/birthday.png");
+	height: 490px;
+	position: relative;
+}
+
+.birthInfo{
+	position: absolute;
+	font-weight: bold;
+}

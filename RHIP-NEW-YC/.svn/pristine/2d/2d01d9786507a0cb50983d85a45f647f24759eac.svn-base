@@ -1,0 +1,87 @@
+html{
+	font-family: Tahoma, Helvetica, Arial, '宋体', sans-serif;
+}
+.printtrcss{
+	 height:40px;
+	 vertical-align: bottom;
+}
+
+.postcontent {
+    padding: 0 10px 30px 10px;
+   
+}
+.postcontent span {
+    font-weight: normal;
+}
+.posttable {
+    table-layout: fixed;
+}
+.posttable th, .posttable td {
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    table-layout: fixed;
+}
+.posttable td {
+    vertical-align: bottom;
+}
+.postcontent td input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 75%;
+    background-color: #f1f8f8;
+}
+
+.posttable th {
+    vertical-align: bottom;
+}
+.postcontent td select {
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #f1f8f8;
+}
+.postcontent th {
+    border-right: 1px solid #A9C3D0;
+    text-align: right;
+    font-weight: normal;
+}
+s.pop_No {
+    width: 600px;
+}
+s.pop_No {
+    text-decoration: none;
+    float: right;
+    margin-bottom: 20px;
+}
+s.pop_No span {
+    border: 1px solid #CCC;
+    margin: 5px 2px 0;
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    padding: 0px 0px 1px 2px;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+s.pop_No span.text {
+    border: none;
+    width: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    word-break: break-all;
+    background: #fff;
+    table-layout: inherit;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12px;
+}
+.hidcla{
+	display: none;
+}
+.hidediv {
+    display: none;
+}
+

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="rhip-web-1.0.1">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="fasf-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fasf-core/fasf-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fasf-aop-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fasf-aop/fasf-aop">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fasf-cache-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fasf-cache/fasf-cache">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fasf-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fasf-repository/fasf-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fasf-web-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fasf-web/fasf-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fasf-security-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fasf-security/fasf-security">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="elb-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/elb-core/elb-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="elb-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/elb-repository/elb-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="elb-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/elb-service/elb-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehr-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ehr-core/ehr-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mdm-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mdm-core/mdm-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehr-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ehr-service/ehr-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehr-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ehr-repository/ehr-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ph-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ph-core/ph-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ph-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ph-service/ph-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ph-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ph-repository/ph-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="idm-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/idm-core/idm-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="idm-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/idm-service/idm-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cdm-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/cdm-core/cdm-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cdm-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/cdm-service/cdm-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hm-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hm-core/hm-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hm-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hm-service/hm-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="he-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/he-core/he-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="he-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/he-service/he-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lhportal-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lhportal-core/lhportal-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lhportal-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lhportal-service/lhportal-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lhportal-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lhportal-repository/lhportal-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ep-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ep-core/ep-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ep-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ep-service/ep-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mhm-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mhm-core/mhm-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mhm-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mhm-service/mhm-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sr-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sr-core/sr-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sr-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sr-service/sr-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="da-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/da-core/da-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="da-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/da-service/da-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rhip-mapper-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/rhip-mapper/rhip-mapper">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ech-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ech-service/ech-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ech-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ech-core/ech-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ncp-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ncp-core/ncp-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ncp-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ncp-service/ncp-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ncp-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ncp-repository/ncp-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="im-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/im-core/im-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="im-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/im-service/im-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="im-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/im-repository/im-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fds-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fds-core/fds-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fds-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fds-service/fds-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fds-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fds-repository/fds-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mdm-surface-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mdm-surface/mdm-surface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mdm-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mdm-service/mdm-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mdm-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mdm-repository/mdm-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hsa-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hsa-core/hsa-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hsa-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hsa-service/hsa-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ihm-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ihm-service/ihm-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ihm-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ihm-core/ihm-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="scheduling-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/scheduling-core/scheduling-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="scheduling-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/scheduling-service/scheduling-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="scheduling-repository-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/scheduling-repository/scheduling-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="finance-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/finance-core/finance-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="finance-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/finance-service/finance-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whch-core-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/whch-core/whch-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whch-service-1.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/whch-service/whch-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="rhip-web"/>
+        <property name="java-output-path" value="/rhip-web/target/classes"/>
+    </wb-module>
+</project-modules>

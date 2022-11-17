@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+<!--base layout  -->
+	<definition name="rhip.hm.base" template="/WEB-INF/views/hm/">
+		  <put-attribute name="header" value="/" />
+		  <put-attribute name="content" value="/" />
+    </definition>
+    
+	<definition name="com.founder.rhip.hm.physicalExamRecord.search" template="/WEB-INF/views/hm/verify/search.jsp">
+    </definition>
+    
+	<definition name="com.founder.rhip.hm.physicalExamRecord.list" template="/WEB-INF/views/hm/verify/list.jsp">
+    </definition>
+	
+	<!-- 进度统计 -->
+	<definition name="rhip.hm.progress.search" template="/WEB-INF/views/hm/progress/search.jsp">
+	</definition>
+	
+	<definition name="rhip.hm.progress.list" template="/WEB-INF/views/hm/progress/list.jsp">
+	</definition>
+
+	<!-- 健康管理统计分析 -->
+	<definition name="rhip.hm.statistics.search" template="/WEB-INF/views/hm/statistics/search.jsp">
+	</definition>
+	
+	<definition name="rhip.hm.statistics.list" template="/WEB-INF/views/hm/statistics/list.jsp">
+	</definition>
+	
+	<!-- health manage -->
+	<definition name="com.founder.rhip.hm.manage.search" template="/WEB-INF/views/hm/manage/search.jsp"/>
+
+	<definition name="com.founder.rhip.hm.manage.list" template="/WEB-INF/views/hm/manage/list.jsp"/>
+
+	<definition name="com.founder.rhip.hm.manage.tableSearch" template="/WEB-INF/views/hm/manage/tableSearch.jsp"/>
+
+	<definition name="com.founder.rhip.hm.manage.tableList" template="/WEB-INF/views/hm/manage/tableList.jsp"/>
+
+	<definition name="com.founder.rhip.hm.manage.physicalExamination" template="/WEB-INF/views/hm/manage/physicalExamination.jsp"/>
+
+	<definition name="com.founder.rhip.hm.manage.addPhy" template="/WEB-INF/views/hm/manage/addPhy.jsp"/>
+
+	<definition name="com.founder.rhip.hm.manage.view" template="/WEB-INF/views/hm/manage/view.jsp"/>
+	<definition name="com.founder.rhip.hm.manage.perphylist" template="/WEB-INF/views/hm/manage/personPhyExamList.jsp"/>
+	<definition name="com.founder.rhip.hm.manage.perphylistresult" template="/WEB-INF/views/hm/manage/personPhyDataGrid.jsp"/>
+	<definition name="com.founder.rhip.hm.manage.loadPrePhy" template="/WEB-INF/views/hm/manage/loadPrePhy.jsp"/>
+
+	<!-- 学生体检 -->
+	<definition name="com.founder.rhip.hm.studentExam.search" template="/WEB-INF/views/hm/studentExam/search.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.list" template="/WEB-INF/views/hm/studentExam/list.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.import" template="/WEB-INF/views/hm/studentExam/import.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.reportSearch" template="/WEB-INF/views/hm/studentExam/reportSearch.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.report" template="/WEB-INF/views/hm/studentExam/report.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.editExamReport" template="/WEB-INF/views/hm/studentExam/editExamReport.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.viewStudentExam" template="/WEB-INF/views/hm/studentExam/viewStudentExam.jsp"/>
+
+	<definition name="com.founder.rhip.hm.studentExam.printStudentExam" extends="rhip.ehr.print.layout">
+		<put-attribute name="printContent" value="/WEB-INF/views/hm/studentExam/printStudentExam.jsp"/>
+	</definition>
+	
+	<definition name="com.founder.rhip.hm.studentExam.schoolSearch" template="/WEB-INF/views/hm/studentExam/schoolSearch.jsp"/>
+	
+	<definition name="com.founder.rhip.hm.studentExam.schoolList" template="/WEB-INF/views/hm/studentExam/schoolList.jsp"/>
+	
+	<definition name="com.founder.rhip.hm.studentExam.schoolInfo" template="/WEB-INF/views/hm/studentExam/schoolInfo.jsp"/>
+	
+	<definition name="com.founder.rhip.hm.studentExam.schoolInfoEdit" template="/WEB-INF/views/hm/studentExam/schoolInfoEdit.jsp"/>
+	
+	<definition name="com.founder.rhip.hm.studentExam.studentSearch" template="/WEB-INF/views/hm/studentExam/studentSearch.jsp"/>
+	
+	<definition name="com.founder.rhip.hm.studentExam.studentList" template="/WEB-INF/views/hm/studentExam/studentList.jsp"/>
+
+	<!-- 学生体检进度统计 -->
+	<definition name="com.founder.rhip.hm.studentExam.progressSearch" template="/WEB-INF/views/hm/studentExam/progressSearch.jsp"></definition>
+	<definition name="com.founder.rhip.hm.studentExam.progressList" template="/WEB-INF/views/hm/studentExam/progressList.jsp"></definition>
+	
+	<!-- 窝沟封闭 -->
+	<definition name="com.founder.rhip.hm.fissureSealant.search" template="/WEB-INF/views/hm/fissureSealant/search.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.list" template="/WEB-INF/views/hm/fissureSealant/list.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.reportSearch" template="/WEB-INF/views/hm/fissureSealant/reportSearch.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.report" template="/WEB-INF/views/hm/fissureSealant/report.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.import" template="/WEB-INF/views/hm/fissureSealant/import.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.edit" template="/WEB-INF/views/hm/fissureSealant/infoEdit.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.view" template="/WEB-INF/views/hm/fissureSealant/infoView.jsp"/>
+	<definition name="com.founder.rhip.hm.fissureSealant.print" extends="rhip.ehr.print.layout">
+		<put-attribute name="printContent" value="/WEB-INF/views/hm/fissureSealant/infoView.jsp"/>
+	</definition>
+
+	<!--&lt;!&ndash; test &ndash;&gt;-->
+	<!--<definition name="com.founder.rhip.hm.manage.upload" template="/WEB-INF/views/hm/manage/upload.jsp"/>-->
+</tiles-definitions>

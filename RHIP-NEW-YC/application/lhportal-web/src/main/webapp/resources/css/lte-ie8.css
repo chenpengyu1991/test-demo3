@@ -1,0 +1,268 @@
+/* 适用于ie8以下浏览器 */
+.top_container {
+    background: url("../images/bodytopbgline.png") repeat-x scroll left top !important;
+    height: 36px;
+    text-align: center;
+    width: 100%;
+    font-size:13px;
+}
+.detailContent1 {
+    font-family: "宋体" !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+	text-align:left;
+	float:left;
+}
+.jkdaSub .jbxx {
+	padding-top:17px;
+	height:35px;
+}
+.jkdaSub .ylhd {
+	height:35px;
+}
+.jkdaSub .fnbj {
+	height:38px;
+}
+.jkdaSub .etbj {
+	height:38px;
+}
+.jkdaSub .jbgl {
+	height:30px;
+}
+
+.zcBg_Title .jcjy {
+	padding-top:25px;
+	margin-left:16px;
+}
+.zcBg_Title .zxzx {
+	margin-left:16px;
+	height:80px;
+}
+.zcBg_Title .zlxz {
+	margin-left:16px;
+	height:90px;
+}
+.zcBg_Title .tnbysjs {
+	margin-left:5px;
+}
+.zcBg_Title .tzzc {
+	height:80px;
+	margin-left:16px;
+}
+.zcBg_Title .klljs {
+	height:80px;
+	margin-left:16px;
+}
+
+.contentsBottom .pagination {
+    padding: 0px;
+}
+
+.contentsBottom .pagination p.left {
+    float: left;
+    margin-left: 30px;
+    height: 22px;
+    line-height: 24px;
+    font-size: 13px;
+    color:#2f2f2f;
+}
+
+.pagination p.right {
+    float: right;
+   	margin-left: 230px;
+    height: 22px;
+    line-height: 24px;
+    color:#2f2f2f;
+}
+
+* html .pagination p.right {
+    float: right;
+    height: 20px;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-right: 5px;
+    color:#2f2f2f;
+}
+
+* html .pagination font {
+	font-size: 12px;
+	vertical-align: top;
+}
+
+*+html .pagination font {
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.pagination p.right img {
+    margin: 0px 2px -2px 2px;
+}
+
+* html .pagination p.right img {
+    margin: 0px 2px -2px 2px;
+}
+*+html .pagination p.right img {
+    margin: 0px 2px -2px 2px;
+}
+.accountInfoBg .light1 {
+    height: 35px;
+    width: 120px;
+    line-height: 35px;
+	/* position: absolute; */ 
+	margin-top: 40px; 
+	margin-left: 75px;
+	font-size:15px;
+	background: #0076bf none repeat scroll 0 0;
+    color: #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.accountInfoBg .light2 {
+	height: 35px;
+    width: 120px;
+    line-height: 35px;
+	/* position: absolute; */ 
+	margin-top: 40px; 
+	margin-left: 280px;
+	font-size:15px;
+	background: #0076bf none repeat scroll 0 0;
+    color: #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.accountInfoBg .light3 {
+	height: 35px;
+    width: 120px;
+    line-height: 35px;
+	/* position: absolute; */ 
+	margin-top: 40px; 
+	margin-left: 480px;
+	font-size:15px;
+	background: #0076bf none repeat scroll 0 0;
+    color: #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.accountInfoBg .dark1 {
+	height: 35px;
+    width: 120px;
+    line-height: 35px;
+	/* position: absolute; */ 
+	margin-top: 40px; 
+	margin-left: 75px;
+	font-size:15px;
+	background: #858585 none repeat scroll 0 0;
+    color: #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.accountInfoBg .dark2 {
+	height: 35px;
+    width: 120px;
+    line-height: 35px;
+	/* position: absolute; */ 
+	margin-top: 40px; 
+	margin-left: 80px;
+	font-size:15px;
+	background: #858585 none repeat scroll 0 0;
+    color: #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.accountInfoBg .dark3 {
+	height: 35px;
+    width: 120px;
+    line-height: 35px;
+	/* position: absolute; */ 
+	margin-top: 40px; 
+	margin-left: 80px;
+	font-size:15px;
+	background: #858585 none repeat scroll 0 0;
+    color: #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.accountInfoBg .registerArea span {
+	padding-top:6px;
+}
+.accountInfoBg .registerArea .register-input {
+	background: #ebebeb none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 8px;
+    margin-left: 10px;
+    width: 190px;
+}
+.accountInfoBg .registerArea .register-input:focus {
+	border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.accountInfoBg .modifyBg .register-input {
+	background: #ebebeb none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 8px;
+    margin-left: 10px;
+    width: 190px;
+}
+.accountInfoBg .modifyBg .register-input:focus {
+	border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.accountInfoBg .modifyBg ul li span {
+	margin-top:6px;
+	padding-top:6px;
+	text-align:left;
+	font-size:14px;
+	color:red;
+	position:absolute;
+}
+.accountInfoBg .findPwdBg .register-input {
+	background: #ebebeb none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 8px;
+    margin-left: 10px;
+    width: 190px;
+}
+.accountInfoBg .findPwdBg .register-input:focus {
+	border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.accountInfoBg .findPwdBg ul li span {
+	margin-top:6px;
+	padding-top:6px;
+	text-align:left;
+	font-size:14px;
+	color:red;
+	position:absolute;
+}
+.hospitalInfo_lists .hospital-introduces .hospital-feature .feature-right {
+	margin-top:25px;
+	padding-top:10px;
+    float:right;
+}
+.hospitalInfo_lists .hospital-introduces tr:last-child .server i.icon-order {
+    background-image: url("../../../images/icon-doc.png") repeat-x;
+    background-size: 100% auto;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 3px;
+    width: 16px;
+}

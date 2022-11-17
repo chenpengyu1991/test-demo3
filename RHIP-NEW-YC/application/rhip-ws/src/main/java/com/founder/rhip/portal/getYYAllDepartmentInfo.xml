@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<!-- 查询医院科室 -->
+			<!-- 医院编号 -->
+			<hospitalCode>123123</hospitalCode>
+			<!-- 科室类型 -->
+			<clinicType>1</clinicType>
+</root>

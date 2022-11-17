@@ -1,0 +1,206 @@
+.doverlay {
+	position:absolute;
+	left:0;
+	top:0;
+	background: #aaaaaa;
+	opacity: .30;
+	filter: Alpha(Opacity = 30);
+}
+
+.bmiDialog{
+	position:absolute;
+	font-size: 12px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.bmiDialog .bmiDialogtitle{
+	 background:url(images/bmi_bg.png) no-repeat;
+	 height: 50px;
+     width: 100%;
+}
+
+.bmiDialog .bmiDialogtitle i{
+	display:block;
+	padding-left:5px;
+	font: 20px/50px "微软雅黑";
+    text-indent: 16px;
+	font-style:normal
+}
+
+.bmiDialog .bmiDialogtitle s{
+	background: transparent url("images/alert_close.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.bmiDialog .bmiDialogcontentDiv{
+	background: url("images/bg_repeat.jpg") repeat-y scroll 0 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.regScheduleTime{
+	position:absolute;
+	font-size: 12px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.regScheduleTime .regScheduleTimetitle{
+	 background:url(images/pop_hearder_bg.gif) repeat-x scroll left top;
+	 height: 32px;
+     width: 100%;
+     line-height:32px;   
+     vertical-align:middle;
+}
+
+.regScheduleTime .regScheduleTimetitle i{
+	display:block;
+	padding-left:5px;
+	font: 15px "微软雅黑";
+    text-indent: 16px;
+	font-style:normal;
+	padding-top:6px;
+}
+
+.regScheduleTime .regScheduleTimetitle s{
+	background: transparent url("images/c2.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.regScheduleTime .regScheduleTimecontentDiv{
+	background-color:#FFFFFF;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.regScheduleTime .reserve-tip{
+	margin: 15px auto;
+    height: 56px;
+    width: 520px;
+    border: 1px dashed #61BDEF;
+    background-color: #EAF7FD;
+}
+
+.regScheduleTime .tip-img{
+    margin: 12px 10px auto 10px;
+	float: left;
+    height: 30px;
+    width: 30px;
+	background:url(images/reserve_tip_bg.png)  no-repeat scroll 0 0;
+}
+
+.regScheduleTime .tip-content{
+    margin: 5px auto auto auto;
+    width: 470px;
+    float: left;
+    line-height: 22px;
+    color: #525261;
+}
+.serviceLisDetail{
+	position:absolute;
+	font-size: 12px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.serviceLisDetail .serviceLisDetailtitle{
+	 background:url(images/pop_hearder_bg.gif) repeat-x scroll left top;
+	 height: 32px;
+     width: 100%;
+     line-height:32px;   
+     vertical-align:middle;
+}
+
+.serviceLisDetail .serviceLisDetailtitle i{
+	display:block;
+	padding-left:5px;
+	font: 15px "微软雅黑";
+    text-indent: 16px;
+	font-style:normal;
+	padding-top:6px;
+}
+
+.serviceLisDetail .serviceLisDetailtitle s{
+	background: transparent url("images/c2.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.serviceLisDetail .serviceLisDetailcontentDiv{
+	background-color:#FFFFFF;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+
+.founderSelectDiv{
+	background: #ffffff;
+	border-top: 1px solid #D7D7D7;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	padding: 1px;
+}
+
+.founderSelectDiv p{
+	text-align:left;
+	font-size: 12px;
+	cursor: pointer;
+	padding-top: 2px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	margin: 0; 
+}
+
+.line1{
+	background: #D7D7D7;
+}
+
+.pover{
+	background: #69ACF5;
+}
+
+.founderSelectDiv .footer{
+	padding-top:4px;
+	text-align: center;
+	font-size: 12px;
+}
+.leftButton{
+	text-align: center;
+	border: 1px solid;
+	cursor: pointer;
+}
+#cancel{
+    width: 60px;
+    height: 23px;
+}

@@ -1,0 +1,9 @@
+疾病排名
+Controller:DiagnosisTargetController
+抽取器：DiagnosisTaskService
+抽取器参数说明：
+    不填(空)：获取前一天的数据
+    yyyy:按年获取，例如2014
+    yyyyMM:按月获取，例如201401
+    yyyyMMdd:按日获取，例如20140101
+叶剑飞 20161208

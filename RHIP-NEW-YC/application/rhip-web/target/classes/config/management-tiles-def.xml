@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+	<!-- 病案首页公用查询页面 -->
+	<definition name="medical.record.home.index" template="/WEB-INF/views/ihm/zhgl/mrh/search.jsp"></definition>
+
+    <!-- 病案首页的费用Start -->
+	<definition name="medical.record.home.fee.list" template="/WEB-INF/views/ihm/zhgl/mrh/fee_list.jsp"></definition>
+	<!-- 病案首页的费用计End -->
+
+	<!-- 手术切口Start -->
+	<definition name="medical.record.home.incision.list" template="/WEB-INF/views/ihm/zhgl/mrh/incision_list.jsp"></definition>
+	<!-- 手术切口End -->
+
+	<!-- 诊断符合率分析Start -->
+	<definition name="medical.record.home.consistency.list" template="/WEB-INF/views/ihm/zhgl/mrh/consistency_list.jsp"></definition>
+	<!-- 诊断符合率分析End -->
+</tiles-definitions>

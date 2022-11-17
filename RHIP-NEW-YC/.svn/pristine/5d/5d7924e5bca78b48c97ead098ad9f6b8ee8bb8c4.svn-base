@@ -1,0 +1,25 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.founder.mdm</groupId>
+	<artifactId>mdm</artifactId>
+	<version>1.0.1</version>
+	<packaging>pom</packaging>
+	<name>Master Data Manager Parent</name>
+	<description>主数据管理</description>
+	<url>http://www.founder.com</url>
+
+    <parent>
+        <groupId>com.founder.rhip</groupId>
+        <artifactId>rhip-parent</artifactId>
+        <version>1.0.1</version>
+        <relativePath>../parent/pom.xml</relativePath>
+    </parent>
+
+	<modules>
+		<module>mdm-core</module>
+		<module>mdm-service</module>
+		<module>mdm-repository</module>
+		<module>mdm-surface</module>
+	</modules>
+</project>

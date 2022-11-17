@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation -->
+<tiles-definitions>
+
+
+	<!-- 伤害监测 start -->
+		<definition name="rhip.ism.base.reportCard.add" template="/WEB-INF/views/ism/reportCard/add/add_input.jsp">
+		</definition>
+	
+		<definition name="rhip.ism.base.reportCard.input"
+			template="/WEB-INF/views/ism/reportCard/add_input.jsp">
+		</definition>
+		<definition name="rhip.ism.base.reportCard.viewReport"
+			template="/WEB-INF/views/ism/reportCard/add/add_input.jsp">
+		</definition>
+	
+		<definition name="rhip.ism.base.reportCard.appReport"
+			template="/WEB-INF/views/ism/reportCard/add/add_input.jsp">
+		</definition>
+	
+		<definition name="rhip.ism.base.reportCard.view"
+			template="/WEB-INF/views/ism/reportCard/list/view_list.jsp">
+		</definition>
+	
+		<definition name="rhip.ism.base.reportCard.viewList"
+			template="/WEB-INF/views/ism/reportCard/list/list_datagrid.jsp">
+		</definition>
+	
+		<definition name="rhip.ism.base.reportCard.verify"
+			template="/WEB-INF/views/ism/reportCard/list/verify_list.jsp">
+			<put-attribute name="list"
+				value="/WEB-INF/views/ism/reportCard/list/list_datagrid.jsp" />
+		</definition>
+		
+		<definition name="rhip.ism.base.reportCard.repeat"
+			template="/WEB-INF/views/ism/reportCard/list/repeat_list.jsp">
+		</definition>
+		
+		<definition name="rhip.ism.base.reportCard.repeatResult"
+		template="/WEB-INF/views/ism/reportCard/list/repeat_list_datagrid.jsp">
+		</definition>
+		
+		<definition name="rhip.ism.base.approval.list"
+			template="/WEB-INF/views/ism/reportCard/approval/list.jsp">
+		</definition>
+	<!-- 伤害监测 end -->
+</tiles-definitions>

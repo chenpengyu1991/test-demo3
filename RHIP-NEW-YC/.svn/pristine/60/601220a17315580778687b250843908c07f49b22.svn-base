@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+    <!--base layout  -->
+    <definition name="rhip.hm.base" template="/WEB-INF/views/ihm/">
+        <put-attribute name="header" value="/"/>
+        <put-attribute name="content" value="/"/>
+    </definition>
+    <!--体检数据综合查询-->
+    <definition name="lda.largeDataAnalysis.healthExam.index" template="/WEB-INF/views/physicalExam/search.jsp"></definition>
+
+    <!--大处方监管-->
+    <definition name="lda.largeDataAnalysis.searchUnusual.index" template="/WEB-INF/views/lda/searchBigOutpatientPrescription.jsp"></definition>
+    <definition name="lda.largeDataAnalysis.unusual.list" template="/WEB-INF/views/lda/bigOutpatientPrescriptionlist.jsp"></definition>
+
+    <!--抗菌药物使用情况-->
+	<definition name="lda.largeDataAnalysis.searchAntibacterial.index" template="/WEB-INF/views/lda/searchAntibacterials.jsp"></definition>
+    <definition name="lda.largeDataAnalysis.antibacterial.list" template="/WEB-INF/views/lda/antibacterialsList.jsp"></definition>
+    <definition name="lda.largeDataAnalysis.antibacterial.doctor" template="/WEB-INF/views/lda/antibacterialsDoctors.jsp"></definition>
+
+</tiles-definitions>

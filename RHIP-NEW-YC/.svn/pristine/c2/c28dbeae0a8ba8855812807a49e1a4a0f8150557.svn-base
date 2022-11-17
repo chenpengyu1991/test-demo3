@@ -1,0 +1,25 @@
+##Web Service \u53c2\u6570\u914d\u7f6e##
+ws.params.first=inputxml
+ws.url.first=http://111.50.0.29:5678/OrderTreat/services/HosiptalManager
+ws.namespace.first=http://ordertreat/HosiptalManager
+ws.method.first=welcome
+#\ufffd\ufffd\ufffd\u05f1\ufffd\ufffd\ufffd\u053a\ufffd\u04ff\u06b2\ufffd\ufffd\ufffd
+ws.params.maternal=tradeCode,requestXml
+ws.url.maternal=http://61.133.195.222:8087/SQWebServer.asmx?wsdl
+#ws.url.maternal=http://61.133.195.222:80/SQWebServer.asmx
+ws.namespace.maternal=http://tempuri.org/
+ws.method.maternal=Interface_Trade_Jkzl
+#\u53e3\u8154\u533b\u9662
+ws.params.stomatological=tradeCode,requestXml
+ws.url.stomatological=http://119.60.13.158:8099/SQWebServer.asmx?wsdl
+ws.namespace.stomatological=http://tempuri.org/
+ws.method.stomatological=Interface_Trade_Jkzl
+
+#ws.params=arg0,arg1,arg2,arg3
+#ws.appid=01
+#ws.pwd=123456
+#ws.url=http://172.29.129.44:8080/rhip-ws
+#ws.namespace=http://mdm.rhip.founder.com/
+#ws.param.service=ChargetItemService
+##ws.param.method=isExistInBaseList
+#ws.method=isExistInBaseList

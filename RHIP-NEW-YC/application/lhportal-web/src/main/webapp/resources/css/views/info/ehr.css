@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	width:100%;
+    border-collapse: collapse;
+}
+tr,td{
+	font-size:12px;
+}
+td{
+	padding-left:20px;
+}
+th {
+  text-align: center;
+  border: 1px solid #C1E3FD;
+  background: #E7F4FE;
+  font-weight: normal;
+  height: 24px;
+  line-height: 24px;
+}
+td {
+  text-align: left;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #C1E3FD;
+}
+fieldset{
+    border: 1px solid #2a86ae;
+}
+fieldset fieldset{
+    border: 1px solid #C1E3FD;
+    text-align: left;
+}
+
+legend{
+    color: #2a86ae;
+    font-weight: bold;
+}
+/* adaptive width tab */
+	#con {font-size: 12px; margin: 0px auto; width: 100%;float:left;}
+	#tags {padding: 0px; margin: 0px;height: 28px;margin-top:5px;}
+	#tags li {background: url(../../../images/btn/tagleft.gif) no-repeat left bottom; float: left; margin-right: 1px; list-style-type: none; height: 28px;}
+	#tags li a {padding-right: 10px; padding-left: 10px; background: url(../../../images/btn/tagright.gif) no-repeat right bottom; float: left; padding-bottom: 0px; color: #FFFFFF; line-height: 28px; padding-top: 0px; height: 28px; text-decoration: none; font-weight:normal;width:114px;text-align:center;}
+	#tags li.emptytag {background: none transparent scroll repeat 0% 0%; width: 4px;}
+	#tags li.selectTag {background-position: left top; margin-bottom: -2px; position: relative; height: 29px;}
+	#tags li.selectTag a {background-position: right top; color: #0a80af; line-height: 35px; height: 29px; font-weight:bold;  font-size: 14px;}
+	#tagContent { border:1px solid #2a86ae;	padding: 1px; background-color: #fff; }
+	.tagContent {padding: 2px; display: none; background-color:#fff; color: #474747;}
+	#tagContent div.selectTag {	display: block;}
+
+.rightnav {
+	float:left;
+	margin: 5px 5px 5px 5px;
+	padding: 0px;
+	color: #2F2F2F;
+	font-size: 12px;
+	line-height: 18px;
+	width: 890px;
+}
+.table-basic {
+  width: 100%;
+  overflow: auto;
+  vertical-align: middle;
+}
+.table-basic-narrow {
+  width: 82%;
+  overflow: auto;
+  vertical-align: middle;
+}
+.rightnav > table{	    
+    margin-bottom: 10px;
+    color: #0E5990;
+    background-color: #EFF7FF;
+    border: 1px solid #C1E3FD;
+}
+.crumbs {
+	width: 710px;
+	height: 30px;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+.follow-up-table{
+	width: 15%;
+    float: left;
+}
+.health-record-leftnav-sprite{
+	background-image:url(../../../images/ehr/health_record_leftnav.png);
+}
+.leftNav{
+	width:170px;
+	background-color: #E7F4FE;
+	border: 1px solid #C1E3FD;
+	color: #0E5990;
+	float: left;
+    margin: 5px 10px;
+}
+.login-panel{
+	height:200px;
+	text-align:center;
+	font-size:12px;
+}
+.head-portrait{
+	margin: 20px auto;
+	width:65px;
+	height:65px;
+	background-position:-10px -502px;
+}
+.user-name{
+	font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.exit-login{
+}
+.exit-login a{
+	color: #0E5990;
+    text-decoration: underline;
+}
+.hr-line{
+	width:150px;
+	border-top: 1px solid #BEE1FC;
+	border-bottom: 1px solid #FFFFFD;
+	margin: 15px auto;
+}
+.sex{
+	float: left;
+    margin-left: 10px;
+}
+.birthday{
+	float: left;
+    margin-left: 5px;
+}
+.col {
+	width: 170px;
+	float: left;
+	margin-right:52px;
+	background-color: #E7F4FE;
+}
+.parent-item {
+	margin: 3px auto;
+	text-align: center;
+}
+.self-eva{ width:170px; height:72px; background-position:-45px -10px; }
+.disease-management{ width:170px; height:72px; background-position:-45px -92px; }
+.child-care{ width:170px; height:72px; background-position:-45px -174px; }
+.women-health{ width:170px; height:72px; background-position:-45px -256px; }
+.medical-activties{ width:170px; height:72px; background-position:-45px -338px; }
+.basic-info{ width:170px; height:72px; background-position:-45px -420px; }
+
+
+.arrow{
+	float: left;
+	margin: -6px 90px;
+	width:17px; height:17px; background-position:-84px -502px; 
+}
+
+.open .arrow{
+	float: left;
+	margin: -6px 90px;
+	width:17px; height:17px; background-position:-111px -502px;
+}
+.parent-item a {
+	display: block;
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
+	font-weight: normal;
+	border-bottom: 1px solid #245B9F;
+	font-family: '微软雅黑';
+	padding:36px 50px;
+}
+.child-item:hover {
+	background: #C8EBFF;
+}
+
+.parent-item.open a {
+}
+.parent-item + div {
+	text-align: center;
+}
+.parent-item+div {
+	display: none;
+}
+div .child-item{
+    color:#E7F4FE;
+    height: 32px;
+}
+div .cur-menu{
+    background: #96D7FE;
+}
+div .child-item a{
+    font-size: 12px;	
+    height: 18px;
+    line-height: 32px;
+    color: #0E5990;
+    text-decoration: none;
+}
+/* disease management */
+#tagContent .posttable{
+    width: 95%;
+    margin: 20px auto;
+}
+#tagContent .postcontent{
+    width: 98%;
+  	margin-bottom: 8px;
+}
+#tagContent .postcontent .posttable{
+    width: 100%;
+  	margin: auto;
+}
+#planInfoTabList {
+    margin: 10px auto;
+}

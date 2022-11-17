@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+<!--base layout  -->
+	<definition name="rhip.da.base" template="/WEB-INF/views/da/">
+		  <put-attribute name="header" value="/" />
+		  <put-attribute name="content" value="/" />
+    </definition>
+
+	<!--药品监控-药品入库监控-->
+    <definition name="rhip.da.drug.storageIn.search" template="/WEB-INF/views/da/drug/storageIn/search.jsp"></definition>
+    <definition name="rhip.da.drug.storageIn.list" template="/WEB-INF/views/da/drug/storageIn/list.jsp"></definition>
+    <definition name="rhip.da.drug.storageIn.detail.search" template="/WEB-INF/views/da/drug/storageIn/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.storageIn.detail.list" template="/WEB-INF/views/da/drug/storageIn/detailList.jsp"></definition>  
+    
+    <definition name="rhip.da.drug.storageOut.search" template="/WEB-INF/views/da/drug/storageOut/search.jsp"></definition>
+    <definition name="rhip.da.drug.storageOut.list" template="/WEB-INF/views/da/drug/storageOut/list.jsp"></definition>    
+    <definition name="rhip.da.drug.storageOut.detail.search" template="/WEB-INF/views/da/drug/storageOut/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.storageOut.detail.list" template="/WEB-INF/views/da/drug/storageOut/detailList.jsp"></definition>  
+
+    <definition name="rhip.da.drug.storage.search" template="/WEB-INF/views/da/drug/storage/search.jsp"></definition>
+    <definition name="rhip.da.drug.storage.list" template="/WEB-INF/views/da/drug/storage/list.jsp"></definition>   
+
+    <definition name="rhip.da.drug.storageReturn.search" template="/WEB-INF/views/da/drug/storageReturn/search.jsp"></definition>
+    <definition name="rhip.da.drug.storageReturn.list" template="/WEB-INF/views/da/drug/storageReturn/list.jsp"></definition>    
+    <definition name="rhip.da.drug.storageReturn.detail.search" template="/WEB-INF/views/da/drug/storageReturn/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.storageReturn.detail.list" template="/WEB-INF/views/da/drug/storageReturn/detailList.jsp"></definition>  
+
+    <definition name="rhip.da.drug.pharmacyIn.search" template="/WEB-INF/views/da/drug/pharmacyIn/search.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyIn.list" template="/WEB-INF/views/da/drug/pharmacyIn/list.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyIn.detail.search" template="/WEB-INF/views/da/drug/pharmacyIn/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyIn.detail.list" template="/WEB-INF/views/da/drug/pharmacyIn/detailList.jsp"></definition>  
+
+    <definition name="rhip.da.drug.pharmacyOut.search" template="/WEB-INF/views/da/drug/pharmacyOut/search.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyOut.list" template="/WEB-INF/views/da/drug/pharmacyOut/list.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyOut.detail.search" template="/WEB-INF/views/da/drug/pharmacyOut/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyOut.detail.list" template="/WEB-INF/views/da/drug/pharmacyOut/detailList.jsp"></definition>  
+    
+    <definition name="rhip.da.drug.pharmacy.search" template="/WEB-INF/views/da/drug/pharmacy/search.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacy.list" template="/WEB-INF/views/da/drug/pharmacy/list.jsp"></definition>   
+
+    <definition name="rhip.da.drug.pharmacyReturn.search" template="/WEB-INF/views/da/drug/pharmacyReturn/search.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyReturn.list" template="/WEB-INF/views/da/drug/pharmacyReturn/list.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyReturn.detail.search" template="/WEB-INF/views/da/drug/pharmacyReturn/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyReturn.detail.list" template="/WEB-INF/views/da/drug/pharmacyReturn/detailList.jsp"></definition> 
+    
+    <definition name="rhip.da.drug.pharmacyCancel.search" template="/WEB-INF/views/da/drug/pharmacyCancel/search.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyCancel.list" template="/WEB-INF/views/da/drug/pharmacyCancel/list.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyCancel.detail.search" template="/WEB-INF/views/da/drug/pharmacyCancel/detailSearch.jsp"></definition>
+    <definition name="rhip.da.drug.pharmacyCancel.detail.list" template="/WEB-INF/views/da/drug/pharmacyCancel/detailList.jsp"></definition> 
+    
+    <definition name="rhip.da.drug.drugUpkeep.search" template="/WEB-INF/views/da/drug/upkeep/search.jsp"></definition>
+    <definition name="rhip.da.drug.drugUpkeep.list" template="/WEB-INF/views/da/drug/upkeep/list.jsp"></definition>  
+    
+    <!--卫生耗材-->
+    <definition name="rhip.da.consumable.in.search" template="/WEB-INF/views/da/consumable/in/search.jsp"></definition>
+    <definition name="rhip.da.consumable.in.list" template="/WEB-INF/views/da/consumable/in/list.jsp"></definition>
+    <definition name="rhip.da.consumable.in.detail.search" template="/WEB-INF/views/da/consumable/in/detailSearch.jsp"></definition>
+    <definition name="rhip.da.consumable.in.detail.list" template="/WEB-INF/views/da/consumable/in/detailList.jsp"></definition>  
+
+    <definition name="rhip.da.consumable.out.search" template="/WEB-INF/views/da/consumable/out/search.jsp"></definition>
+    <definition name="rhip.da.consumable.out.list" template="/WEB-INF/views/da/consumable/out/list.jsp"></definition>
+    <definition name="rhip.da.consumable.out.detail.search" template="/WEB-INF/views/da/consumable/out/detailSearch.jsp"></definition>
+    <definition name="rhip.da.consumable.out.detail.list" template="/WEB-INF/views/da/consumable/out/detailList.jsp"></definition>
+
+    <definition name="rhip.da.consumable.store.search" template="/WEB-INF/views/da/consumable/store/search.jsp"></definition>
+    <definition name="rhip.da.consumable.store.list" template="/WEB-INF/views/da/consumable/store/list.jsp"></definition>
+
+    <definition name="rhip.da.consumable.breakage.search" template="/WEB-INF/views/da/consumable/breakage/search.jsp"></definition>
+    <definition name="rhip.da.consumable.breakage.list" template="/WEB-INF/views/da/consumable/breakage/list.jsp"></definition>
+
+    <!--设备监控-->
+    <definition name="rhip.da.equipment.store.search" template="/WEB-INF/views/da/equipment/store/search.jsp"></definition>
+    <definition name="rhip.da.equipment.store.list" template="/WEB-INF/views/da/equipment/store/list.jsp"></definition>
+    <definition name="rhip.da.equipment.breakage.search" template="/WEB-INF/views/da/equipment/breakage/search.jsp"></definition>
+    <definition name="rhip.da.equipment.breakage.list" template="/WEB-INF/views/da/equipment/breakage/list.jsp"></definition>
+        
+    <!--日常监控-异常处方监控-->
+    <definition name="rhip.da.daily.unusual.search" template="/WEB-INF/views/da/daily/unusual/search.jsp"></definition>
+    <definition name="rhip.da.daily.unusual.list" template="/WEB-INF/views/da/daily/unusual/list.jsp"></definition>
+    <definition name="rhip.da.daily.unusual.prescription" template="/WEB-INF/views/da/daily/unusual/prescription.jsp"></definition>
+    <definition name="rhip.da.daily.unusual.drugusagelist" template="/WEB-INF/views/da/daily/unusual/drugUsageList.jsp"></definition>
+
+    <!--日常监控-医师用药监控-->
+    <definition name="rhip.da.daily.physicianDrug.search" template="/WEB-INF/views/da/daily/physicianDrug/search.jsp"></definition>
+    <definition name="rhip.da.daily.physicianDrug.list" template="/WEB-INF/views/da/daily/physicianDrug/list.jsp"></definition>
+    <definition name="rhip.da.daily.physicianDrug.medicationRanking" template="/WEB-INF/views/da/daily/physicianDrug/medicationRanking.jsp"></definition>
+    <definition name="rhip.da.daily.physicianDrug.medicationlist" template="/WEB-INF/views/da/daily/physicianDrug/medicationList.jsp"></definition>
+    
+    <!--日常监控-门诊费用药品比例-->
+    <definition name="rhip.da.daily.outpatientDrug.search" template="/WEB-INF/views/da/daily/outpatientDrug/search.jsp"></definition>
+    <definition name="rhip.da.daily.outpatientDrug.list" template="/WEB-INF/views/da/daily/outpatientDrug/list.jsp"></definition>  
+    <definition name="rhip.da.daily.outpatientDrug.drugsearch" template="/WEB-INF/views/da/daily/outpatientDrug/drugSearch.jsp"></definition>
+    <definition name="rhip.da.daily.outpatientDrug.druglist" template="/WEB-INF/views/da/daily/outpatientDrug/drugList.jsp"></definition>  
+    <definition name="rhip.da.daily.outpatientDrug.itemsearch" template="/WEB-INF/views/da/daily/outpatientDrug/itemSearch.jsp"></definition>
+    <definition name="rhip.da.daily.outpatientDrug.itemlist" template="/WEB-INF/views/da/daily/outpatientDrug/itemList.jsp"></definition>         
+    <!--日常监控-住院费用药品比例-->
+    <definition name="rhip.da.daily.inpatientDrug.search" template="/WEB-INF/views/da/daily/inpatientDrug/search.jsp"></definition>
+    <definition name="rhip.da.daily.inpatientDrug.list" template="/WEB-INF/views/da/daily/inpatientDrug/list.jsp"></definition>
+    <definition name="rhip.da.daily.inpatientDrug.drugsearch" template="/WEB-INF/views/da/daily/inpatientDrug/drugSearch.jsp"></definition>
+    <definition name="rhip.da.daily.inpatientDrug.druglist" template="/WEB-INF/views/da/daily/inpatientDrug/drugList.jsp"></definition>  
+    <definition name="rhip.da.daily.inpatientDrug.itemsearch" template="/WEB-INF/views/da/daily/inpatientDrug/itemSearch.jsp"></definition>
+    <definition name="rhip.da.daily.inpatientDrug.itemlist" template="/WEB-INF/views/da/daily/inpatientDrug/itemList.jsp"></definition>         
+
+    <!--日常监控-药品价格监控-->
+    <definition name="rhip.da.daily.drugPrice.search" template="/WEB-INF/views/da/daily/drugPrice/search.jsp"></definition>
+    <definition name="rhip.da.daily.drugPrice.list" template="/WEB-INF/views/da/daily/drugPrice/list.jsp"></definition>
+    
+    <!--日常监控-药品分布监控-->
+    <definition name="rhip.da.daily.drugDistribution.search" template="/WEB-INF/views/da/daily/drugDistribution/search.jsp"></definition>
+    <definition name="rhip.da.daily.drugDistribution.list" template="/WEB-INF/views/da/daily/drugDistribution/list.jsp"></definition>  
+    <definition name="rhip.da.daily.drugDistribution.detailSearch" template="/WEB-INF/views/da/daily/drugDistribution/detailSearch.jsp"></definition>  
+    
+    <!--日常监控-管理配置-->
+    <definition name="rhip.da.config.search" template="/WEB-INF/views/da/config/search.jsp"></definition>
+    <definition name="rhip.da.config.list" template="/WEB-INF/views/da/config/list.jsp"></definition>
+    <definition name="rhip.da.config.detail" template="/WEB-INF/views/da/config/detail.jsp"></definition>
+</tiles-definitions>

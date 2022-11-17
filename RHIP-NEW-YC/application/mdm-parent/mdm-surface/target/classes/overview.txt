@@ -1,0 +1,12 @@
+mdm-app目录结构：
+
+mdm-app
+    ├─DictionaryApp.java	//字典服务API实现类
+    ├─DiseaseApp.java		//疾病服务API实现类
+    ├─DomainApp.java		//域服务API实现类
+    ├─MDMBaseApp.java		//服务API基类
+    ├─MedicineApp.java	//药品服务API实现类
+    ├─OrganizationApp.java	//机构服务API实现类
+    ├─PersonAppImpl.java	//个人服务API实现类
+    ├─StaffAppImpl.java	//人员服务API实现类
+    └─TestUtil.java		//测试工具类

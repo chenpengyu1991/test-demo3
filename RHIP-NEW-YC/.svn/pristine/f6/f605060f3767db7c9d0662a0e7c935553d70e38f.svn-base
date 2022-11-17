@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<locations>
+		<location>
+			<!-- 主表编号 必须 -->
+			<mainId></mainId>
+			<!-- 主表UUID -->
+			<mainUUID></mainUUID>
+			<!-- 无档(0:false 1:true) -->
+			<noFile></noFile>
+			<!-- 从表编号 必须 -->
+			<secondaryId></secondaryId>
+			<!-- 从表UUID -->
+			<secondaryUUID></secondaryUUID>
+			<!-- 单位名称 -->
+			<unitName></unitName>
+			<!-- 注册地址 -->
+			<registerOrgnName></registerOrgnName>
+			<!-- 经营地址 -->
+			<businessAddress></businessAddress>
+			<!-- 机构代码 -->
+			<organizationCode></organizationCode>
+			<!-- 邮政编码 -->
+			<zipCode></zipCode>
+			<!-- 单位类型 -->
+			<unitTypeCode></unitTypeCode>
+			<!-- 经济性质 -->
+			<economicNatureCode></economicNatureCode>
+			<!-- 乡镇地段 -->
+			<townshipLotCode></townshipLotCode>
+			<!-- 法人 -->
+			<legal></legal>
+			<!-- 负责人 -->
+			<personInCharge></personInCharge>
+			<!-- 业主 -->
+			<owner></owner>
+			<!-- 联系电话 -->
+			<contactPhone></contactPhone>
+			<!-- 联系人 -->
+			<contact></contact>
+			<!-- 许可证号 -->
+			<license></license>
+			<!-- 卫生专业 -->
+			<healthProfessional></healthProfessional>
+			<!-- 主营行业分类编号 -->
+			<mainBusinessCode></mainBusinessCode>
+			<!-- 主营行业分类名称 -->
+			<mainBusinessName></mainBusinessName>
+			<!-- 兼营行业分类编号 -->
+			<secondaryBusinessCode></secondaryBusinessCode>
+			<!-- 兼营行业分类名称 -->
+			<secondaryBusinessName></secondaryBusinessName>
+			<!-- 经营项目 -->
+			<businessItem></businessItem>
+			<!-- 到期日期（yyyyMMdd hh:mm:ss） -->
+			<dueDate></dueDate>
+			<!-- 发证日期（yyyyMMdd hh:mm:ss） -->
+			<releaseDate></releaseDate>
+			<!-- 证件类别 -->
+			<documentTypeCode></documentTypeCode>
+			<!-- 身份证号 -->
+			<idCard></idCard>
+			<!-- 无证标识(0:false 1:true) -->l
+			<noFileId></noFileId>
+			<!-- 创建日期（yyyyMMdd hh:mm:ss） -->
+			<createDate></createDate>
+			<!-- 更新日期（yyyyMMdd hh:mm:ss） -->
+			<updateDate></updateDate>
+			<!-- 责任监督员编号 -->
+			<supervisorCode></supervisorCode>
+			<!-- 责任监督员姓名 -->
+			<supervisorName></supervisorName>
+			<!-- 业务类型 -->
+			<businessTypeCode></businessTypeCode>
+			<!-- 许可状态 -->
+			<licenseStateCode></licenseStateCode>
+		</location>
+	</locations>
+</root>

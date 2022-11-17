@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="BASE.xsd"/>
+  <xs:element name="RD_OUTPATIENT_ANALYSE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ORGAN_CODE"/>
+        <xs:element ref="ORGAN_NAME"/>
+        <xs:element ref="GENRE_CODE"/>
+        <xs:element ref="YEAR_MONTH"/>
+        <xs:element ref="YEAR"/>
+        <xs:element ref="HALF_YEAR"/>
+        <xs:element ref="QUARTER"/>
+        <xs:element ref="MONTH"/>
+        <xs:element ref="REPORT_TYPE"/>
+        <xs:element ref="OUTPATIENT_CLINIC_NUM"/>
+        <xs:element ref="REG_AMOUNT"/>
+        <xs:element ref="REG_SCALE"/>
+        <xs:element ref="MED_AMOUNT"/>
+        <xs:element ref="MED_SCALE"/>
+        <xs:element ref="DRUG_AMOUNT"/>
+        <xs:element ref="DRUG_SCALE"/>
+        <xs:element ref="TOTAL_AMOUNT"/>
+        <xs:element ref="PER_AMOUNT"/>
+        <xs:element ref="PER_DRUG_AMOUNT"/>
+        <xs:element ref="PER_DRUG_SCALE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OUTPATIENT_CLINIC_NUM" type="xs:integer"/>
+  <xs:element name="REG_AMOUNT" type="xs:decimal"/>
+  <xs:element name="REG_SCALE" type="xs:decimal"/>
+  <xs:element name="MED_AMOUNT" type="xs:decimal"/>
+  <xs:element name="MED_SCALE" type="xs:decimal"/>
+  <xs:element name="DRUG_AMOUNT" type="xs:decimal"/>
+  <xs:element name="DRUG_SCALE" type="xs:decimal"/>
+  <xs:element name="TOTAL_AMOUNT" type="xs:decimal"/>
+  <xs:element name="PER_AMOUNT" type="xs:decimal"/>
+  <xs:element name="PER_DRUG_AMOUNT" type="xs:decimal"/>
+  <xs:element name="PER_DRUG_SCALE" type="xs:decimal"/>
+</xs:schema>

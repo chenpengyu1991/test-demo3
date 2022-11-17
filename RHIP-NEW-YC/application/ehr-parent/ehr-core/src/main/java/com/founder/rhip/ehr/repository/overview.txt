@@ -1,0 +1,148 @@
+﻿EHR repository描述说明
+ 
+├─basic                                                     // 行政区域、部门、家庭、人员、用户、菜单等等
+│      IAdministrativeAreaDao.java
+│      IDepartmentDao.java
+│      IDeptStaffRelationDao.java
+│      IFamilyCanceledDao.java
+│      IFamilyHostoiletRelationDao.java
+│      IFamilyInfoDao.java
+│      IFamilyPersonRelationDao.java
+│      IFamilyWaterRelationDao.java
+│      IMenuDao.java
+│      IModifyTraceDao.java
+│      IOrganizationEconomicRelationDao.java
+│      IOrganizationEnvironmentRelationDao.java
+│      IOrganizationGarbageRelationDao.java
+│      IOrganizationItemRelationDao.java
+│      IOrganizationOldPeopleHomedRelationDao.java
+│      IOrganizationSchoolRelationDao.java
+│      IOrganizationStaffDao.java
+│      IOrganizationWaterRelationDao.java
+│      IPcbDicItemDao.java
+│      IPersonCanceledDao.java
+│      IPersonInfoDao.java
+│      IPopulaceDao.java
+│      IRecordSerialNumberDao.java
+│      IStandParameterCfgDao.java
+│      IUserDao.java
+│      IUserRoleDao.java
+│      IUserRoleOrganizationDao.java
+│      
+├─child                                                     // 儿童:出生证明、儿童保健卡、儿童体检等等
+│      IBirthCertificateDao.java
+│      IChildHealthCardDao.java
+│      IChildHealthExaminationDao.java
+│      IChildHealthExaminationMgmtDao.java
+│      IFrailChildFollowupDao.java
+│      IFrailChildMgmtDao.java
+│      INeonatalDiseaseScreenDao.java
+│      INeonatalFamilyVisitDao.java
+│      INeonatalFamilyVisitMgmtDao.java
+│      
+├─clinic                                                    // 医疗服务:会诊、疾病诊断、用药、费用、入院记录等等
+│      IConsultationInfoDao.java
+│      IDiseaseDiagnosisInfoDao.java
+│      IDrugUsageDao.java
+│      IEHRHealthEventDao.java
+│      IExamineDetailDao.java
+│      IExamineEventDao.java
+│      IExpenseDetailDao.java
+│      IExpenseInfoDao.java
+│      IHealthEvaluateAnomalyDao.java
+│      IHealthExaminationDao.java
+│      IImageIndexDao.java
+│      IInpatientDrugUsageDao.java
+│      IInpatientInfoDao.java
+│      IInpatientMedicalRecordDao.java
+│      IObservationInfoDao.java
+│      IOuthospitalSummaryDao.java
+│      IOutpatientDrugUsageDao.java
+│      IOutpatientInfoDao.java
+│      IOutpatientPrescriptionDao.java
+│      IPhysiqueExaminationDao.java
+│      IReferralInfoDao.java
+│      IStudyEventDao.java
+│      ISurgeryInfoDao.java
+│      
+├─control                                                   // 疾控:死亡医学证明、传染病报告、接种疫苗等等
+│      IDeathMedicineCertificateDao.java
+│      IFoodborneDiseaseReportDao.java
+│      IInfectionDiseaseReportDao.java
+│      IInjureMonitorDiseaseReportDao.java
+│      IOccupationDiseaseReportDao.java
+│      IPesticidePoisoningReportDao.java
+│      IVaccinationInfoDao.java
+│      IVaccinationMgmtDao.java
+│      
+├─management                                                // 卫生管理:慢病、传染病、健康危害等等
+│      ICdmApprovalInfoDao.java
+│      ICdmStatusInfoDao.java
+│      IDeformityPersonFollowupDao.java
+│      IDeformityPersonMgmtDao.java
+│      IDiabeticConclusionDao.java
+│      IDiabeticFollowupDao.java
+│      IDiabeticMgmtDao.java
+│      IDmDiabeticFollowupDao.java
+│      IDmDiseaseInfoDao.java
+│      IDmHighriskConclusionDao.java
+│      IDmHighriskFollowupDao.java
+│      IDmHighriskManagePlanDao.java
+│      IDmHighriskPersonInfoDao.java
+│      IDmHighriskRiskFactorsDao.java
+│      IDmHypertensionConclusionDao.java
+│      IDmHypertensionFollowupDao.java
+│      IDmPersonInfoDao.java
+│      IDmPotentialPersonInfoDao.java
+│      IDmReportInfoDao.java
+│      IDmStrtumFollowupDao.java
+│      IDmTumorFollowupDao.java
+│      IElderlyHealthFollowupDao.java
+│      IHypertensionConclusionDao.java
+│      IHypertensionFollowupDao.java
+│      IHypertensionMgmtDao.java
+│      IRiskFactorFollowupDao.java
+│      IRiskFactorMgmtDao.java
+│      ITumorFollowupDao.java
+│      ITumorMgmtDao.java
+│      
+├─statistics                                                // 统计
+│      IHaStatisticsDao.java
+│      IRecordStatisticsDao.java
+│      
+├─summary                                                   // 概要说明:家族史、手术史、死亡记录等等
+│      IDeformityHistoryDao.java
+│      IDiseaseHistoryDao.java
+│      IDrugAllergyHistoryDao.java
+│      IExposeHistoryDao.java
+│      IFamilyBedHistoryDao.java
+│      IFamilyHeredityHistoryDao.java
+│      IFamilyHistoryDao.java
+│      IHealthSummaryDao.java
+│      IHospitalizedHistoryDao.java
+│      ISurgeryHistoryDao.java
+│      ITransBloodHistoryDao.java
+│      ITraumaHistoryDao.java
+│      
+├─women                                                     // 妇女保健
+│      IBirthControlMgmtDao.java
+│      IBirthControlServiceDao.java
+│      IBirthDefectMonitorDao.java
+│      IDeliveryRecordInfoDao.java
+│      IMotherhoodPeriodFollowupDao.java
+│      IMotherhoodPeriodMgmtDao.java
+│      IPostnatalFollowupDao.java
+│      IPostnatalFollowupMgmtDao.java
+│      IPostpartumDaysHealthInfoDao.java
+│      IPremaritalHealthServiceDao.java
+│      IPrenatalFollowupDao.java
+│      IPrenatalFollowupMgmtDao.java
+│      IPrenatalScreenDiagnosisDao.java
+│      IPrenatalScreenDiagnosisMgmtDao.java
+│      IWomanDiseaseCensusDao.java
+│      IWomanDiseaseCensusMgmtDao.java
+│      
+│      
+└─ism                                                              //伤害监测
+        IApprovalInfoDao.java
+        IReportInfoDao.java

@@ -1,0 +1,35 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.founder.ech</groupId>
+	<artifactId>ech</artifactId>
+	<version>1.0.1</version>
+	<packaging>pom</packaging>
+	<name>ECH Parent</name>
+	<url>http://www.founder.com</url>
+
+	<properties>
+		<copyright.year>2013</copyright.year>
+		<project.groupId>com.founder.ech</project.groupId>
+		<project.version>1.0.1</project.version>
+		<springframework.version>3.0.7.RELEASE</springframework.version>
+		<junit.version>4.10</junit.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+	<modules>
+		<module>ech-core</module>
+		<module>ech-service</module>
+	</modules>
+</project>

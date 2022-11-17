@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--保存预约信息-->
+<root>
+    <name>yaofeng</name>
+    <!--性別 1：男2：女-->
+    <gender>1</gender>
+    <!--身份证-->
+    <idcard></idcard>
+    <!-- 生日-->
+    <birthday>1983/12/03</birthday>
+    <!-- 电话-->
+    <phoneNumber>12313123</phoneNumber>
+    <!-- 预约到诊日期 -->
+    <requestDate>2013/11/07</requestDate>
+    <!-- 上午:a下午:p-->
+    <ampm>a</ampm>
+    <!-- 医院编号-->
+    <hospitalCode>46714063-X</hospitalCode>
+     <!-- 科室编号-->
+    <deptSn>010101020206</deptSn>
+    <!-- 医生编号-->
+    <doctorSn>4047</doctorSn>
+    <!-- 挂号费用-->
+    <registerFee>3.8</registerFee>
+    <!-- 医院名称-->
+    <hospitalName>第一人民医院</hospitalName>
+    <!-- 科室名称-->
+    <deptName>风湿免疫科专科门诊(本部)</deptName>
+    <!-- 就诊类型普通 :01、专家：02 -->
+    <clinicType>01</clinicType>
+    <!--提交日期-->
+    <submitDate>2014/01/15</submitDate>
+    <!-- 预约状态(01(尚未到诊)、02(已到诊)、03(逾期未到诊)、04(取消)、05(停诊))|1| -->
+    <reserverStauts>01</reserverStauts>
+    <!-- 预约編号 -->
+    <searchCode></searchCode>
+    <!-- 工作单位 -->
+    <unitName>方正国际</unitName>
+    <!-- 工作单位 -->
+    <patownShip>320581100000</patownShip>
+    <!-- 居住地址 -->
+    <pastreet>虞山镇方塔街</pastreet>
+    <!-- 门牌号-->
+    <pahouseNumber>11号</pahouseNumber>
+    <!-- 来源  爱常熟APP = 31 -->
+    <regFrom>31</regFrom>
+</root>

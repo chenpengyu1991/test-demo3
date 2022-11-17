@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+    <!--base layout  -->
+    <definition name="rhip.hm.base" template="/WEB-INF/views/ihm/">
+        <put-attribute name="header" value="/"/>
+        <put-attribute name="content" value="/"/>
+    </definition>
+    <!-- 机构绩效 start-->
+    <definition name="pam.organPerformance.index" template="/WEB-INF/views/pam/organization/search.jsp"></definition>
+    <definition name="pam.organPerformance.searchTraning.index" template="/WEB-INF/views/pam/organization/searchTraning.jsp"></definition>
+    <definition name="pam.organPerformance.searchVaccination.index" template="/WEB-INF/views/pam/organization/searchVaccination.jsp"></definition>
+    <definition name="pam.organPerformance.searchHealthExam.index" template="/WEB-INF/views/pam/organization/searchHealthExam.jsp"></definition>
+	<definition name="pam.organPerformance.searchAntibacterial.index" template="/WEB-INF/views/pam/organization/searchAntibacterials.jsp"></definition>
+	<definition name="pam.organPerformance.searchInpatientMedicalRecordQuality.index" template="/WEB-INF/views/pam/organization/searchInpatientMedicalRecordQuality.jsp"></definition>
+	<definition name="pam.organPerformance.searchAntibacterialsPrescription.index" template="/WEB-INF/views/pam/organization/searchAntibacterialPrescription.jsp"></definition>
+	
+	<!-- 儿童保健工作量考核-->
+	<definition name="pam.organPerformance.child.performance.list" template="/WEB-INF/views/pam/organization/childPerformanceList.jsp"></definition>
+	<!-- 男女婚检工作量考核-->
+	<definition name="pam.organPerformance.premarital.performance.list" template="/WEB-INF/views/pam/organization/premaritalList.jsp"></definition>
+	
+	<!-- 孕产妇保健工作量考核列表-->
+	<definition name="pam.organPerformance.pregant.performance.list" template="/WEB-INF/views/pam/organization/pregantList.jsp"></definition>
+	<!-- 育龄妇女保健工作量考核-->
+	<definition name="pam.organPerformance.gestational.performance.list" template="/WEB-INF/views/pam/organization/gestationalList.jsp"></definition>
+	<!-- 住院人均工作量考核-->
+	<definition name="pam.organPerformance.inhosptial.performance.list" template="/WEB-INF/views/pam/organization/inhospitalPerformanceList.jsp"></definition>
+	<!-- 门急诊人均工作量考核-->
+	<definition name="pam.organPerformance.outpatient.performance.list" template="/WEB-INF/views/pam/organization/outpatientPerformanceList.jsp"></definition>
+	
+    <!-- 基本医疗效率指标 -->
+    <definition name="pam.serviceCapacity.list" template="/WEB-INF/views/pam/organization/serviceCapacityList.jsp"></definition>
+    <!-- 服务能力指标 -->
+    <definition name="pam.medicalEfficiency.list" template="/WEB-INF/views/pam/organization/medicalEfficiencyList.jsp"></definition>
+    <!-- 人员培训指标 -->
+    <definition name="pam.staffTraining.list" template="/WEB-INF/views/pam/organization/staffTrainingList.jsp"></definition>
+    <!-- 公共卫生服务项目指标 -->
+    <definition name="pam.serviceProject.list" template="/WEB-INF/views/pam/organization/serviceProjectList.jsp"></definition>
+    <definition name="pam.serviceCapacity.popChart" template="/WEB-INF/views/pam/organization/popChart.jsp"></definition>
+    <!-- 健康档案指标 -->
+    <definition name="pam.orgHealthRecords.list" template="/WEB-INF/views/pam/organization/healthRecordsList.jsp"></definition>
+    <!-- 疫苗接种针次数 -->
+    <definition name="pam.vaccination.list" template="/WEB-INF/views/pam/organization/vaccinationList.jsp"></definition>
+    <!-- 体检次数、各体检项目次数 -->
+    <definition name="pam.healthExam.list" template="/WEB-INF/views/pam/organization/healthExamList.jsp"></definition>
+     <!-- 抗菌药物 -->
+    <definition name="pam.organPerformance.antibacterial.list" template="/WEB-INF/views/pam/organization/antibacterialsList.jsp"></definition>
+     <!-- 使用抗菌药物医生 -->
+    <definition name="pam.organPerformance.antibacterial.doctor" template="/WEB-INF/views/pam/organization/antibacterialsDoctors.jsp"></definition>
+    <definition name="pam.organPerformance.searchInpatientMedicalRecordQuality.list" template="/WEB-INF/views/pam/organization/inpatientMedicalRecordQualityList.jsp"></definition>
+   	<!-- 抗生素使用分析 -->
+   	<definition name="pam.organPerformance.searchAntibacterialsPrescription.list" template="/WEB-INF/views/pam/organization/antibacterialPrescriptionList.jsp"></definition>
+
+    <!-- 机构绩效 End -->
+
+
+    <!-- 个人绩效 start-->
+    <definition name="pam.personPerformance.index" template="/WEB-INF/views/pam/staff/search.jsp"></definition>
+    <definition name="pam.personPerformance.hmIndex" template="/WEB-INF/views/pam/staff/searchHm.jsp"></definition>
+    <!-- 妇幼保健 -->
+    <definition name="pam.wch.list" template="/WEB-INF/views/pam/staff/materialChildList.jsp"></definition>
+    <!-- 高血压 -->
+    <definition name="pam.hypertension.list" template="/WEB-INF/views/pam/staff/hypertensionList.jsp"></definition>
+    <!-- 糖尿病 -->
+    <definition name="pam.diabetes.list" template="/WEB-INF/views/pam/staff/diabetesList.jsp"></definition>
+    <!-- 健康档案 -->
+    <definition name="pam.healthRecords.list" template="/WEB-INF/views/pam/staff/healthRecordsList.jsp"></definition>
+     <!-- 医疗考核 -->
+     <definition name="pam.medical.index" template="/WEB-INF/views/pam/staff/medical/index.jsp"></definition>
+     <definition name="pam.medical.register" template="/WEB-INF/views/pam/staff/search.jsp"></definition>
+     <definition name="pam.medical.registerlist" template="/WEB-INF/views/pam/staff/medical/registerList.jsp"></definition>
+     <definition name="pam.medical.prescription" template="/WEB-INF/views/pam/staff/search.jsp"></definition>
+    <definition name="pam.medical.prescriptionlist" template="/WEB-INF/views/pam/staff/medical/prescriptionList.jsp"></definition>
+    <!--接种疫苗-->
+    <definition name="pam.person.vaccination.list" template="/WEB-INF/views/pam/staff/personVaccinationList.jsp"></definition>
+    <!-- 个人绩效 End -->
+    <!-- 前10种疾病统计Start -->
+	<definition name="ihm.disease.statistics.search" template="/WEB-INF/views/pam/staff/search.jsp"></definition>
+	<definition name="ihm.disease.statistics.view" template="/WEB-INF/views/pam/staff/disease_list_echarts.jsp"></definition>
+	<!-- 前10种疾病统计End -->
+</tiles-definitions>

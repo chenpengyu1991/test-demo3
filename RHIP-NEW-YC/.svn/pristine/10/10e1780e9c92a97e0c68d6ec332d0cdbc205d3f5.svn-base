@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="BASE.xsd"/>
+  <xs:element name="RD_INPATIENT_COMPOSITIVE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ORGAN_CODE"/>
+        <xs:element ref="ORGAN_NAME"/>
+        <xs:element ref="GENRE_CODE"/>
+        <xs:element ref="YEAR_MONTH"/>
+        <xs:element ref="YEAR"/>
+        <xs:element ref="HALF_YEAR"/>
+        <xs:element ref="QUARTER"/>
+        <xs:element ref="MONTH"/>
+        <xs:element ref="REPORT_TYPE"/>
+        <xs:element ref="INCOME"/>
+        <xs:element ref="MEDICARE_COST"/>
+        <xs:element ref="OWN_COST"/>
+        <xs:element ref="PER_LEVEL_COST"/>
+        <xs:element ref="ACCOUNT_NUM"/>
+        <xs:element ref="AVG_ACCOUNT"/>
+        <xs:element ref="AVG_DAY_BED_NUM"/>
+        <xs:element ref="ADMISSION_NUM"/>
+        <xs:element ref="IN_HOSPITAL_NUM"/>
+        <xs:element ref="CRITICAL_NUM"/>
+        <xs:element ref="OBSERVE_NUM"/>
+        <xs:element ref="DELIVERY_ROOM_NUM"/>
+        <xs:element ref="ICU_NUM"/>
+        <xs:element ref="OPERATION_NUM"/>
+        <xs:element ref="BESPOKE_NUM"/>
+        <xs:element ref="CONSULTATION_NUM"/>
+        <xs:element ref="LEAVE_NUM"/>
+        <xs:element ref="DISCHARGE_CURE_NUM"/>
+        <xs:element ref="DISCHARGE_BETTER_NUM"/>
+        <xs:element ref="DISCHARGE_STABLE_NUM"/>
+        <xs:element ref="DISCHARGE_WORSE_NUM"/>
+        <xs:element ref="DISCHARGE_OTHER_NUM"/>
+        <xs:element ref="DIE_NUM"/>
+        <xs:element ref="AVG_INHOSPITAL_DAY"/>
+        <xs:element ref="USE_BED"/>
+        <xs:element ref="RATED_BED"/>
+        <xs:element ref="BED_USE_RATIO"/>
+        <xs:element ref="BED_TURNOVER_NUM"/>
+        <xs:element ref="SETTLEMENT_AMOUNT"/>
+        <xs:element ref="ANTIBACTERIAL_RATIO"/>
+        <xs:element ref="DRUG_AMOUNT"/>
+        <xs:element ref="DRUG_SCALE"/>
+        <xs:element ref="OTHER_DRUG_AMOUNT"/>
+        <xs:element ref="OTHER_DRUG_SCALE"/>
+        <xs:element ref="OWN_DRUG_AMOUNT"/>
+        <xs:element ref="OWN_DRUG_SCALE"/>
+        <xs:element ref="MED_AMOUNT"/>
+        <xs:element ref="MED_SCALE"/>
+        <xs:element ref="OTHER_MED_AMOUNT"/>
+        <xs:element ref="OTHER_MED_SCALE"/>
+        <xs:element ref="OWN_MED_AMOUNT"/>
+        <xs:element ref="OWN_MED_SCALE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="INCOME" type="xs:decimal"/>
+  <xs:element name="MEDICARE_COST" type="xs:decimal"/>
+  <xs:element name="OWN_COST" type="xs:decimal"/>
+  <xs:element name="PER_LEVEL_COST" type="xs:decimal"/>
+  <xs:element name="ACCOUNT_NUM" type="xs:integer"/>
+  <xs:element name="AVG_ACCOUNT" type="xs:decimal"/>
+  <xs:element name="AVG_DAY_BED_NUM" type="integer-or-empty"/>
+  <xs:element name="ADMISSION_NUM" type="xs:integer"/>
+  <xs:element name="IN_HOSPITAL_NUM" type="xs:integer"/>
+  <xs:element name="CRITICAL_NUM" type="xs:integer"/>
+  <xs:element name="OBSERVE_NUM" type="integer-or-empty"/>
+  <xs:element name="DELIVERY_ROOM_NUM" type="integer-or-empty"/>
+  <xs:element name="ICU_NUM" type="integer-or-empty"/>
+  <xs:element name="OPERATION_NUM" type="integer-or-empty"/>
+  <xs:element name="BESPOKE_NUM" type="integer-or-empty"/>
+  <xs:element name="CONSULTATION_NUM" type="integer-or-empty"/>
+  <xs:element name="LEAVE_NUM" type="xs:integer"/>
+  <xs:element name="DISCHARGE_CURE_NUM" type="xs:integer"/>
+  <xs:element name="DISCHARGE_BETTER_NUM" type="xs:integer"/>
+  <xs:element name="DISCHARGE_STABLE_NUM" type="xs:integer"/>
+  <xs:element name="DISCHARGE_WORSE_NUM" type="xs:integer"/>
+  <xs:element name="DISCHARGE_OTHER_NUM" type="xs:integer"/>
+  <xs:element name="DIE_NUM" type="xs:integer"/>
+  <xs:element name="AVG_INHOSPITAL_DAY" type="xs:integer"/>
+  <xs:element name="USE_BED" type="xs:integer"/>
+  <xs:element name="RATED_BED" type="xs:integer"/>
+  <xs:element name="BED_USE_RATIO" type="xs:decimal"/>
+  <xs:element name="BED_TURNOVER_NUM" type="xs:integer"/>
+  <xs:element name="SETTLEMENT_AMOUNT" type="xs:decimal"/>
+  <xs:element name="ANTIBACTERIAL_RATIO" type="xs:decimal"/>
+  <xs:element name="DRUG_AMOUNT" type="xs:decimal"/>
+  <xs:element name="DRUG_SCALE" type="xs:decimal"/>
+  <xs:element name="OTHER_DRUG_AMOUNT" type="xs:decimal"/>
+  <xs:element name="OTHER_DRUG_SCALE" type="xs:decimal"/>
+  <xs:element name="OWN_DRUG_AMOUNT" type="xs:decimal"/>
+  <xs:element name="OWN_DRUG_SCALE" type="xs:decimal"/>
+  <xs:element name="MED_AMOUNT" type="xs:decimal"/>
+  <xs:element name="MED_SCALE" type="xs:decimal"/>
+  <xs:element name="OTHER_MED_AMOUNT" type="xs:decimal"/>
+  <xs:element name="OTHER_MED_SCALE" type="xs:decimal"/>
+  <xs:element name="OWN_MED_AMOUNT" type="xs:decimal"/>
+  <xs:element name="OWN_MED_SCALE" type="xs:decimal"/>
+</xs:schema>

@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+#ehrbrowser_main .contentDiv{
+	text-align: left;
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:include schemaLocation="BASE.xsd"/>
+	<xs:element name="RD_OUTPATIENT_COMPOSITIVE">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ORGAN_CODE"/>
+				<xs:element ref="ORGAN_NAME"/>
+				<xs:element ref="GENRE_CODE"/>
+				<xs:element ref="YEAR_MONTH"/>
+				<xs:element ref="YEAR"/>
+				<xs:element ref="HALF_YEAR"/>
+				<xs:element ref="QUARTER"/>
+				<xs:element ref="MONTH"/>
+				<xs:element ref="REPORT_TYPE"/>
+				<xs:element ref="OUTPATIENT_INCOME"/>
+				<xs:element ref="MEDICAL_INSURANCE_COST"/>
+				<xs:element ref="OWN_EXPENSES"/>
+				<xs:element ref="AVG_MEDICAL_FEE"/>
+				<xs:element ref="AVG_DRUG_COST"/>
+				<xs:element ref="VISIT_DOCTORS_NUM"/>
+				<xs:element ref="TOTAL_DOCTORS_NUM"/>
+				<xs:element ref="BESPOKE_REG_NUM"/>
+				<xs:element ref="AVG_OUTPATIENT_NUM"/>
+				<xs:element ref="REGISTRATION_NUM"/>
+				<xs:element ref="VISIT_NUM"/>
+				<xs:element ref="NON_ATTEND_NUM"/>
+				<xs:element ref="OBSERVING_NUM"/>
+				<xs:element ref="TOTAL_CLINIC_NUM"/>
+				<xs:element ref="OUTPATIENT_CLINIC_NUM"/>
+				<xs:element ref="EME_CLINIC_NUM"/>
+				<xs:element ref="BESPOKE_CLINIC_NUM"/>
+				<xs:element ref="CHECK_NUM"/>
+				<xs:element ref="PRESCRIBEN_NUM"/>
+				<xs:element ref="PRESCRIBE_AMOUNT"/>
+				<xs:element ref="ANTIMICROBIAL_PRE_NUM"/>
+				<xs:element ref="DRIP_PRESCRIBE_NUM"/>
+				<xs:element ref="TRA_CHN_PRESCRIBE_NUM"/>
+				<xs:element ref="AVG_PRESCRIBE_NUM"/>
+				<xs:element ref="AVG_CLINIC_NUM"/>
+				<xs:element ref="PER_PRESCRIBE_COST"/>
+				<xs:element ref="AVG_PRESCRIBE_COST"/>
+				<xs:element ref="OWN_PRESCRIBE_COST"/>
+				<xs:element ref="OTHER_PRESCRIBE_COST"/>
+				<xs:element ref="DRUG_INCOME"/>
+				<xs:element ref="DRUG_INCOME_SCALE"/>
+				<xs:element ref="OTHER_DRUG_AMOUNT"/>
+				<xs:element ref="OTHER_DRUG_SCALE"/>
+				<xs:element ref="OWN_DRUG_AMOUNT"/>
+				<xs:element ref="OWN_DRUG_SCALE"/>
+				<xs:element ref="MED_AMOUNT"/>
+				<xs:element ref="MED_AMOUNT_SCALE"/>
+				<xs:element ref="OTHER_MED_AMOUNT"/>
+				<xs:element ref="OTHER_MED_SCALE"/>
+				<xs:element ref="OWN_MED_AMOUNT"/>
+				<xs:element ref="OWN_MED_SCALE"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OUTPATIENT_INCOME" type="xs:decimal"/>
+	<xs:element name="MEDICAL_INSURANCE_COST" type="xs:decimal"/>
+	<xs:element name="OWN_EXPENSES" type="xs:decimal"/>
+	<xs:element name="AVG_MEDICAL_FEE" type="xs:decimal"/>
+	<xs:element name="AVG_DRUG_COST" type="xs:decimal"/>
+	<xs:element name="VISIT_DOCTORS_NUM" type="xs:integer"/>
+	<xs:element name="TOTAL_DOCTORS_NUM" type="xs:integer"/>
+	<xs:element name="BESPOKE_REG_NUM" type="xs:integer"/>
+	<xs:element name="AVG_OUTPATIENT_NUM" type="xs:integer"/>
+	<xs:element name="TOTAL_CLINIC_NUM" type="xs:integer"/>
+	<xs:element name="OUTPATIENT_CLINIC_NUM" type="xs:integer"/>
+	<xs:element name="EME_CLINIC_NUM" type="xs:integer"/>
+	<xs:element name="BESPOKE_CLINIC_NUM" type="xs:integer"/>
+	<xs:element name="CHECK_NUM" type="xs:integer"/>
+	<xs:element name="PRESCRIBEN_NUM" type="xs:integer"/>
+	<xs:element name="PRESCRIBE_AMOUNT" type="xs:decimal"/>
+	<xs:element name="ANTIMICROBIAL_PRE_NUM" type="xs:integer"/>
+	<xs:element name="DRIP_PRESCRIBE_NUM" type="xs:integer"/>
+	<xs:element name="TRA_CHN_PRESCRIBE_NUM" type="xs:integer"/>
+	<xs:element name="AVG_PRESCRIBE_NUM" type="xs:integer"/>
+	<xs:element name="AVG_CLINIC_NUM" type="xs:integer"/>
+	<xs:element name="PER_PRESCRIBE_COST" type="xs:decimal"/>
+	<xs:element name="AVG_PRESCRIBE_COST" type="xs:decimal"/>
+	<xs:element name="OWN_PRESCRIBE_COST" type="xs:decimal"/>
+	<xs:element name="OTHER_PRESCRIBE_COST" type="xs:decimal"/>
+	<xs:element name="DRUG_INCOME" type="xs:decimal"/>
+	<xs:element name="DRUG_INCOME_SCALE" type="xs:decimal"/>
+	<xs:element name="OTHER_DRUG_AMOUNT" type="xs:decimal"/>
+	<xs:element name="OTHER_DRUG_SCALE" type="xs:decimal"/>
+	<xs:element name="OWN_DRUG_AMOUNT" type="xs:decimal"/>
+	<xs:element name="OWN_DRUG_SCALE" type="xs:decimal"/>
+	<xs:element name="MED_AMOUNT" type="xs:decimal"/>
+	<xs:element name="MED_AMOUNT_SCALE" type="xs:decimal"/>
+	<xs:element name="OTHER_MED_AMOUNT" type="xs:decimal"/>
+	<xs:element name="OTHER_MED_SCALE" type="xs:decimal"/>
+	<xs:element name="OWN_MED_AMOUNT" type="xs:decimal"/>
+	<xs:element name="OWN_MED_SCALE" type="xs:decimal"/>
+	<xs:element name="REGISTRATION_NUM" type="xs:integer"/>
+	<xs:element name="VISIT_NUM" type="xs:integer"/>
+	<xs:element name="NON_ATTEND_NUM" type="xs:integer"/>
+	<xs:element name="OBSERVING_NUM" type="xs:integer"/>
+</xs:schema>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.founder.elb.jtadb</groupId>
+		<artifactId>elb</artifactId>
+		<version>1.0.1</version>
+		        <relativePath>../pom.xml</relativePath>
+	</parent>
+	
+	<artifactId>elb-service</artifactId>
+	<packaging>jar</packaging>
+	<name>ELB Service</name>
+	
+	
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.fasf.groupId}</groupId>
+			<artifactId>fasf-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.fasf.groupId}</groupId>
+			<artifactId>fasf-security</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>elb-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+   
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.4</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.founder</groupId>
+		  <artifactId>ImApi</artifactId>
+		  <version>1.0.1</version>
+		</dependency>
+	</dependencies>
+</project>

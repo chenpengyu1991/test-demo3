@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.table-basic{width:100%;overflow:auto;vertical-align:middle;}
+.table-basic table{width:100%; border-left:#C8BArrayAE solid 1px;border-top:#C8BArrayAE solid 1px;border-collapse:collapse;}
+.table-basic td{text-align:left;height:24px;line-height:24px;border:1px solid #C1E3FD;padding-left:20px;}
+.table-basic th{    border: 1px solid #C1E3FD;background: #E7F4FE;font-weight:normal;}
+.table-basic td.td_gray{background:#F5FBFF;}
+.table-basic td.h_top{background:#66B9DB; font-weight:bold;text-align:center;color:#FFF;}
+
+s.pop_No{text-decoration:none;float:right;margin-bottom:5px;}
+s.pop_No input{width:15px;height:15px;line-height:15px;margin-left:2px;margin-right:2px;border:1px solid #CCC;}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--创建健康门户网站账号-->
+<root>
+	<!-- 账户名称-->
+    <accountName>aichangshu</accountName>
+     <!-- email-->
+    <email>123456@126.com</email>
+     <!-- 电话-->
+    <telephone>1862424124</telephone>
+    <!-- 密码-->
+    <password>1862424124</password>
+    <!-- 身份证号-->
+    <cardNo>320583198202241018</cardNo>
+    <!-- 真实姓名-->
+    <realName>王大锤</realName> 
+    <!-- 状态 1：启用 0：禁用-->
+    <status>1</status>
+    <!-- 预约状态1:启用0:禁用-->
+    <reserveStatus>1</reserveStatus> 
+</root>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+    <!--base layout  -->
+    <definition name="rhip.he.base" template="/WEB-INF/views/phsr/">
+        <put-attribute name="header" value="/" />
+        <put-attribute name="content" value="/" />
+    </definition>
+
+    <!-- 健康教育统计 -->
+    <definition name="rhip.phsr.he.report.search" template="/WEB-INF/views/phsr/he/search.jsp">
+    </definition>
+
+    <definition name="rhip.phsr.he.report.list" template="/WEB-INF/views/phsr/he/list.jsp">
+    </definition>
+    
+    <!-- 预防接种服务报表 -->
+    <definition name="rhip.phsr.he.vaccination.search" template="/WEB-INF/views/phsr/vaccination/search.jsp">
+    </definition>
+
+    <definition name="rhip.phsr.he.vaccination.list" template="/WEB-INF/views/phsr/vaccination/list.jsp">
+    </definition>
+    <!-- 结核病患者报表 -->
+    <definition name="rhip.phsr.he.tuberculosis.search" template="/WEB-INF/views/phsr/tuberculosis/search.jsp">
+    </definition>
+
+    <definition name="rhip.phsr.he.tuberculosis.list" template="/WEB-INF/views/phsr/tuberculosis/list.jsp">
+    </definition>
+
+	<definition name="rhip.phsr.he.childStatistical.search" template="/WEB-INF/views/phsr/childStatistical/search.jsp">
+    </definition>
+
+    <definition name="rhip.phsr.he.childStatistical.list" template="/WEB-INF/views/phsr/childStatistical/list.jsp">
+    </definition>
+
+	<definition name="rhip.phsr.he.childStatistical.elderlySearch" template="/WEB-INF/views/phsr/elderlyStatistical/search.jsp">
+    </definition>
+
+    <definition name="rhip.phsr.he.childStatistical.elderlyList" template="/WEB-INF/views/phsr/elderlyStatistical/list.jsp">
+    </definition>
+
+    <!--传染病及及突发事件服务报表-->
+    <definition name="rhip.phsr.infectEmergencies.search" template="/WEB-INF/views/phsr/infectEmergencies/search.jsp">
+    </definition>
+    <definition name="rhip.phsr.infectEmergencies.list" template="/WEB-INF/views/phsr/infectEmergencies/list.jsp">
+    </definition>
+
+    <!--精神疾病及癫痫患者管理报表-->
+    <definition name="rhip.phsr.mentalEpilepsyPatient.search" template="/WEB-INF/views/phsr/mentalEpilepsyPatient/search.jsp">
+    </definition>
+    <definition name="rhip.phsr.mentalEpilepsyPatient.list" template="/WEB-INF/views/phsr/mentalEpilepsyPatient/list.jsp">
+    </definition>
+
+    <!--人口基本情况报表-->
+    <definition name="rhip.phsr.population.search" template="/WEB-INF/views/phsr/population/search.jsp">
+    </definition>
+    <definition name="rhip.phsr.population.list" template="/WEB-INF/views/phsr/population/list.jsp">
+    </definition>
+
+    <!--孕产妇健康管理统计报表-->
+    <definition name="rhip.phsr.maternalHealthManage.search" template="/WEB-INF/views/phsr/maternalHealthManage/search.jsp">
+    </definition>
+    <definition name="rhip.phsr.maternalHealthManage.list" template="/WEB-INF/views/phsr/maternalHealthManage/list.jsp">
+    </definition>
+
+	<!-- 0-6岁儿童健康管理 -->
+	<definition name="rhip.phsr.childCensus.search" template="/WEB-INF/views/phsr/childCensus/search.jsp"></definition>
+	<definition name="rhip.phsr.childCensus.list" template="/WEB-INF/views/phsr/childCensus/list.jsp"></definition>
+
+	<!-- 预防接种统计报表 -->
+    <definition name="rhip.phsr.vaccinationCensus.search" template="/WEB-INF/views/phsr/vaccinationCensus/search.jsp"></definition>    
+	<definition name="rhip.phsr.vaccinationCensus.list" template="/WEB-INF/views/phsr/vaccinationCensus/list.jsp"></definition>
+
+	<!-- 中医药健康管理统计报表 -->
+    <definition name="rhip.phsr.medicineCensus.search" template="/WEB-INF/views/phsr/medicineCensus/search.jsp"></definition>    
+	<definition name="rhip.phsr.medicineCensus.list" template="/WEB-INF/views/phsr/medicineCensus/list.jsp"></definition>
+
+    <!--传染病及突发公共卫生事件报告和处理统计报表-->
+    <definition name="rhip.phsr.infectEmergCensus.search" template="/WEB-INF/views/phsr/infectEmergCensus/search.jsp"></definition>
+    <definition name="rhip.phsr.infectEmergCensus.list" template="/WEB-INF/views/phsr/infectEmergCensus/list.jsp"></definition>
+    
+    <!-- 高血压患者健康管理统计报表 -->
+    <definition name="rhip.phsr.hbpDiCensus.hbpSearch" template="/WEB-INF/views/phsr/hbpCensus/search.jsp"></definition>    
+	<definition name="rhip.phsr.hbpDiCensus.hbplist" template="/WEB-INF/views/phsr/hbpCensus/list.jsp"></definition>
+
+    <!-- 糖尿病患者健康管理统计报表 -->
+    <definition name="rhip.phsr.hbpDiCensus.diSearch" template="/WEB-INF/views/phsr/diCensus/search.jsp"></definition>    
+	<definition name="rhip.phsr.hbpDiCensus.dilist" template="/WEB-INF/views/phsr/diCensus/list.jsp"></definition>
+ 
+    <!--精神疾病及癫痫患者管理报表-->
+    <definition name="rhip.phsr.mentalEpilepsyCensus.search" template="/WEB-INF/views/phsr/mentalEpilepsyCensus/search.jsp"></definition>
+    <definition name="rhip.phsr.mentalEpilepsyCensus.list" template="/WEB-INF/views/phsr/mentalEpilepsyCensus/list.jsp"></definition>
+    
+    <!-- 肺结核患者健康管理统计报表-->
+    <definition name="rhip.phsr.he.tubercCensus.search" template="/WEB-INF/views/phsr/tubercCensus/search.jsp"></definition>
+    <definition name="rhip.phsr.he.tubercCensus.list" template="/WEB-INF/views/phsr/tubercCensus/list.jsp"></definition>
+    
+     <!-- 家庭医生签约服务进展情况统计-->
+    <definition name="rhip.phsr.doctorSignCensus.search" template="/WEB-INF/views/phsr/doctorSignCensus/search.jsp"></definition>
+    <definition name="rhip.phsr.doctorSignCensus.list" template="/WEB-INF/views/phsr/doctorSignCensus/list.jsp"></definition>
+
+    <!-- 家庭档案统计报表-->
+    <definition name="rhip.phsr.familyStatistics.search" template="/WEB-INF/views/phsr/familyStatistics/search.jsp"></definition>
+    <definition name="rhip.phsr.familyStatistics.list" template="/WEB-INF/views/phsr/familyStatistics/list.jsp"></definition>
+
+
+    <!-- 城乡居民健康档案管理统计报表-->
+    <definition name="rhip.phsr.healthRecordCensus.search" template="/WEB-INF/views/phsr/healthRecordCensus/search.jsp"></definition>
+    <definition name="rhip.phsr.healthRecordCensus.list" template="/WEB-INF/views/phsr/healthRecordCensus/list.jsp"></definition>
+        
+</tiles-definitions>

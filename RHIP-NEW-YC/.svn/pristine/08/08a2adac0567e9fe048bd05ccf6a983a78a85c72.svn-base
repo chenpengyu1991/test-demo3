@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+		"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+		"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation -->
+<tiles-definitions>
+
+	<definition name="rhip.fdm.reportCard.report" extends="rhip.ehr.layout.report">
+		<put-attribute name="content"
+					   value="/WEB-INF/views/fdm/reportCard/report/add.jsp" />
+	</definition>
+
+	<definition name="rhip.fdm.reportCard.report.csws" template="/WEB-INF/views/fdm/reportCard/report/add.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.report.hsaRecordAdd" template="/WEB-INF/views/fdm/reportCard/report/hsaRecordAdd.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.list" template="/WEB-INF/views/fdm/reportCard/list/list.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.listResult" template="/WEB-INF/views/fdm/reportCard/list/listResult.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.testResult" template="/WEB-INF/views/fdm/reportCard/list/addTestResult.jsp"></definition>
+
+	<definition name="rhip.fdm.reportCard.view" template="/WEB-INF/views/fdm/reportCard/report/view.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.edit" template="/WEB-INF/views/fdm/reportCard/report/edit.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.summary" template="/WEB-INF/views/fdm/statistics/search.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.summaryList" template="/WEB-INF/views/fdm/statistics/list.jsp"></definition>
+	<definition name="rhip.fdm.reportCard.lastAuth" template="/WEB-INF/views/fdm/reportCard/report/lastAuth.jsp"></definition>
+	<!--	<definition name="rhip.fdm.reportCard.print" extends="rhip.ehr.print.layout">
+            <put-attribute name="printContent" value="/WEB-INF/views/fdm/reportCard/report/print.jsp"/>
+        </definition>-->
+	<definition name="rhip.fdm.reportCard.print" extends="rhip.ehr.print.layout" >
+		<put-attribute name="printContent" value="/WEB-INF/views/fdm/reportCard/report/print.jsp"/>
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+<!--base layout  -->
+	<definition name="rhip.chm.base" template="/WEB-INF/views/oh/">
+		  <put-attribute name="header" value="/" />
+		  <put-attribute name="content" value="/" />
+    </definition>
+    <!--重点企业卫生服务档案 begin  -->
+    <!--企业基本信息  -->
+    <definition name="rhip.oh.enterprise.search" template="/WEB-INF/views/oh/enterprise/search.jsp">
+    </definition>
+	<definition name="rhip.oh.enterprise.list" template="/WEB-INF/views/oh/enterprise/list.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.add" template="/WEB-INF/views/oh/enterprise/add.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.info" template="/WEB-INF/views/oh/enterprise/enterpriseInfo.jsp">
+	</definition>
+	<!--职业卫生情况  -->
+	<definition name="rhip.oh.enterprise.condition" template="/WEB-INF/views/oh/enterprise/conditionList.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.condition.add" template="/WEB-INF/views/oh/enterprise/conditionAdd.jsp">
+	</definition>
+	<!--使用化学物质  -->
+	<definition name="rhip.oh.enterprise.chemicalsUsed" template="/WEB-INF/views/oh/enterprise/chemicalsUsedList.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.chemicalsUsed.add" template="/WEB-INF/views/oh/enterprise/chemicalsUsedAdd.jsp">
+	</definition>
+	<!--危害因素接触  -->
+	<definition name="rhip.oh.enterprise.contactSituation" template="/WEB-INF/views/oh/enterprise/contactSituationList.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.contactSituation.add" template="/WEB-INF/views/oh/enterprise/contactSituationAdd.jsp">
+	</definition>
+	<!--主要生产设备  -->
+	<definition name="rhip.oh.enterprise.equipment" template="/WEB-INF/views/oh/enterprise/equipmentList.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.equipment.add" template="/WEB-INF/views/oh/enterprise/equipmentAdd.jsp">
+	</definition>
+	<!--工艺流程监测  -->
+	<definition name="rhip.oh.enterprise.testItems" template="/WEB-INF/views/oh/enterprise/testItemsList.jsp">
+	</definition>
+	<definition name="rhip.oh.enterprise.testItems.add" template="/WEB-INF/views/oh/enterprise/testItemsAdd.jsp">
+	</definition>
+	<!--重点企业卫生服务档案 end  -->
+	
+	<!--职业病病人档案 begin-->
+	<definition name="rhip.oh.occPatient.search" template="/WEB-INF/views/oh/occPatient/search.jsp">
+	</definition>
+	<definition name="rhip.oh.occPatient.list" template="/WEB-INF/views/oh/occPatient/list.jsp">
+	</definition>
+	<definition name="rhip.oh.occPatient.add" template="/WEB-INF/views/oh/occPatient/add.jsp">
+	</definition>
+	<definition name="rhip.oh.occPatient.employeeInfo" template="/WEB-INF/views/oh/occPatient/employeeInfo.jsp">
+	</definition>
+	<definition name="rhip.oh.occPatient.companyInfo" template="/WEB-INF/views/oh/occPatient/companyInfo.jsp">
+	</definition>
+	<definition template="/WEB-INF/views/oh/occPatient/reportSearch.jsp" name="rhip.oh.occPatient.reportSearch"> </definition>
+	<definition template="/WEB-INF/views/oh/occPatient/reportList.jsp" name="rhip.oh.occPatient.reportList"> </definition>	
+	<definition template="/WEB-INF/views/oh/occPatient/report.jsp" name="rhip.oh.occPatient.report"> </definition>
+	<!--职业病病人档案 end  -->
+	
+	<!-- 农药中毒报卡 -->
+	<definition name="rhip.oh.poisonReport.search" template="/WEB-INF/views/oh/pesticidePoison/search.jsp"></definition>
+	<definition name="rhip.oh.poisonReport.list" template="/WEB-INF/views/oh/pesticidePoison/list.jsp"></definition>
+	<definition name="rhip.oh.poisonReport.edit" template="/WEB-INF/views/oh/pesticidePoison/edit.jsp"></definition>
+	
+	<!-- 放射卫生档案维护 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.search" template="/WEB-INF/views/oh/radiologyDepDoc/search.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.hospitalInfoRecords" template="/WEB-INF/views/oh/radiologyDepDoc/hospitalInfoList.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.edit" template="/WEB-INF/views/oh/radiologyDepDoc/edit.jsp"></definition>
+	
+	<!-- 医院基本情况 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.yyjbqk" template="/WEB-INF/views/oh/radiologyDepDoc/yyjbqk/yyjbqk.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.hospitalInfo.edit" template="/WEB-INF/views/oh/radiologyDepDoc/yyjbqk.jsp"></definition>
+	
+	<!-- 医院放射设备情况 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.yyfssbqk" template="/WEB-INF/views/oh/radiologyDepDoc/yyfssbqk/yyfssbqk.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.yyfssbqk.edit" template="/WEB-INF/views/oh/radiologyDepDoc/yyfssbqk/yyfssbqkEdit.jsp"></definition>
+	
+	<!-- 放射防护情况 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.fsfhqk.index" template="/WEB-INF/views/oh/radiologyDepDoc/fsfhqk/fsfhqk.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.fsfhqk.machineRoom" template="/WEB-INF/views/oh/radiologyDepDoc/fsfhqk/fskqkList.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.fsfhqk.cautionAlarm" template="/WEB-INF/views/oh/radiologyDepDoc/fsfhqk/qtfhcsList.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.fsfhqk.machineRoom.edit" template="/WEB-INF/views/oh/radiologyDepDoc/fsfhqk/fskqkEdit.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.fsfhqk.cautionAlarm.edit" template="/WEB-INF/views/oh/radiologyDepDoc/fsfhqk/qtfhcsEdit.jsp"></definition>
+	
+	<!-- 放射科位置布置情况 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.fsfhqk.fskwzbzqk" template="/WEB-INF/views/oh/radiologyDepDoc/fsfhqk/fskwzbzqkEdit.jsp"></definition>
+	
+	<!-- 个人防护用品 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.grfhyp" template="/WEB-INF/views/oh/radiologyDepDoc/grfhyp/grfhyp.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.grfhyp.edit" template="/WEB-INF/views/oh/radiologyDepDoc/grfhyp/grfhypEdit.jsp"></definition>
+	
+	<!-- 个人剂量档案 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjlda.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda.edit" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjldaEdit.jsp"></definition>
+	
+	<!-- 放射工作人员个人剂量和健康监护档案 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda.grjlhjkjhda" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjlhjkjhda/grjlhjkjhda.jsp"></definition>
+	<!-- 个人计量检测结果 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda.grjlhjkjhda.grjljcjg" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjlhjkjhda/grjljcjgList.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda.grjlhjkjhda.grjljcjg.edit" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjlhjkjhda/grjljcjgEdit.jsp"></definition>
+	<!-- 放射工作人员年工作量 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda.grjlhjkjhda.fsgzryngzl" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjlhjkjhda/fsgzryngzlList.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.grjlda.grjlhjkjhda.fsgzryngzl.edit" template="/WEB-INF/views/oh/radiologyDepDoc/grjlda/grjlhjkjhda/fsgzryngzlEdit.jsp"></definition>
+	
+	<!-- 培训情况 -->
+	<definition name="rhip.oh.radiologicalProtectionReport.pxqk" template="/WEB-INF/views/oh/radiologyDepDoc/pxqk/pxqk.jsp"></definition>
+	<definition name="rhip.oh.radiologicalProtectionReport.pxqk.edit" template="/WEB-INF/views/oh/radiologyDepDoc/pxqk/pxqkEdit.jsp"></definition>
+</tiles-definitions>

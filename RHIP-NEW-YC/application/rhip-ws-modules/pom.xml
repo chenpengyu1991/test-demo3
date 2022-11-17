@@ -1,0 +1,50 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.founder.rhip</groupId>
+	<artifactId>rhip-ws-modules</artifactId>
+	<version>1.0.1</version>
+	<packaging>pom</packaging>
+	<name>rhip ws modules</name>
+	<url>http://www.founder.com</url>
+		    <profiles>
+    <profile>
+        <id>default</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <modules>
+            <module>../parent</module>
+            <module>../elb-parent</module>
+            <module>../mdm-parent</module>
+            <module>../ehr-parent</module>
+            <module>../ph-parent</module>
+            <module>../idm-parent</module>
+            <module>../cdm-parent</module>
+            <module>../hm-parent</module>
+            <module>../he-parent</module>
+            <module>../rhip-ws</module>
+            <module>../lhportal-parent</module>
+            <module>../whch-parent</module>
+            <module>../ep-parent</module>
+            <module>../hsa-parent</module>
+            <module>../mhm-parent</module>
+            <module>../ihm-parent</module>
+            <module>../scheduling-parent</module>
+            <module>../da-parent</module>
+            <module>../ech-parent</module>
+            <module>../sr-parent</module>
+            <module>../im-parent</module>
+        </modules>
+    </profile>
+    <profile>
+        <id>core</id>
+        <activation>
+            <activeByDefault>false</activeByDefault>
+        </activation>
+        <modules>
+            <module>../../framework/fasf-parent</module>
+        </modules>
+    </profile>
+    </profiles>
+</project>

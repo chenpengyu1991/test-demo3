@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*-----------layout--------*/
+body  {
+	background: #EEE;
+	margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
+	padding: 0;
+	color: #000000;
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	height:100%;	
+}
+a:link{   
+ color:#4a4a4a;   
+ text-decoration:none;   
+}   
+a:visited {   
+ color: #00F;   
+ text-decoration:none;   
+}   
+a:hover {   
+ color: #c00;   
+ text-decoration:underline;   
+}   
+ul{ list-style:none;} 
+.twoColFixRtHdr #container { 
+	background: #EBEBEB;
+	margin: 0 auto; /* 自动边距（与宽度一起）会将页面居中 */
+	border: 1px solid #000000;
+	text-align: left; /* 这将覆盖 body 元素上的“text-align: center”。 */
+	min-width: 990px;
+	width:expression(document.body.clientWidth <990 ?"990px": "auto");
+	position:relative;
+}
+.twoColFixRtHdr #sidebar1 {
+	float: right; /* 由于此元素是浮动的，因此必须指定宽度 */
+	width: 180px; /* 在符合标准的浏览器中或者在 Internet Explorer 中的标准模式下，此 div 的实际宽度除了包括宽度外，还包括填充和边框 */
+	background: #EBEBEB; /* 将显示背景色，其宽度等于栏中内容的长度，*/
+	padding: 0;
+	border:0px solid #CCC;
+	margin:6px 0;
+}
+.twoColFixRtHdr #mainContent { 
+	margin: 0 182px 0 0; /* 此 div 元素的右边距会在页面的右下方创建栏 — 无论 sidebar1 div 中包含多少内容，都将保留栏空白。如果您希望在 #sidebar1 中的内容结束时，用 #mainContent div 的文本填充 #sidebar1 空白，则可以删除此边距。 */
+	padding: 0 6px; /* 请记住，填充是 div 方块内部的空间，边距则是 div 方块外部的空间 */
+	
+} 
+.twoColFixRtHdr .main_c{margin:0;padding:0 6px;clear:both;}
+.twoColFixRtHdr #footer { 
+	padding: 0 10px 0 20px; /* 此填充会将它上面 div 中的所有元素左对齐。 */
+	background:#DDDDDD; 
+} 
+.twoColFixRtHdr #footer p {
+	margin: 0; /* 将脚注中第一个元素的边距设置为零将避免出现可能的边距重叠（即 div 之间出现的空白）*/
+	padding: 10px 0; /* 就像边距会产生空白一样，此元素上的填充也将产生空白，但不会出现边距重叠问题 */
+}
+.fltrt { /* 此类可用来使页面中的元素向右浮动。浮动元素必须位于页面上要与之相邻的元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用来使页面上的元素向左浮动 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 此类应当放在 div 或 break 元素上，而且该元素应当是完全包含浮动的容器关闭之前的最后一个元素 */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+#header {background: url(../images/top_bg.gif) repeat-x;height: 125px;}
+#header i{background: url(../images/top_name.gif) no-repeat 0px 0px;width:546px;height:37px;left:20px;position: absolute;display:block;}
+#header s{background: url(../images/top_out.gif) no-repeat;width:60px; height:22px;position: absolute;top:6px;right:30px;}
+#header b{position:absolute;top:10px;right:120px;color:#FFF; font-weight:normal;}
+
+#banner {position:absolute; height:88px;top:37px;left:0px;right:0px; padding:0;color:#4a4a4a;width:990px;}
+#banner A{padding:0px;margin:0px;text-decoration:none;height:88px;display:block;float:left;cursor:pointer;}
+
+#banner span a.ba01{background:url(../images/banner/biao_01.gif) no-repeat;width:99px;}
+#banner span a.ba02{background:url(../images/banner/biao_02.gif) no-repeat;width:98px;}
+#banner span a.ba03{background:url(../images/banner/biao_03.gif) no-repeat;width:99px;}
+#banner span a.ba04{background:url(../images/banner/biao_04.gif) no-repeat;width:99px;}
+#banner span a.ba05{background:url(../images/banner/biao_05.gif) no-repeat;width:99px;}
+#banner span a.ba06{background:url(../images/banner/biao_06.gif) no-repeat;width:98px;}
+#banner span a.ba07{background:url(../images/banner/biao_07.gif) no-repeat;width:99px;}
+#banner span a.ba08{background:url(../images/banner/biao_08.gif) no-repeat;width:99px;}
+#banner span a.ba09{background:url(../images/banner/biao_09.gif) no-repeat;width:98px;}
+#banner span a.ba10{background:url(../images/banner/biao_10.gif) no-repeat;width:99px;}
+#banner span a.ba11{background:url(../images/banner/biao_11.gif) no-repeat;width:99px;}
+#banner span a.ba12{background:url(../images/banner/biao_12.gif) no-repeat;width:98px;}
+#banner span a.ba13{background:url(../images/banner/biao_13.gif) no-repeat;width:99px;}
+#banner span a.ba14{background:url(../images/banner/biao_14.gif) no-repeat;width:99px;}
+#banner span a.ba15{background:url(../images/banner/biao_15.gif) no-repeat;width:99px;}
+#banner span a.ba16{background:url(../images/banner/biao_16.gif) no-repeat;width:98px;}
+#banner span a.ba17{background:url(../images/banner/biao_17.gif) no-repeat;width:99px;}
+#banner span a.ba18{background:url(../images/banner/biao_18.gif) no-repeat;width:99px;}
+
+#banner span a.ba01:hover , #banner span a.ba01:focus{background:url(../images/banner/biao_hover_01.gif) no-repeat;width:99px;}
+#banner span a.ba02:hover , #banner span a.ba02:focus{background:url(../images/banner/biao_hover_02.gif) no-repeat;width:98px;}
+#banner span a.ba03:hover , #banner span a.ba03:focus{background:url(../images/banner/biao_hover_03.gif) no-repeat;width:99px;}
+#banner span a.ba04:hover , #banner span a.ba04:focus{background:url(../images/banner/biao_hover_04.gif) no-repeat;width:99px;}
+#banner span a.ba05:hover , #banner span a.ba05:focus{background:url(../images/banner/biao_hover_05.gif) no-repeat;width:99px;}
+#banner span a.ba06:hover , #banner span a.ba06:focus{background:url(../images/banner/biao_hover_06.gif) no-repeat;width:98px;}
+#banner span a.ba07:hover , #banner span a.ba07:focus{background:url(../images/banner/biao_hover_07.gif) no-repeat;width:99px;}
+#banner span a.ba08:hover , #banner span a.ba08:focus{background:url(../images/banner/biao_hover_08.gif) no-repeat;width:99px;}
+#banner span a.ba09:hover , #banner span a.ba09:focus{background:url(../images/banner/biao_hover_09.gif) no-repeat;width:98px;}
+#banner span a.ba10:hover , #banner span a.ba10:focus{background:url(../images/banner/biao_hover_10.gif) no-repeat;width:99px;}
+#banner span a.ba11:hover , #banner span a.ba11:focus{background:url(../images/banner/biao_hover_11.gif) no-repeat;width:99px;}
+#banner span a.ba12:hover , #banner span a.ba12:focus{background:url(../images/banner/biao_hover_12.gif) no-repeat;width:98px;}
+#banner span a.ba13:hover , #banner span a.ba13:focus{background:url(../images/banner/biao_hover_13.gif) no-repeat;width:99px;}
+#banner span a.ba14:hover , #banner span a.ba14:focus{background:url(../images/banner/biao_hover_14.gif) no-repeat;width:99px;}
+#banner span a.ba15:hover , #banner span a.ba15:focus{background:url(../images/banner/biao_hover_15.gif) no-repeat;width:99px;}
+#banner span a.ba16:hover , #banner span a.ba16:focus{background:url(../images/banner/biao_hover_16.gif) no-repeat;width:98px;}
+#banner span a.ba17:hover , #banner span a.ba17:focus{background:url(../images/banner/biao_hover_17.gif) no-repeat;width:99px;}
+#banner span a.ba18:hover , #banner span a.ba18:focus{background:url(../images/banner/biao_hover_18.gif) no-repeat;width:99px;}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+    <!--base layout  -->
+    <definition name="rhip.vaccine.index" template="/WEB-INF/views/vaccine/index.jsp">
+    </definition>
+
+    <!--犬伤报表统计  -->
+    <definition name="rhip.vaccine.statistics.report.monthReport.rabiesSearch" template="/WEB-INF/views/vaccine/statistics/report/monthReport/rabies/search_report.jsp" />
+    <definition name="rhip.vaccine.statistics.report.monthReport.rabiesList" template="/WEB-INF/views/vaccine/statistics/report/monthReport/rabies/rabies_report.jsp" />
+
+    <definition name="rhip.vaccine.report.acuteReport.index" template="/WEB-INF/views/vaccine/statistics/report/acuteReport/index.jsp">
+    </definition>
+    <definition name="rhip.vaccine.statistics.report.acuteReport.monthSearch" template="/WEB-INF/views/vaccine/statistics/report/acuteReport/month/search.jsp" />
+    <definition name="rhip.vaccine.statistics.report.acuteReport.monthList" template="/WEB-INF/views/vaccine/statistics/report/acuteReport/month/list.jsp" />
+    <definition name="rhip.vaccine.statistics.report.acuteReport.yearSearch" template="/WEB-INF/views/vaccine/statistics/report/acuteReport/year/search.jsp" />
+    <definition name="rhip.vaccine.statistics.report.acuteReport.yearList" template="/WEB-INF/views/vaccine/statistics/report/acuteReport/year/list.jsp" />
+    <!-- 医院权限  -->
+
+    <definition name="rhip.vaccine.hospital.index" template="/WEB-INF/views/vaccine/hospital/main_search.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.add" template="/WEB-INF/views/vaccine/hospital/records_add.jsp">
+    </definition>
+    <!-- 分别处理新增接种记录 -->
+    <definition name="rhip.vaccine.hospital.add.rabies" template="/WEB-INF/views/vaccine/hospital/add_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.add.hepatitis" template="/WEB-INF/views/vaccine/hospital/add_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.add.influenza" template="/WEB-INF/views/vaccine/hospital/add_influenza.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.add.pneumonia" template="/WEB-INF/views/vaccine/hospital/add_pneumonia.jsp">
+    </definition>
+    <!-- 分别处理新增接种记录 -->
+    <!-- 分别处理显示接种记录 -->
+    <definition name="rhip.vaccine.hospital.show.rabies" template="/WEB-INF/views/vaccine/hospital/show_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.show.hepatitis" template="/WEB-INF/views/vaccine/hospital/show_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.show.influenza" template="/WEB-INF/views/vaccine/hospital/show_influenza.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.show.pneumonia" template="/WEB-INF/views/vaccine/hospital/show_pneumonia.jsp">
+    </definition>
+    <!-- 分别处理显示接种记录 -->
+    <!-- 删除后分别处理显示接种记录 -->
+    <definition name="rhip.vaccine.hospital.rabies.list" template="/WEB-INF/views/vaccine/hospital/vaccine_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.hepatitis.list" template="/WEB-INF/views/vaccine/hospital/vaccine_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.influenza.list" template="/WEB-INF/views/vaccine/hospital/vaccine_influenza.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.pneumonia.list" template="/WEB-INF/views/vaccine/hospital/vaccine_pneumonia.jsp">
+    </definition>
+    <!-- 删除后分别处理显示接种记录 -->
+    <!-- 分别处理更新接种记录 -->
+    <definition name="rhip.vaccine.hospital.update.rabies" template="/WEB-INF/views/vaccine/hospital/update_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.update.hepatitis" template="/WEB-INF/views/vaccine/hospital/update_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.update.influenza" template="/WEB-INF/views/vaccine/hospital/update_influenza.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.update.pneumonia" template="/WEB-INF/views/vaccine/hospital/update_pneumonia.jsp">
+    </definition>
+    <!-- 分别处理更新接种记录 -->
+    <!-- 分别处理删除接种记录 -->
+    <definition name="rhip.vaccine.hospital.delete.rabies" template="/WEB-INF/views/vaccine/hospital/delete_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.delete.hepatitis" template="/WEB-INF/views/vaccine/hospital/delete_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.delete.influenza" template="/WEB-INF/views/vaccine/hospital/delete_influenza.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.delete.pneumonia" template="/WEB-INF/views/vaccine/hospital/delete_pneumonia.jsp">
+    </definition>
+    <!-- 分别处理删除接种记录 -->
+    <!-- 继续接种 -->
+    <definition name="rhip.vaccine.hospital.contine.hepatitis" template="/WEB-INF/views/vaccine/hospital/contine_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.contine.rabies" template="/WEB-INF/views/vaccine/hospital/contine_rabies.jsp">
+    </definition>
+    <!-- 继续接种 -->
+    <!-- 成功页面 -->
+    <definition name="rhip.vaccine.hospital.update.success" template="/WEB-INF/views/vaccine/hospital/success.jsp">
+    </definition>
+    <!-- 成功页面 -->
+    <!-- 通过身份证号码刷新基本信息  -->
+    <definition name="rhip.vaccine.hospital.add.flush.baseinfo.rabies" template="/WEB-INF/views/vaccine/hospital/flush_base_info_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.add.flush.baseinfo" template="/WEB-INF/views/vaccine/hospital/flush_base_info.jsp">
+    </definition>
+    <!-- 通过身份证号码刷新基本信息  -->
+    <definition name="rhip.vaccine.hospital.save" template="/WEB-INF/views/vaccine/hospital/records_add_details.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.records" template="/WEB-INF/views/vaccine/hospital/records_grid.jsp">
+    </definition>
+    <!-- 医院权限  -->
+    <!-- 狂犬蛋白球权限  -->
+    <definition name="rhip.vaccine.hospital.add.gray" template="/WEB-INF/views/vaccine/hospital/add_gray.jsp">
+    </definition>
+    <!-- 狂犬蛋白球权限  -->
+    <!-- 分别处理打印显示 -->
+    <definition name="rhip.vaccine.hospital.print.rabies" template="/WEB-INF/views/vaccine/hospital/print_rabies.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.print.hepatitis" template="/WEB-INF/views/vaccine/hospital/print_hepatitis.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.print.influenza" template="/WEB-INF/views/vaccine/hospital/print_influenza.jsp">
+    </definition>
+    <definition name="rhip.vaccine.hospital.print.pneumonia" template="/WEB-INF/views/vaccine/hospital/print_pneumonia.jsp">
+    </definition>
+    <!-- 分别处理打印显示 -->
+
+    <definition name="rhip.vaccine.hospital.inject.vaccine" template="/WEB-INF/views/vaccine/hospital/inject_vaccine.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.hospital.inject.gray" template="/WEB-INF/views/vaccine/hospital/inject_gray.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.hospital.inject.hepatitis" template="/WEB-INF/views/vaccine/hospital/inject_hepatitis.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.hospital.inject.pneumonia" template="/WEB-INF/views/vaccine/hospital/inject_pneumonia.jsp">
+    </definition>
+    <!-- 预约接种 -->
+    <definition name="rhip.vaccine.inoculation.index" template="/WEB-INF/views/vaccine/inoculation/index.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.inoculation.list" template="/WEB-INF/views/vaccine/inoculation/list.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.inoculation.view" template="/WEB-INF/views/vaccine/inoculation/view.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.inoculation.add" template="/WEB-INF/views/vaccine/inoculation/add.jsp">
+    </definition>
+    <!-- 23价疫苗报表开始 -->
+    <definition name="rhip.vaccine.pneumonia.report" template="/WEB-INF/views/vaccine/inoculation/search_report.jsp">
+    </definition>
+
+    <definition name="rhip.vaccine.pneumonia.report.result" template="/WEB-INF/views/vaccine/inoculation/pneumonia_report.jsp">
+    </definition>
+    <!-- 23价疫苗报表结束 -->
+
+    <!-- 狂犬疫苗类型选择开始 -->
+    <definition name="rhip.vaccine.select.rabies" template="/WEB-INF/views/vaccine/hospital/rabies_select.jsp">
+    </definition>
+    <!-- 狂犬疫苗类型选择结束 -->
+
+    <!-- HPV疫苗预约人数设置开始 -->
+    <definition name="rhip.vaccine.appointmentNum.search"
+                template="/WEB-INF/views/vaccine/numSet/numSet_search.jsp">
+    </definition>
+    <definition name="rhip.vaccine.appointmentNum.result"
+                template="/WEB-INF/views/vaccine/numSet/numSet_result.jsp">
+    </definition>
+    <!-- HPV疫苗预约人数设置结束 -->
+</tiles-definitions>

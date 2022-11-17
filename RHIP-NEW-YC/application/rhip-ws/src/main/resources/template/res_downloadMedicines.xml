@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<res_downloadMedicines>
+    <return></return>
+    <description></description>
+    <value>
+        <item>
+            <!-- 药品申报编码 -->
+            <medicineCode></medicineCode>
+            <!-- 药物级别（国家目录，省增补，其他）-->
+            <level></level>
+            <!-- 一级类别名称 -->
+            <cagname1></cagname1>
+            <!-- 二级类别名称 -->
+            <cagname2></cagname2>
+            <!-- 三级类别名称 -->
+            <cagname3></cagname3>
+            <!-- 通用名 -->
+            <commonname></commonname>
+            <!-- 商品名 -->
+            <productionname></productionname>
+            <!-- 规格 -->
+            <specification></specification>
+            <!-- 剂型 -->
+            <dosage></dosage>
+            <!-- 最小单位 -->
+            <unit></unit>
+            <!-- 包装材质 -->
+            <material></material>
+            <!-- 装换比 -->
+            <packageSize></packageSize>
+            <!-- 生产厂家 -->
+            <manufactory></manufactory>
+            <!-- 状态 1:有效 -1:无效 -->
+            <status></status>
+            <!-- 操作人 -->
+            <operator></operator>
+            <!-- 操作时间(yyyy-MM-dd HH:mm:ss) -->
+            <operateTime></operateTime>
+        </item>
+    </value>
+</res_downloadMedicines>

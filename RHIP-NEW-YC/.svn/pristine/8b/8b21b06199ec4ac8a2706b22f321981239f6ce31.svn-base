@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <locations>
+        <location>
+            <!-- 主表编号 必须 20-->
+            <mainId></mainId>
+            <!-- 单位名称 200-->
+            <unitName></unitName>
+            <!-- 经营地址 200-->
+            <businessAddress></businessAddress>
+            <!-- 负责人 50-->
+            <personInCharge></personInCharge>
+            <!-- 身份证号 20-->
+            <idCard></idCard>
+            <!--处罚程序 100-->
+            <punishType></punishType >
+            <!--案由 200-->
+            <caseCause></caseCause >
+            <!--立案日期（yyyyMMdd HH:mm:ss） -->
+            <beginCaseDate></beginCaseDate >
+            <!--结案日期（yyyyMMdd HH:mm:ss） -->
+            <endCaseDate></endCaseDate >
+        </location>
+    </locations>
+</root>

@@ -1,0 +1,11 @@
+.disable{background:#dedede}
+
+.record_table .listtrhover{
+	background: #A6D1FF!important;
+}
+.record_table .listtrselect{
+	background: #B3D7FF!important;
+}
+.record_table .offedperson{
+	background-color:#dedede;
+}

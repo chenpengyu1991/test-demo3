@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+	<groupId>com.founder.mdm</groupId>
+	<artifactId>mdm</artifactId>
+	<version>1.0.1</version>
+      <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>mdm-repository</artifactId>
+  <packaging>jar</packaging>
+  <name>mdm Repository</name>
+  <url>http://www.founder.com</url>
+  
+	
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.build.fasf.groupid}</groupId>
+			<artifactId>fasf-repository</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.founder.mdm</groupId>
+			<artifactId>mdm-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+	</dependencies>
+
+</project>

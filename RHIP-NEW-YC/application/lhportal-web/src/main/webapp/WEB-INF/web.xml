@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="PORTAL_ID" version="2.5">
+  <display-name>portal</display-name>
+    <!-- contextConfigLocation -->
+   <context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath*:config/applicationContext*.xml</param-value>
+	</context-param>
+	
+  <!-- Reads request input using UTF-8 encoding -->
+	<filter>
+		<filter-name>characterEncodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+    <filter>
+        <filter-name>AccountLoginFilter</filter-name>
+        <filter-class>com.founder.rhip.portal.filter.AccountLoginFilter</filter-class>
+        <init-param>
+            <param-name>checkSessionKey</param-name>
+            <param-value>ACCOUNT_INFO_IN_SESSION</param-value>
+        </init-param>
+        <init-param>
+            <param-name>redirectURL</param-name>
+            <param-value>/home/underConstruction</param-value>
+            <!--<param-value>/accountInfo/toLogin</param-value>-->
+        </init-param>
+        <init-param>
+            <param-name>notCheckURLList</param-name>
+            <param-value>/home/underConstruction;/home/infoIndex;/userSpace/hotExpert/search;/userSpace/hotExpert/list;/userSpace/hotExpert/select;/userSpace/hotExpert/loadConfirmInfo;/userSpace/hotExpert/hotExpertSearchList;</param-value>
+        </init-param>
+        <init-param>
+            <param-name>prefixList</param-name>
+            <param-value>.css;.js;.jpg;.gif;.png;</param-value>
+        </init-param>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>AccountLoginFilter</filter-name>
+        <url-pattern>/userSpace/*</url-pattern>
+    </filter-mapping>
+
+    <!-- x-frame-options filter start-->
+    <filter>
+        <filter-name>IframeFilter</filter-name>
+        <filter-class>com.founder.rhip.portal.filter.IframeFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>IframeFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!-- x-frame-options filter end-->
+    
+    <context-param>
+	    <param-name>log4jConfigLocation</param-name>
+	    <param-value>classpath:config/log4j.xml</param-value>
+	</context-param>
+	
+	<context-param>
+	    <param-name>webAppRootKey</param-name>
+	    <param-value>portal</param-value>
+	</context-param>
+    
+	<listener>
+	    <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+	</listener>
+	
+	<listener>
+        <listener-class>com.founder.fasf.listener.SpringContextInitListener</listener-class>
+    </listener>
+    
+    <listener>
+        <listener-class>com.founder.rhip.portal.listener.PropertiesInitListener</listener-class>
+    </listener>
+     
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextAttribute</param-name>
+            <param-value>org.springframework.web.context.WebApplicationContext.ROOT</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+	 
+  <!-- Sessiong -->
+    <session-config>
+        <session-timeout>20</session-timeout>
+    </session-config>
+    <!-- welcome-file-list -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+  <!-- 400错误 -->    
+  <error-page>    
+	<error-code>400</error-code>    
+	<location>/WEB-INF/views/common/400.jsp</location>    
+  </error-page>    
+	<!-- 404 页面不存在错误 -->    
+  <error-page>    
+	<error-code>404</error-code>    
+	<location>/WEB-INF/views/common/404.jsp</location>    
+  </error-page>    
+	<!-- 500 服务器内部错误 -->    
+  <error-page>    
+	<error-code>500</error-code>    
+	<location>/WEB-INF/views/common/500.jsp</location>    
+  </error-page>    
+	<!-- java.lang.Exception -->    
+  <error-page>    
+	<exception-type>java.lang.Exception</exception-type>    
+	<location>/WEB-INF/views/common/error.jsp</location>    
+  </error-page>    
+	<!-- java.lang.NullPointerException -->    
+  <error-page>      
+	<exception-type>java.lang.NullPointerException </exception-type>      
+	<location>/WEB-INF/views/common/error.jsp</location>      
+  </error-page>    
+  <error-page>    
+	<exception-type>javax.servlet.ServletException</exception-type>    
+	<location>/WEB-INF/views/common/error.jsp</location>    
+  </error-page>  
+</web-app>

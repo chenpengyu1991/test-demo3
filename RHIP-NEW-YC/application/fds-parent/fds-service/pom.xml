@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.founder.rhip</groupId>
+        <artifactId>fds</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+	<artifactId>fds-service</artifactId>
+	<packaging>jar</packaging>
+	<name>fds Service</name>
+	<url>http://www.founder.com</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+
+	<dependencies>
+        <dependency>
+            <groupId>com.founder.rhip</groupId>
+            <artifactId>ehr-repository</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>fds-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>fds-repository</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+	</dependencies>
+</project>

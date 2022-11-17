@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+       		http://www.springframework.org/schema/beans 
+       		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       		http://www.springframework.org/schema/context
+       		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- Spring Security Core Services -->
+	<!-- authenticationManager -->
+	<!-- <bean id="authenticationManager" class="org.springframework.security.authentication.ProviderManager"> 
+		<property name="providers"> <list> <ref local="daoAuthenticationProvider"/> 
+		<ref local="anonymousAuthenticationProvider"/> <ref local="ldapAuthenticationProvider"/> 
+		</list> </property> </bean> -->
+	<!-- daoAuthenticationProvider -->
+<!-- 	<bean id="daoAuthenticationProvider"
+		class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
+		<property name="userDetailsService" ref="defaultUserDetailsService" />
+		
+		<property name="saltSource" ref="saltSource" />
+		<property name="passwordEncoder" ref="passwordEncoder" />
+		
+	</bean> -->
+
+	<!-- DaoDescriptor工厂 -->
+<!-- 	<bean id="daoDescriptorFactory"
+		class="com.founder.fasf.core.util.daohelper.impl.DaoDescriptorFactoryImpl" /> -->
+	<!-- End -->
+
+<!-- 	<bean id="dataSourceProvider"
+		class="com.founder.fasf.core.util.daohelper.impl.DataSourceProvider" /> -->
+
+	<!-- SQL模板映射 -->
+<!-- 	<bean id="fileSQLTemplateMapping"
+		class="com.founder.fasf.core.util.daohelper.impl.FileSQLTemplateMapping" /> -->
+	<!-- End -->
+
+	<!-- 单表Entity访问接口 -->
+<!-- 	<bean id="entityDao" class="com.founder.fasf.core.util.daohelper.impl.EntityDao"
+		lazy-init="true">
+		<property name="dataSourceProvider" ref="dataSourceProvider" />
+	</bean> -->
+	<!-- End -->
+
+	<!-- InterfaceBeanDefProcessor -->
+<!-- 	<bean id="sqlDaoProxyAssembler"
+		class="com.founder.fasf.core.util.dihelper.impl.SQLDaoProxyAssembler">
+		<constructor-arg ref="dataSourceProvider" />
+		<constructor-arg ref="daoDescriptorFactory" />
+	</bean> -->
+	<!-- End -->
+
+	<!-- BeanPostProcessor -->
+<!-- 	<bean id="interfaceBeanPostProcessor"
+		class="com.founder.fasf.core.util.dihelper.impl.InterfaceBeanPostProcessor">
+		<property name="order" value="1" />
+	</bean> -->
+	
+<!-- 	<bean id="autowiredAnnotationBeanPostProcessor"
+		class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor">
+		<property name="order" value="2" />
+	</bean> -->
+	<!-- End -->
+
+	<!-- 
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource"
+		lazy-init="true">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath:setting.properties" />
+	</bean>
+	 -->
+</beans>

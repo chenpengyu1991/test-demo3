@@ -1,0 +1,15 @@
+mdm-service目录结构：
+
+mdm-service
+        ├─ChargeItemService.java	//收费项Service
+        ├─DepartmentService.java	//部门Service
+        ├─DictionaryService.java	//字典Service
+        ├─DiseaseService.java		//疾病Service
+        ├─DomainService.java		//域Service
+        ├─MDMConfigService.java	//MDM配置Service
+        ├─MDMService.java		//MDMService基类
+        ├─MedicineService.java	//药品Service
+        ├─OrganizationService.java	//机构Service
+        ├─PersonServiceImpl.java	//个人Service
+        ├─PmpiIdChangeListenerManager.java	//最佳纪录更新监听管理
+        └─StaffServiceImpl.java	//人员Service

@@ -1,0 +1,2 @@
+var healthEducationActiveDetail = (function() {
+})();

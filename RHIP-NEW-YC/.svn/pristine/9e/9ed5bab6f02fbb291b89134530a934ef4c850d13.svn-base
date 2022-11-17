@@ -1,0 +1,3 @@
+#printDiv {
+    height: 420px;width: auto;overflow: auto;
+}

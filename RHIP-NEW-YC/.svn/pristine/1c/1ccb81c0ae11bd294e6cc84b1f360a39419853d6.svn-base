@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.borderColor{
+		border: 2px solid red;
+	}
+
+.contantborder{
+	float:left;
+	width:100%;
+}
+.ggcontent{
+	float:left;
+	width:98%;
+	margin:5px 10px 5px 10px;
+	}
+.ggcontent ul{
+	float:left;
+	width:100%;
+	}
+.ggcontent ul li{
+	float:left;
+	width:92%;
+	padding-left:20px;
+	height:30px;
+	line-height:36px;
+	vertical-align:middle;
+	background:url(../../images/index/ggbg.jpg) no-repeat;
+	
+	}
+
+.qacontent{
+	float:left;
+	width:98%;
+	margin:5px 10px 5px 10px;
+	}
+.qacontentli{
+	float:left;
+	width:100%;
+	}
+
+.questionlibg{
+	float:left;
+	width:100%;
+	height:28px;
+	margin-bottom:2px;
+	background-color:#F2F2F2;
+}
+
+.questionlileft{
+	float:left;
+	width:70%;
+	height:28px;
+	line-height:28px;
+	padding-left:30px;
+	font-weight:bold;
+	color:#000000;
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(../../images/index/iconq.png) no-repeat;
+}
+.questionliright{
+	float:right;
+	text-align:right;
+	width:20%;
+	line-height:28px;
+	color:#F00;
+}
+.answerlibg{
+	float:left;
+	width:100%;
+	background:url(../../images/index/icona.png) no-repeat;
+	}
+.answerli{
+	float:left;
+	line-height:20px;
+	padding-left:30px;
+	padding-top:6px;
+	width:80%;
+	text-overflow:ellipsis; 
+	white-space:nowrap;
+	overflow:hidden;
+}

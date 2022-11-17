@@ -1,0 +1,5 @@
+${cfg.get("NAME")},您好:
+	您已经成功预约${cfg.get("HOSPITAL")}${cfg.get("DEPT_NAME")}科室，就诊时间:${cfg.get("TIME")}#if(${cfg.get("AMPM")} == 'a' )上午#end#if(${cfg.get("AMPM")} == 'p' )下午#end${cfg.get("TIME_INTERVAL_START")}-${cfg.get("TIME_INTERVAL_END")}.
+请牢记您的预约查询码${cfg.get("SEARCH_CODE")},就诊顺序与挂号费用以医院实际为准.
+友情提示：请于#if(${cfg.get("AMPM")} == 'a' )上午#end#if(${cfg.get("AMPM")} == 'p' )下午#end${cfg.get("TAKE_NO_TIME_START")}-${cfg.get("TAKE_NO_TIME_END")}#if(${cfg.get("HOSPITAL_CODE")} == '45404097-1' )在门诊服务中心#end#if(${cfg.get("HOSPITAL_CODE")} == '45404094-7' )在挂号处的8窗口#end进行取号.
+—银川市医疗卫生公共服务网

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<!-- Definitions for Tiles documentation   -->
+<tiles-definitions>
+<!--base layout  -->
+	<definition name="rhip.mhm.base" template="/WEB-INF/views/mhm/">
+		  <put-attribute name="header" value="/" />
+		  <put-attribute name="content" value="/" />
+    </definition>
+
+    <!--线索登记-->
+    <definition name="rhip.mhm.clue.search" template="/WEB-INF/views/mhm/clue/search.jsp"></definition>
+    <definition name="rhip.mhm.clue.list" template="/WEB-INF/views/mhm/clue/list.jsp"></definition>
+    <definition name="rhip.mhm.clue.add" template="/WEB-INF/views/mhm/clue/add.jsp"></definition>
+    <definition name="rhip.mhm.clue.clues" template="/WEB-INF/views/mhm/clue/clues.jsp"></definition>
+
+    <!--患者筛查-->
+    <definition name="rhip.mhm.patient.into.search" template="/WEB-INF/views/mhm/patient/into/search.jsp"></definition>
+    <definition name="rhip.mhm.patient.into.list" template="/WEB-INF/views/mhm/patient/into/list.jsp"></definition>
+    <definition name="rhip.mhm.patient.into.add" template="/WEB-INF/views/mhm/patient/into/add.jsp"></definition>
+
+    <!--精神病人管理-->
+    <definition name="rhip.mhm.management.search" template="/WEB-INF/views/mhm/management/search.jsp"></definition>
+    <definition name="rhip.mhm.management.list" template="/WEB-INF/views/mhm/management/list.jsp"></definition>
+    <definition name="rhip.mhm.management.index" template="/WEB-INF/views/mhm/management/index.jsp"></definition>
+    <definition name="rhip.mhm.management.transfer" template="/WEB-INF/views/mhm/management/transfer.jsp"></definition>
+
+    <!--精神卫生随访-->
+    <definition name="rhip.mhm.followup.search" template="/WEB-INF/views/mhm/followup/search.jsp"></definition>
+    <definition name="rhip.mhm.followup.list" template="/WEB-INF/views/mhm/followup/list.jsp"></definition>
+
+    <!--精神病人管理-个案计划-->
+    <definition name="rhip.mhm.management.caseplan.main" template="/WEB-INF/views/mhm/management/casePlan/main.jsp"></definition>
+    <definition name="rhip.mhm.management.caseplan.list" template="/WEB-INF/views/mhm/management/casePlan/casePlanList.jsp"></definition>
+    <definition name="rhip.mhm.management.caseplan.edit" template="/WEB-INF/views/mhm/management/casePlan/casePlan.jsp"></definition>
+    <definition name="rhip.mhm.management.caseplan.detail" template="/WEB-INF/views/mhm/management/casePlan/addDetail.jsp"></definition>
+
+    <!--精神病人管理-随访记录-->
+    <definition name="rhip.mhm.management.followUp.main" template="/WEB-INF/views/mhm/management/followUp/main.jsp"></definition>
+    <definition name="rhip.mhm.management.followUp.list" template="/WEB-INF/views/mhm/management/followUp/followUpList.jsp"></definition>
+    <definition name="rhip.mhm.management.followUp.edit" template="/WEB-INF/views/mhm/management/followUp/followUp.jsp"></definition>
+    <definition name="rhip.mhm.management.followUp.popupMedication" template="/WEB-INF/views/mhm/management/followUp/medication.jsp"></definition>
+    <definition name="rhip.mhm.management.followUp.medicationList" template="/WEB-INF/views/mhm/management/followUp/medicationList.jsp"></definition>
+
+	<!--精神病人管理-效果评估-->
+    <definition name="rhip.mhm.management.evaluation.main" template="/WEB-INF/views/mhm/management/evaluation/main.jsp"></definition>
+    <definition name="rhip.mhm.management.evaluation.list" template="/WEB-INF/views/mhm/management/evaluation/evaluationList.jsp"></definition>
+    <definition name="rhip.mhm.management.evaluation.edit" template="/WEB-INF/views/mhm/management/evaluation/evaluation.jsp"></definition>
+    
+	<!--精神病人管理-应急处置-->
+    <definition name="rhip.mhm.management.emergency.main" template="/WEB-INF/views/mhm/management/emergency/main.jsp"></definition>
+    <definition name="rhip.mhm.management.emergency.list" template="/WEB-INF/views/mhm/management/emergency/emergencyList.jsp"></definition>
+    <definition name="rhip.mhm.management.emergency.edit" template="/WEB-INF/views/mhm/management/emergency/emergency.jsp"></definition>
+
+	<!--精神病人管理-转诊信息-->
+	<definition name="rhip.mhm.management.referral" template="/WEB-INF/views/mhm/management/referral.jsp"/>
+
+    <!--精神病人管理-门诊信息-->
+    <definition name="rhip.mhm.management.outPatient" template="/WEB-INF/views/mhm/management/outPatient.jsp"/>
+
+    <!--精神病人管理-健康体检-->
+    <definition name="rhip.mhm.management.healthCheck.main" template="/WEB-INF/views/mhm/management/healthCheck/main.jsp"></definition>
+    <definition name="rhip.mhm.management.healthCheck.list" template="/WEB-INF/views/mhm/management/healthCheck/healthCheckList.jsp"></definition>
+    <definition name="rhip.mhm.management.healthCheck.edit" template="/WEB-INF/views/mhm/management/healthCheck/healthCheck.jsp"></definition>
+
+    <!--基本档案 -->
+    <definition name="rhip.mhm.mgnt.baseArchives" template="/WEB-INF/views/mhm/management/baseArchives/baseArchives.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.managementType" template="/WEB-INF/views/mhm/management/baseArchives/managementType.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.drugFree" template="/WEB-INF/views/mhm/management/baseArchives/drugFree.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.patientType" template="/WEB-INF/views/mhm/management/baseArchives/patientType.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.economyHistory" template="/WEB-INF/views/mhm/management/baseArchives/economyHistory.jsp"></definition>
+    <!--出院信息 -->
+    <definition name="rhip.mhm.mgnt.outInfo" template="/WEB-INF/views/mhm/management/outInfo/outInfo.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.outInfoList" template="/WEB-INF/views/mhm/management/outInfo/outInfoList.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.outInfoDetail" template="/WEB-INF/views/mhm/management/outInfo/outInfoDetail.jsp"></definition>
+    <definition name="rhip.mhm.mgnt.outInfo.medication" template="/WEB-INF/views/mhm/management/outInfo/medication.jsp"></definition>
+
+    <!--失访信息 -->
+    <definition name="rhip.mhm.management.lostfollowup.edit" template="/WEB-INF/views/mhm/management/lostFollowUp/head.jsp"></definition>
+
+    <!--药品维护-->
+    <definition name="rhip.mhm.drug.search" template="/WEB-INF/views/mhm/drug/search.jsp"></definition>
+    <definition name="rhip.mhm.drug.list" template="/WEB-INF/views/mhm/drug/list.jsp"></definition>
+    <definition name="rhip.mhm.drug.add" template="/WEB-INF/views/mhm/drug/add.jsp"></definition>
+    <definition name="rhip.mhm.drug.drugPriceSearch" template="/WEB-INF/views/mhm/drug/drugPriceSearch.jsp"></definition>
+    <definition name="rhip.mhm.drug.drugPriceList" template="/WEB-INF/views/mhm/drug/drugPriceList.jsp"></definition>
+
+    <!--迁入迁出-->
+    <definition name="rhip.mhm.patient.move.search" template="/WEB-INF/views/mhm/patient/move/search.jsp"></definition>
+    <definition name="rhip.mhm.patient.move.list" template="/WEB-INF/views/mhm/patient/move/list.jsp"></definition>
+    <definition name="rhip.mhm.patient.move.transfer" template="/WEB-INF/views/mhm/patient/move/transfer.jsp"></definition>
+
+    <!--审批信息-->
+    <definition name="rhip.mhm.approval.search" template="/WEB-INF/views/mhm/approval/search.jsp"></definition>
+    <definition name="rhip.mhm.approval.list" template="/WEB-INF/views/mhm/approval/list.jsp"></definition>
+    
+    <!--报表-->
+    <definition name="rhip.mhm.statistics.report.search" template="/WEB-INF/views/mhm/statistics/report/search.jsp"></definition>
+    <definition name="rhip.mhm.statistics.report.list" template="/WEB-INF/views/mhm/statistics/report/list.jsp"></definition>
+
+    <!--用药统计-->
+    <definition name="rhip.mhm.statistics.drug.search" template="/WEB-INF/views/mhm/statistics/drug/search.jsp"></definition>
+    <definition name="rhip.mhm.statistics.drug.list" template="/WEB-INF/views/mhm/statistics/drug/list.jsp"></definition>
+    <definition name="rhip.mhm.statistics.patient.search" template="/WEB-INF/views/mhm/statistics/patient/search.jsp"></definition>
+    <definition name="rhip.mhm.statistics.patient.list" template="/WEB-INF/views/mhm/statistics/patient/list.jsp"></definition>
+
+    <!--发药登记-->
+    <definition name="rhip.mhm.useDrug.search" template="/WEB-INF/views/mhm/drugUse/search.jsp"></definition>
+    <definition name="rhip.mhm.useDrug.list" template="/WEB-INF/views/mhm/drugUse/list.jsp"></definition>
+    <definition name="rhip.mhm.useDrug.add" template="/WEB-INF/views/mhm/drugUse/add.jsp"></definition>
+    <definition name="rhip.mhm.useDrug.drugList" template="/WEB-INF/views/mhm/drugUse/drugList.jsp"></definition>
+    <definition name="rhip.mhm.useDrug.popuDrugUse" template="/WEB-INF/views/mhm/drugUse/drugAdd.jsp"></definition>
+    <definition name="rhip.mhm.useDrug.drugUseSearch" template="/WEB-INF/views/mhm/drugUse/drugUseSearch.jsp"></definition>
+    <definition name="rhip.mhm.useDrug.drugUseList" template="/WEB-INF/views/mhm/drugUse/drugUseList.jsp"></definition>    
+</tiles-definitions>

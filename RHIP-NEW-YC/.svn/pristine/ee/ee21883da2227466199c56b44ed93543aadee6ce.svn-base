@@ -1,0 +1,11 @@
+.birthDay{
+	background-image: url("../../../../images/birthday.png");
+	width: 735px;
+	height: 490px;
+	position: relative;
+}
+
+.birthInfo{
+	position: absolute;
+	font-weight: bold;
+}

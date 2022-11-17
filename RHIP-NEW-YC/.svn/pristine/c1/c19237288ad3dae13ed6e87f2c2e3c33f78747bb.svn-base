@@ -1,0 +1,36 @@
+######################DB INFO#############
+jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
+
+#团风开发库
+jdbc.url.a=jdbc:oracle:thin:@172.18.98.220:1521:orcl
+jdbc.url.b=jdbc:oracle:thin:@172.18.98.220:1521:orcl
+jdbc.url.c=jdbc:oracle:thin:@172.18.98.220:1521:orcl
+
+jdbc.username.a=phbdbtf
+jdbc.password.a=phbdbtf
+jdbc.username.b=msdbtf
+jdbc.password.b=msdbtf
+jdbc.username.c=portaldbtf
+jdbc.password.c=portaldbtf
+
+jdbc.minPoolSize = 5
+jdbc.maxPoolSize = 500
+jdbc.transactionTimeout = 300000
+
+filters=log4j
+maxActive=20
+initialSize=1
+maxWait=60000
+minIdle=1
+timeBetweenEvictionRunsMillis=60000
+minEvictableIdleTimeMillis=300000
+testWhileIdle=true
+testOnBorrow=false
+testOnReturn=false
+poolPreparedStatements=true
+maxOpenPreparedStatements=20
+
+#####################\u9ed8\u8ba4\u5bc6\u7801#############
+default.pwd=123456
+csws.url=http://172.18.98.218:8090/rhip
+pay.url=http://59.109.33.23/

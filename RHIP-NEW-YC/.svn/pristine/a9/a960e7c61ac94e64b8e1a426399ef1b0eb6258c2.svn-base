@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<res_downloadTopHosChargeItems>
+    <return></return>
+    <description></description>
+    <value>
+        <item>
+            <!-- 目录编号 上传机构产生的GUID -->
+            <catalogId></catalogId>
+            <!-- 机构编码 -->
+            <tenantId></tenantId>
+            <!-- 终止日期 -->
+            <expiryDate></expiryDate>
+            <!-- 启用日期 -->
+            <openDate></openDate>
+            <!-- 上传人 -->
+            <uploader></uploader>
+            <!-- 上传人名称 -->
+            <uploadername></uploadername>
+            <!-- 上传时间 -->
+            <uploadTime></uploadTime>
+            <!-- 大类 1-药品 2-收费项目 3-耗材 -->
+            <type></type>
+            <!-- 医院编码 -->
+            <hosCode></hosCode>
+            <!-- 基药编码 -->
+            <baseCode></baseCode>
+            <!-- 医保编码 -->
+            <mediInsuCode></mediInsuCode>
+            <!-- 农保编码 -->
+            <ncmsCode></ncmsCode>
+            <!-- 自定义码1 -->
+            <userCode1></userCode1>
+            <!-- 自定义码2 -->
+            <userCode2></userCode2>
+            <!-- 自定义码3 -->
+            <userCode3></userCode3>
+            <!-- 费用类型代码 -->
+            <chargeTypecd></chargeTypecd>
+            <!-- 费用类型 -->
+            <chargeTypes></chargeTypes>
+            <!-- 费用类别代码 -->
+            <chargeClasscd></chargeClasscd>
+            <!-- 费用类别 -->
+            <chargeClass></chargeClass>
+            <!-- 药品类别代码 -->
+            <drugClasscd></drugClasscd>
+            <!-- 药品类别 -->
+            <drugClass></drugClass>
+            <!-- 项目名称 -->
+            <itemname></itemname>
+            <!-- 拼音码 -->
+            <pyCode></pyCode>
+            <!-- 五笔码 -->
+            <wbCode></wbCode>
+            <!-- 规格 -->
+            <spec></spec>
+            <!-- 剂型_代码 -->
+            <dosageFormCd></dosageFormCd>
+            <!-- 剂型 -->
+            <dosageForm></dosageForm>
+            <!-- 零售价 -->
+            <price></price>
+            <!-- 购入价 -->
+            <costPrice></costPrice>
+            <!-- 默认厂家代码 -->
+            <manufactoryCd></manufactoryCd>
+            <!-- 默认厂家 -->
+            <manufactory></manufactory>
+            <!-- 包装单位 -->
+            <packUnit></packUnit>
+            <!-- 包装含量 -->
+            <packNum></packNum>
+            <!-- 最小单位 -->
+            <minUnit></minUnit>
+            <!-- 剂量单位 -->
+            <dosageUnit></dosageUnit>
+            <!-- 常用剂量 -->
+            <commDosage></commDosage>
+            <!-- 体积 -->
+            <volume></volume>
+            <!-- 体积单位 -->
+            <voluUnit></voluUnit>
+            <!-- 重量单位 -->
+            <weightUnit></weightUnit>
+            <!-- 重量 -->
+            <weight></weight>
+            <!-- 浓度 -->
+            <concentration></concentration>
+            <!-- 效期 -->
+            <expirydate2></expirydate2>
+            <!-- 给药方法_代码 -->
+            <doseMethodCd></doseMethodCd>
+            <!-- 给药方法 -->
+            <doseMethod></doseMethod>
+            <!-- 频次_代码 -->
+            <frequencyCd></frequencyCd>
+            <!-- 会计科目代码 -->
+            <accountClasscd></accountClasscd>
+            <!-- 会计科目名称 -->
+            <accountClass></accountClass>
+            <!-- 同步标志 -->
+            <syncFlg></syncFlg>
+            <!-- 同步人 -->
+            <syncPerson></syncPerson>
+            <!-- 同步时间 -->
+            <syncDate></syncDate>
+        </item>
+    </value>
+</res_downloadTopHosChargeItems>

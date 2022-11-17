@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="com.founder.mdm.layout.leftTree" template="/WEB-INF/views/mdm/common/left_tree_Layout.jsp">
+        <put-attribute name="left" value="/" />
+        <put-attribute name="content" value="/" />
+    </definition>
+    
+	<definition name="com.founder.mdm.layout.leftTree2" template="/WEB-INF/views/mdm/common/left_tree_Layout2.jsp">
+        <put-attribute name="left" value="/" />
+        <put-attribute name="content" value="/" />
+    </definition>
+    
+	<definition name="com.founder.mdm.rootContent" extends="com.founder.mdm.layout.leftTree">
+	    <put-attribute name="left" value="/WEB-INF/views/layouts/left.jsp" />
+	    <put-attribute name="content" value="/WEB-INF/views/layouts/blank.jsp" />
+	</definition>
+	
+	<definition name="com.founder.mdm.smpi.organizationManager" extends="com.founder.mdm.layout.leftTree">
+         <put-attribute name="left" value="/WEB-INF/views/mdm/smpi/organizationTree.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/layouts/blank.jsp" />
+    </definition>
+    
+	<definition name="com.founder.mdm.common.organizationTree" template="/WEB-INF/views/mdm/common/organizationTree.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.common.organTreeView" template="/WEB-INF/views/mdm/common/orgTreeView.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.common.organTreeView2" template="/WEB-INF/views/mdm/common/orgTreeView2.jsp">
+    </definition>
+
+	<definition name="com.founder.mdm.result.save" template="/WEB-INF/views/mdm/common/saveResult.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.domainSearch" template="/WEB-INF/views/mdm/common/domainSearch.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.domainList" template="/WEB-INF/views/mdm/common/domainList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.domainInfoEdit" template="/WEB-INF/views/mdm/common/domainInfoEdit.jsp">
+	</definition>
+
+	<!-- dictionary -->
+
+	<definition name="com.founder.mdm.dmpi.dictionarySearch" template="/WEB-INF/views/mdm/dmpi/dictionarySearch.jsp">
+	</definition>
+
+ 	<definition name="com.founder.mdm.dmpi.dictionaryList" template="/WEB-INF/views/mdm/dmpi/dictionaryList.jsp">
+	</definition>
+
+	<definition name="com.founder.mdm.dmpi.dictionaryInfo" template="/WEB-INF/views/mdm/dmpi/dictionaryInfo.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.dicItemList" template="/WEB-INF/views/mdm/dmpi/dicItemList.jsp">
+	</definition>
+
+	<definition name="com.founder.mdm.dmpi.dicItemSearch" template="/WEB-INF/views/mdm/dmpi/dicItemSearch.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.dicItemInfo" template="/WEB-INF/views/mdm/dmpi/dicItemInfo.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.dicVersionList" template="/WEB-INF/views/mdm/dmpi/dicVersionList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.dicVersionInfo" template="/WEB-INF/views/mdm/dmpi/dicVersionInfo.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.downloadSearch" template="/WEB-INF/views/mdm/dmpi/downloadSearch.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.downloadList" template="/WEB-INF/views/mdm/dmpi/downloadList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.dicItemLogList" template="/WEB-INF/views/mdm/dmpi/dicItemLogList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.dmpi.viewImport" template="/WEB-INF/views/mdm/dmpi/viewImport.jsp">
+	</definition>
+	
+	<!-- person -->
+    <definition name="personInfo">
+        <put-attribute name="personBasicInfo" value="/WEB-INF/views/mdm/pmpi/personBasicInfo.jsp"/>
+        <put-attribute name="personCardNo" value="/WEB-INF/views/mdm/pmpi/personCardNo.jsp"/>
+    </definition>
+
+	<definition name="com.founder.mdm.pmpi.personManage" template="/WEB-INF/views/mdm/pmpi/personSearch.jsp">
+		<put-attribute name="title" value="Person Management"/>
+	</definition>
+
+	<definition name="com.founder.mdm.pmpi.personList" template="/WEB-INF/views/mdm/pmpi/personList.jsp">
+	</definition>
+
+	<definition name="com.founder.mdm.pmpi.personLogList" template="/WEB-INF/views/mdm/pmpi/personLogList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.pmpi.bestRecordDetail" extends="personInfo" template="/WEB-INF/views/mdm/pmpi/bestRecordDetail.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.pmpi.personDetail" extends="personInfo" template="/WEB-INF/views/mdm/pmpi/personDetail.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.pmpi.personLogDetail" extends="personInfo" template="/WEB-INF/views/mdm/pmpi/personLogDetail.jsp">
+	</definition>
+
+    <definition name="com.founder.mdm.pmpi.compareDiff" template="/WEB-INF/views/mdm/pmpi/compareDiff.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.pmpi.mergeConfirm" extends="personInfo" template="/WEB-INF/views/mdm/pmpi/mergeConfirm.jsp">
+    </definition>
+	
+	<!-- staff -->
+    <definition name="staffInfo">
+        <put-attribute name="staffBasicInfo" value="/WEB-INF/views/mdm/smpi/staffBasicInfo.jsp"/>
+        <put-attribute name="staffCareerInfo" value="/WEB-INF/views/mdm/smpi/staffCareerInfo.jsp"/>
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.staffManage" template="/WEB-INF/views/mdm/smpi/staffSearch.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.staffList" template="/WEB-INF/views/mdm/smpi/staffList.jsp">
+    </definition>
+
+	<definition name="com.founder.mdm.smpi.staffLogList" template="/WEB-INF/views/mdm/smpi/staffLogList.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.staffMainDetail" extends="staffInfo" template="/WEB-INF/views/mdm/smpi/staffMainDetail.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.staffDetail" extends="staffInfo" template="/WEB-INF/views/mdm/smpi/staffDetail.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.staffLogDetail" extends="staffInfo" template="/WEB-INF/views/mdm/smpi/staffLogDetail.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.compareDiff" template="/WEB-INF/views/mdm/smpi/compareDiff.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.mergeConfirm" extends="staffInfo" template="/WEB-INF/views/mdm/smpi/mergeConfirm.jsp">
+    </definition>
+
+    <definition name="com.founder.mdm.smpi.staffEdit" extends="staffInfo" template="/WEB-INF/views/mdm/smpi/staffEdit.jsp">
+    </definition>
+
+	<definition name="com.founder.mdm.smpi.staff.org.add" extends="staffInfo" template="/WEB-INF/views/mdm/smpi/staffOrgAdd.jsp">
+	</definition>
+
+    <!-- organization -->
+    <definition name="com.founder.mdm.smpi.organizationSearch" template="/WEB-INF/views/mdm/smpi/organizationSearch.jsp"/>
+    
+    <definition name="com.founder.mdm.smpi.organizationList" template="/WEB-INF/views/mdm/smpi/organizationList.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.organizationInfo" template="/WEB-INF/views/mdm/smpi/organizationInfo.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.organizationInfoEdit" template="/WEB-INF/views/mdm/smpi/organizationInfoEdit.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.parentOrganizationTree" template="/WEB-INF/views/mdm/smpi/parentOrganizationTree.jsp">
+    </definition>
+    
+     <definition name="com.founder.mdm.smpi.organization.log" template="/WEB-INF/views/mdm/smpi/organizationLog.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.organizationLogList" template="/WEB-INF/views/mdm/smpi/organizationLogList.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.organizationManager" template="/WEB-INF/views/mdm/smpi/organizationManager.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.organization.village" template="/WEB-INF/views/mdm/smpi/organizationArea.jsp"/>
+    
+    <!-- organizationArea -->
+    <definition name="com.founder.mdm.organization.area.init" template="/WEB-INF/views/mdm/smpi/organization/init.jsp"/>
+    <definition name="com.founder.mdm.organization.area.index" template="/WEB-INF/views/mdm/smpi/organization/index.jsp"/>
+
+    <definition name="com.founder.mdm.organization.area.list" template="/WEB-INF/views/mdm/smpi/organization/list.jsp"/>
+    
+    <definition name="com.founder.mdm.organization.merge" template="/WEB-INF/views/mdm/smpi/organization/add.jsp"/>
+    
+    <!-- department -->
+    <definition name="com.founder.mdm.smpi.departmentManager" template="/WEB-INF/views/mdm/smpi/departmentManagerContent.jsp">
+	</definition>
+	
+    <definition name="com.founder.mdm.smpi.departmentSearch" template="/WEB-INF/views/mdm/smpi/departmentSearch.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.departmentList" template="/WEB-INF/views/mdm/smpi/departmentList.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.departmentInfoEdit" template="/WEB-INF/views/mdm/smpi/departmentInfoEdit.jsp">
+    </definition>
+    
+    <definition name="com.founder.mdm.smpi.departmentLogList" template="/WEB-INF/views/mdm/smpi/departmentLogList.jsp">
+    </definition>
+    
+	<!-- medicine -->
+	<definition name="com.founder.mdm.ompi.medicineManager" template="/WEB-INF/views/mdm/ompi/medicineManager.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.medicineSearch" template="/WEB-INF/views/mdm/ompi/medicineSearch.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.medicineList" template="/WEB-INF/views/mdm/ompi/medicineList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.medicineInfo" template="/WEB-INF/views/mdm/ompi/medicineInfo.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.medicineInfoEdit" template="/WEB-INF/views/mdm/ompi/medicineInfoEdit.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.medicineLogList" template="/WEB-INF/views/mdm/ompi/medicineLogList.jsp">
+	</definition>
+	
+	<!-- disease -->
+	<definition name="com.founder.mdm.ompi.diseaseManager" template="/WEB-INF/views/mdm/ompi/diseaseManager.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.diseaseSearch" template="/WEB-INF/views/mdm/ompi/diseaseSearch.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.diseaseList" template="/WEB-INF/views/mdm/ompi/diseaseList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.diseaseInfoEdit" template="/WEB-INF/views/mdm/ompi/diseaseInfoEdit.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.diseaseLogList" template="/WEB-INF/views/mdm/ompi/diseaseLogList.jsp">
+	</definition>
+	
+	<!-- chargeItem -->
+    <definition name="com.founder.mdm.ompi.chargeItemManager" extends="com.founder.mdm.layout.leftTree2">
+	    <put-attribute name="left" value="/WEB-INF/views/mdm/ompi/chargeItemOrganTree.jsp" />
+	    <put-attribute name="content" value="/WEB-INF/views/mdm/ompi/chargeItemManagerRootContent.jsp" />
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.chargeItemContent" template="/WEB-INF/views/mdm/ompi/chargeItemManagerContent.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.baseMedicineList" template="/WEB-INF/views/mdm/ompi/baseMedicineList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.noMappingList" template="/WEB-INF/views/mdm/ompi/chargeItemNoMappingList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.mappingList" template="/WEB-INF/views/mdm/ompi/chargeItemMappingList.jsp">
+	</definition>
+	
+	<definition name="com.founder.mdm.ompi.chargeItemInfo" template="/WEB-INF/views/mdm/ompi/chargeItemInfo.jsp">
+	</definition>
+	<!-- 日志查询 -->
+	<definition name="com.founder.mdm.userOperationLog.search" template="/WEB-INF/views/mdm/userOperationLog/search.jsp">
+	</definition>
+	<definition name="com.founder.mdm.userOperationLog.list" template="/WEB-INF/views/mdm/userOperationLog/list.jsp">
+	</definition>
+    <definition name="com.founder.mdm.userOperationLog.report.search" template="/WEB-INF/views/mdm/userOperationLog/reportSearch.jsp">
+    </definition>
+    <definition name="com.founder.mdm.userOperationLog.report.list" template="/WEB-INF/views/mdm/userOperationLog/reportList.jsp">
+    </definition>
+    <definition name="com.founder.mdm.userOperationLog.report.delete" template="/WEB-INF/views/mdm/userOperationLog/reportDelete.jsp">
+    </definition>
+    <definition name="com.founder.mdm.userOperationLog.report.detail" template="/WEB-INF/views/mdm/userOperationLog/reportDetail.jsp">
+    </definition>
+
+
+    <!-- 行政区划 -->
+	<definition name="com.founder.mdm.administrative.init" template="/WEB-INF/views/mdm/smpi/administrative/init.jsp"/>
+	<definition name="com.founder.mdm.administrative.index" template="/WEB-INF/views/mdm/smpi/administrative/index.jsp"/>
+
+	<definition name="com.founder.mdm.administrative.list" template="/WEB-INF/views/mdm/smpi/administrative/list.jsp"/>
+	
+	<definition name="com.founder.mdm.administrative.add" template="/WEB-INF/views/mdm/smpi/administrative/add.jsp"/>
+	
+	<definition name="com.founder.mdm.administrative.mergeTown" template="/WEB-INF/views/mdm/smpi/administrative/mergeTown.jsp"/>
+
+	<definition name="com.founder.mdm.administrative.areaInfo" template="/WEB-INF/views/mdm/smpi/administrative/areaInfo.jsp"/>
+
+	<!--健康档案浏览器设置-->
+	<definition name="com.founder.mdm.explorer.set" template="/WEB-INF/views/explorerSet/view.jsp"/>
+
+	<!-- 调阅记录 -->
+	<definition name="com.founder.mdm.userOperationLog.recordSearch" template="/WEB-INF/views/mdm/userOperationLog/recordSearch.jsp"/>
+	<definition name="com.founder.mdm.userOperationLog.recordList" template="/WEB-INF/views/mdm/userOperationLog/recordList.jsp">
+	</definition>
+	
+	  <!--机构迁移-->
+    <definition name="com.founder.mdm.transfer.organization.search" template="/WEB-INF/views/mdm/orgTransferLog/orgtransfersearch.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.organization.ehr.list" template="/WEB-INF/views/mdm/orgTransferLog/orgehrlist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.organization.report.list" template="/WEB-INF/views/mdm/orgTransferLog/orgreportlist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.organization.managecard.list" template="/WEB-INF/views/mdm/orgTransferLog/orgmanacardlist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.organization.eldphyexam.list" template="/WEB-INF/views/mdm/orgTransferLog/eldphyexamlist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.organization.family.list" template="/WEB-INF/views/mdm/orgTransferLog/familylist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.organization.activity.list" template="/WEB-INF/views/mdm/orgTransferLog/activitylist.jsp"></definition>
+    
+    <!--村委会迁移-->
+    <definition name="com.founder.mdm.transfer.village.search" template="/WEB-INF/views/mdm/orgTransferLog/villagetransfersearch.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.village.ehr.list" template="/WEB-INF/views/mdm/orgTransferLog/villageehrlist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.village.managecard.list" template="/WEB-INF/views/mdm/orgTransferLog/villagemanagecardlist.jsp"></definition>
+    <definition name="com.founder.mdm.transfer.village.family.list" template="/WEB-INF/views/mdm/orgTransferLog/villagefamilylist.jsp"></definition>
+	
+</tiles-definitions>

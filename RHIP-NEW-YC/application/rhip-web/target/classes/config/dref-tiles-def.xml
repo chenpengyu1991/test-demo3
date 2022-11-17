@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+		"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+		"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="rhip.ep.base" template="/WEB-INF/views/dref/">
+		<put-attribute name="header" value="/"/>
+		<put-attribute name="content" value="/"/>
+	</definition>
+	
+	<definition name="rhip.dref.browser.explorer" template="/WEB-INF/views/layouts/referralBrwLayout.jsp"></definition>
+	<definition name="rhip.dref.search" template="/WEB-INF/views/dref/search.jsp"/>
+	<definition name="rhip.dref.list" template="/WEB-INF/views/dref/list.jsp"/>
+	<definition name="rhip.dref.edit" template="/WEB-INF/views/dref/edit.jsp"/>
+	<definition name="rhip.dref.view" template="/WEB-INF/views/dref/view.jsp"/>
+	<!-- 市内转诊给基层医疗提供的外部接口 -->
+	<definition name="rhip.dref.edit.out" extends="rhip.ehr.layout.report">
+        <put-attribute name="content" value="/WEB-INF/views/dref/edit_out.jsp" />
+    </definition>
+    
+    <definition name="rhip.dref.outTransfer.add" extends="rhip.ehr.layout.report">
+        <put-attribute name="content" value="/WEB-INF/views/dref/outTransfer/add.jsp" />
+    </definition>
+
+    <definition name="rhip.dref.outTransfer.print1" extends="rhip.ehr.print.layout">
+        <put-attribute name="printContent" value="/WEB-INF/views/dref/outTransfer/print1.jsp"/>
+    </definition>
+    <definition name="rhip.dref.outTransfer.print2" extends="rhip.ehr.print.layout">
+        <put-attribute name="printContent" value="/WEB-INF/views/dref/outTransfer/print2.jsp"/>
+    </definition>
+
+	<definition name="rhip.dref.referral.print1" extends="rhip.ehr.print.layout">
+        <put-attribute name="printContent" value="/WEB-INF/views/dref/print1.jsp"/>
+    </definition>
+    <definition name="rhip.dref.referral.print2" extends="rhip.ehr.print.layout">
+        <put-attribute name="printContent" value="/WEB-INF/views/dref/print2.jsp"/>
+    </definition>
+    
+    <definition name="rhip.dref.outTransfer.search" template="/WEB-INF/views/dref/outTransfer/search.jsp"/>
+    <definition name="rhip.dref.outTransfer.list" template="/WEB-INF/views/dref/outTransfer/list.jsp"/>
+    <definition name="rhip.dref.outTransfer.edit" template="/WEB-INF/views/dref/outTransfer/edit.jsp"/>
+    <definition name="rhip.dref.outTransfer.view" template="/WEB-INF/views/dref/outTransfer/view.jsp"/>
+</tiles-definitions>

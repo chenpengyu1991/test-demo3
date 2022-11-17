@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.founder.rhip</groupId>
+		<artifactId>rhip-parent</artifactId>
+		<version>1.0.1</version>
+		<relativePath>../../parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>ncp-service</artifactId>
+	<packaging>jar</packaging>
+	<name>ncp-service</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+        <dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>ncp-core</artifactId>
+			<version>${project.version}</version>
+        </dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>ncp-repository</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cdm-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+		<dependency>
+			<groupId>com.founder.fasf.jtadb</groupId>
+			<artifactId>fasf-core</artifactId>
+			<version>1.0.1</version>
+			<scope>compile</scope>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jta_1.1_spec</artifactId>
+            <version>1.1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>
