@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<root>
-	<!--[1,2] 1:success,2:error -->
-	<code></code>
-	<!--错误信息 -->
-	<message></message>
-</root>

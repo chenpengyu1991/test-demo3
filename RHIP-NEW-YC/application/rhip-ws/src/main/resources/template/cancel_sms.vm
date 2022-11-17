@@ -1,3 +1,0 @@
-${cfg.get("NAME")},您好:
-	您预约的${cfg.get("HOSPITAL")}${cfg.get("DEPT_NAME")}科室的${cfg.get("DOCTOR_NAME")}医生，就诊时间:${cfg.get("TIME")}#if(${cfg.get("AMPM")} == 'a' )上午#end#if(${cfg.get("AMPM")} == 'p' )下午#end${cfg.get("TIME_INTERVAL_START")}-${cfg.get("TIME_INTERVAL_END")}的预约单已取消。
-—银川市医疗卫生公共服务网

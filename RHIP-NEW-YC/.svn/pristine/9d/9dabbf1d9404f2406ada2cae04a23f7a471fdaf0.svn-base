@@ -1,8 +1,0 @@
-var cdmCdMsReport = (function()
-{
-	$(function()
-	{
-
-	});
-
-})();
